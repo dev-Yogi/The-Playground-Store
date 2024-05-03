@@ -1,0 +1,81 @@
+<div id="pg-budget-calc" class="shopify-section shopify-section-{{ section.id }} col container">
+    <label for="budget_total_before_tax">{{ section.settings.budget_total_before_tax.label }}</label>
+    <input type="number" id="budget_total_before_tax" value="{{ section.settings.budget_total_before_tax.default }}">
+    <button onclick="calculateBudget()">Calculate</button>
+    <div id="budget-results">
+      <h2>How much you have for:</h2>
+      <ul>
+        <li id="equipment">Equipment: $<span></span></li>
+        <li id="installation">Installation: $<span></span></li>
+        <section>*Installation prices vary based on travel costs. Surfacing is an estimate of wood mulch only</section>
+        <li id="surfacing">Surfacing: $<span></span></li>
+        <li id="ground-preparation">Ground Preparation: $<span></span></li>
+        <li id="delivery">Delivery: $<span></span></li>
+      </ul>
+      <canvas id="budget-chart"></canvas>
+    </div>
+  </div>
+  
+  <script>
+    function calculateBudget() {
+      var totalBudget = parseFloat(document.getElementById('budget_total_before_tax').value);
+      var equipmentPercent = 0.4;
+      var installationPercent = 0.2;
+      var surfacingPercent = 0.15;
+      var groundPreparationPercent = 0.1;
+      var deliveryPercent = 0.15;
+  
+      var equipmentBudget = totalBudget * equipmentPercent;
+      var installationBudget = totalBudget * installationPercent;
+      var surfacingBudget = totalBudget * surfacingPercent;
+      var groundPreparationBudget = totalBudget * groundPreparationPercent;
+      var deliveryBudget = totalBudget * deliveryPercent;
+  
+      document.getElementById('equipment').querySelector('span').innerText = equipmentBudget.toFixed(2);
+      document.getElementById('installation').querySelector('span').innerText = installationBudget.toFixed(2);
+      document.getElementById('surfacing').querySelector('span').innerText = surfacingBudget.toFixed(2);
+      document.getElementById('ground-preparation').querySelector('span').innerText = groundPreparationBudget.toFixed(2);
+      document.getElementById('delivery').querySelector('span').innerText = deliveryBudget.toFixed(2);
+  
+      // Draw Pie Chart
+      var ctx = document.getElementById('budget-chart').getContext('2d');
+      var budgetChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+          labels: ['Equipment', 'Installation', 'Surfacing', 'Ground Preparation', 'Delivery'],
+          datasets: [
+            {
+              label: 'Budget Allocation',
+              data: [equipmentBudget, installationBudget, surfacingBudget, groundPreparationBudget, deliveryBudget],
+              backgroundColor: [
+                'rgba(255, 99, 132, 0.7)',
+                'rgba(54, 162, 235, 0.7)',
+                'rgba(255, 206, 86, 0.7)',
+                'rgba(75, 192, 192, 0.7)',
+                'rgba(153, 102, 255, 0.7)',
+              ],
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+        },
+      });
+    }
+  </script>
+  
+  {% schema %}
+  {
+    "name": "Budget Calculator",
+    "tag": "section",
+    "class": "budget-calculator",
+    "settings": [
+      {
+        "type": "color_scheme",
+        "id": "title",
+        "label": "Playground Budget Calculator"
+      }
+    ]
+  }
+  {% endschema %}
+  

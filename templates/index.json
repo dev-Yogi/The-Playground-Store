@@ -1,0 +1,273 @@
+{
+  "sections": {
+    "image_banner_FfRePa": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_wXFgR8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Playground Equipment Galore & More!",
+            "heading_size": "h2"
+          }
+        },
+        "text_4YmLJ3": {
+          "type": "text",
+          "settings": {
+            "text": "As a leading provider of playground equipment online, catering to schools, community organizations, municipalities, and beyond, we are delighted to present an extensive array of playground equipment available for purchase. Our offerings cater to the diverse needs of children and community members alike, ranging from imaginative outdoor play equipment to commercial outdoor play structures that foster play, learning, and development for children of all ages and abilities.",
+            "text_style": "body"
+          }
+        },
+        "buttons_gYnVfB": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "View Playground Sets",
+            "button_link_1": "shopify:\/\/collections\/commercial-playgrounds",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wXFgR8",
+        "text_4YmLJ3",
+        "buttons_gYnVfB"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pg-homepage-footer-cta-img.png",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multicolumn_fjBXKc": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_7X7Tig": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Happy_Hollow_ZONE_4fe21a68-d273-4dc9-9ee9-e82d7efc3eaf.jpg",
+            "title": "",
+            "text": "<h2><strong>PLAY IS ALWAYS IN BLOOM <br\/>AT THE HAPPY HOLLOW<\/strong><\/h2>",
+            "link_label": "Enter The World of Happy Hallow",
+            "link": ""
+          }
+        },
+        "column_zK6DhR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pg-store-quick-ship.png",
+            "title": "",
+            "text": "<h2><strong>NO-WAIT PLAYGROUNDS<br\/>Call for Current Inventory!<\/strong><\/h2>",
+            "link_label": "Browse Quick Ship Play Systems",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_7X7Tig",
+        "column_zK6DhR"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_WQyydY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AriDk9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Adventure Awaits",
+            "heading_size": "h1"
+          }
+        },
+        "text_L3p7J9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover a diverse range of high-quality, durable playground equipment designed to ignite imaginations and foster active play. Our carefully curated collection features innovative designs, vibrant colors, and safety-focused construction to create memorable play experiences for children of all ages. Explore our site and unlock the joy of playtime today!<\/p>"
+          }
+        },
+        "button_87VniP": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start Exploring!",
+            "button_link": "shopify:\/\/collections",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AriDk9",
+        "text_L3p7J9",
+        "button_87VniP"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "BROWSE OUR PLAYGROUND SITE AMENITIES",
+            "heading_size": "h0"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/s3.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Newest Arrivals",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "all",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
+        "image_ratio": "portrait",
+        "image_shape": "blob",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "multicolumn_AaKDfy": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FY3B3i": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/boy-hanging-at-playground.jpg",
+            "title": "FINANCING & LEASING",
+            "text": "<p>Play Now. Pay Later. <br\/><br\/>Purchasing new equipment has never been easier!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gHDn3P": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/screen_2x_fd8c553b-0dd2-4775-82eb-e7adafc293e4.jpg",
+            "title": "GRANTS & STIMULUS",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qzgbNX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/young-boy-on-slide.webp",
+            "title": "FUNDRAISING GUIDE",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_FY3B3i",
+        "column_gHDn3P",
+        "column_qzgbNX"
+      ],
+      "settings": {
+        "title": "Helpful Resources",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner_FfRePa",
+    "multicolumn_fjBXKc",
+    "rich_text_WQyydY",
+    "image-with-text",
+    "featured_collection",
+    "multicolumn_AaKDfy"
+  ]
+}
