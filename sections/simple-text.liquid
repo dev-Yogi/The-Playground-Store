@@ -1,0 +1,73 @@
+{% assign color_scheme_id = section.settings.color_scheme %}
+{% assign color_scheme = section.settings.color_scheme | prepend: 'color_schemes.' | json %}
+{{ 'base.css' | asset_url | stylesheet_tag }}
+
+{% if color_scheme_id != blank and color_scheme != blank %}
+  {% assign settings = color_scheme.settings %}
+  <style>
+      .shopify-section-{{ section.id }} {
+      max-width: var(--page-width);
+      background: {{ settings.background }};
+      background: {{ settings.background_gradient }};
+      color: {{ settings.text }};
+      box-shadow:{{ settings.shadow }};
+      padding: 10px 15px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+
+    }
+    button {
+      background-color: {{ settings.button }};
+      color: {{ settings.button_label }};
+    }
+    button.secondary {
+      color: {{ settings.secondary_button_label }};
+    }
+    #install-alert{
+      color: white;
+    }
+    li span{
+      font-size: 30px;
+      display: block;
+    }
+  </style>
+{% endif %}
+<h1></h1>
+<div id="shopify-section-[id]" class="color-{{ section.settings.color_scheme }} gradient shopify-section col container-lg">
+  <h2>{{ section.settings.header }}</h2>
+  <p>{{ section.settings.paragraph }}</p>
+</div>
+
+{% schema %}
+{
+  "name": "Simple Text",
+  "tag": "section",
+  "class": "simple-text",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+        "type": "text",
+        "id": "header",
+        "label": "Header",
+        "default" : "Heading"
+    },
+    {
+        "type": "richtext",
+        "id": "paragraph",
+        "label": "Paragraph"
+
+    }
+  ],
+  "presets": [
+    {
+      "name": "Simple Text",
+      "category": "General"
+    }
+  ]
+}
+{% endschema %}

@@ -6,6 +6,7 @@
   {% assign settings = color_scheme.settings %}
   <style>
       .shopify-section-{{ section.id }} {
+      max-width: var(--page-width);
       background: {{ settings.background }};
       background: {{ settings.background_gradient }};
       color: {{ settings.text }};
@@ -13,6 +14,7 @@
       padding: 15px;
       margin-top: 25px;
       margin-bottom: 25px;
+      font-size: 28px;
     }
     button {
       background-color: {{ settings.button }};
@@ -22,15 +24,20 @@
       color: {{ settings.secondary_button_label }};
     }
     #install-alert{
-      color: red;
+      color: white;
+    }
+    li span{
+      font-size: 30px;
+      display: block;
     }
   </style>
 {% endif %}
-
+<h1> Budget Calculator </h1>
 <div
   id="pg-budget-calc"
   class="color-{{ section.settings.color_scheme }} gradient shopify-section shopify-section-{{ section.id }} col container"
 >
+
   <label for="budget_total_before_tax">{{ section.settings.budget_total_before_tax.label }}</label>
   <input type="number" id="budget_total_before_tax" value="{{ section.settings.budget_total_before_tax.default }}">
   <button onclick="calculateBudget()">Calculate</button>
@@ -42,9 +49,9 @@
       <span id="install-alert"
         >*Installation prices vary based on travel costs. Surfacing is an estimate of wood mulch only</span
       >
-      <li id="surfacing">Surfacing: $<span></span></li>
+      <li id="surfacing">Surfacing: <span>$</span></li>
       <li id="ground-preparation">Ground Preparation: $<span></span></li>
-      <li id="delivery">Delivery: $<span></span></li>
+      <li id="delivery">Delivery: <span>$</span></li>
     </ul>
     <canvas id="budget-chart"></canvas>
   </div>
