@@ -1,20 +1,26 @@
 {% assign color_scheme_id = section.settings.color_scheme %}
 {% assign color_scheme = section.settings.color_scheme | prepend: 'color_schemes.' | json %}
-{{ 'base.css' | asset_url | stylesheet_tag }}
 
 {% if color_scheme_id != blank and color_scheme != blank %}
   {% assign settings = color_scheme.settings %}
   <style>
-      .shopify-section-{{ section.id }} {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+     .page-width {
       max-width: var(--page-width);
       background: {{ settings.background }};
       background: {{ settings.background_gradient }};
       color: {{ settings.text }};
       box-shadow:{{ settings.shadow }};
-      padding: 15px;
-      margin-top: 25px;
-      margin-bottom: 25px;
-      font-size: 28px;
     }
     button {
       background-color: {{ settings.button }};
@@ -27,33 +33,40 @@
       color: white;
     }
     li span{
-      font-size: 30px;
-      display: block;
+      font-size: unset !important;
+    }
+    #budget-results ul li span.result,
+    #budget-results ul li
+    {
+      font-size: 30px !important;
+      color:#6CDAEE;
     }
   </style>
 {% endif %}
-<h1> Budget Calculator </h1>
-<div
-  id="pg-budget-calc"
-  class="color-{{ section.settings.color_scheme }} gradient shopify-section shopify-section-{{ section.id }} col container"
->
+<div class="col container">
+  <h1>Playground Budget Calculator</h1>
 
-  <label for="budget_total_before_tax">{{ section.settings.budget_total_before_tax.label }}</label>
-  <input type="number" id="budget_total_before_tax" value="{{ section.settings.budget_total_before_tax.default }}">
-  <button onclick="calculateBudget()">Calculate</button>
-  <div id="budget-results">
-    <h2 class="">How much you have for:</h2>
-    <ul>
-      <li id="equipment">Equipment: $<span></span></li>
-      <li id="installation">Installation: $<span></span></li>
-      <span id="install-alert"
-        >*Installation prices vary based on travel costs. Surfacing is an estimate of wood mulch only</span
-      >
-      <li id="surfacing">Surfacing: <span>$</span></li>
-      <li id="ground-preparation">Ground Preparation: $<span></span></li>
-      <li id="delivery">Delivery: <span>$</span></li>
-    </ul>
-    <canvas id="budget-chart"></canvas>
+  <div
+    id="pg-budget-calc"
+    class="color-{{ section.settings.color_scheme }} gradient shopify-section shopify-section-{{ section.id }} col container"
+  >
+    <label for="budget_total_before_tax">{{ section.settings.budget_total_before_tax.label }}</label>
+    <input type="number" id="budget_total_before_tax" value="{{ section.settings.budget_total_before_tax.default }}">
+    <button onclick="calculateBudget()">Calculate</button>
+    <div id="budget-results">
+      <h2 class="">How much you have for:</h2>
+      <ul>
+        <li id="equipment">Equipment: $<span class="result"></span></li>
+        <li id="installation">Installation: $<span class="result"></span></li>
+        <span id="install-alert"
+          >*Installation prices vary based on travel costs. Surfacing is an estimate of wood mulch only</span
+        >
+        <li id="surfacing">Surfacing: $<span class="result"></span></li>
+        <li id="ground-preparation">Ground Preparation: $<span class="result"></span></li>
+        <li id="delivery">Delivery: $<span class="result"></span></li>
+      </ul>
+      <canvas id="budget-chart"></canvas>
+    </div>
   </div>
 </div>
 

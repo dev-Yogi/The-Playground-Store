@@ -1,20 +1,26 @@
 {% assign color_scheme_id = section.settings.color_scheme %}
 {% assign color_scheme = section.settings.color_scheme | prepend: 'color_schemes.' | json %}
-{{ 'base.css' | asset_url | stylesheet_tag }}
 
 {% if color_scheme_id != blank and color_scheme != blank %}
   {% assign settings = color_scheme.settings %}
   <style>
-      .shopify-section-{{ section.id }} {
+        .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+     .page-width {
       max-width: var(--page-width);
       background: {{ settings.background }};
       background: {{ settings.background_gradient }};
       color: {{ settings.text }};
       box-shadow:{{ settings.shadow }};
-      padding: 10px 15px;
-      margin-top: 25px;
-      margin-bottom: 25px;
-
     }
     button {
       background-color: {{ settings.button }};
@@ -22,6 +28,9 @@
     }
     button.secondary {
       color: {{ settings.secondary_button_label }};
+    }
+    p{
+      font-size: {{ section.settings.font_size }}px;
     }
     #install-alert{
       color: white;
@@ -33,7 +42,10 @@
   </style>
 {% endif %}
 <h1></h1>
-<div id="shopify-section-[id]" class="color-{{ section.settings.color_scheme }} gradient shopify-section col container-lg">
+<div
+  class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding shopify-section col container-lg"
+  style="text-align: {{ section.settings.alignment }};"
+>
   <h2>{{ section.settings.header }}</h2>
   <p>{{ section.settings.paragraph }}</p>
 </div>
@@ -61,6 +73,42 @@
         "id": "paragraph",
         "label": "Paragraph"
 
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Font size",
+      "default": 16
+    },
+    {
+      "type": "text_alignment",
+      "id": "alignment",
+      "label": "Text alignment",
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
     }
   ],
   "presets": [
