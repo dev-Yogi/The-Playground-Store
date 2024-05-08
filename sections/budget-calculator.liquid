@@ -4,7 +4,7 @@
 {% if color_scheme_id != blank and color_scheme != blank %}
   {% assign settings = color_scheme.settings %}
   <style>
-    .section-{{ section.id }}-padding {
+      .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
@@ -32,9 +32,6 @@
     #install-alert{
       color: white;
     }
-    li span{
-      font-size: unset !important;
-    }
     #budget-results ul li span.result,
     #budget-results ul li
     {
@@ -43,12 +40,12 @@
     }
   </style>
 {% endif %}
-<div class="col container">
-  <h1>Playground Budget Calculator</h1>
+<div class="color-{{ section.settings.color_scheme }} gradient col container">
+  <h1 class="page-title title h1{{ section.settings.heading_size }}">Playground Budget Calculator</h1>
 
   <div
     id="pg-budget-calc"
-    class="color-{{ section.settings.color_scheme }} gradient shopify-section shopify-section-{{ section.id }} col container"
+    class="page-width page-width--narrow section-{{ section.id }}-padding"
   >
     <label for="budget_total_before_tax">{{ section.settings.budget_total_before_tax.label }}</label>
     <input type="number" id="budget_total_before_tax" value="{{ section.settings.budget_total_before_tax.default }}">

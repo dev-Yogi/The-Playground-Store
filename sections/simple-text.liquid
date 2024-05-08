@@ -30,24 +30,18 @@
       color: {{ settings.secondary_button_label }};
     }
     p{
-      font-size: {{ section.settings.font_size }}px;
-    }
-    #install-alert{
-      color: white;
-    }
-    li span{
-      font-size: 30px;
-      display: block;
+      font-size: {{section.settings.font_size}}px;
     }
   </style>
 {% endif %}
-<h1></h1>
-<div
-  class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding shopify-section col container-lg"
-  style="text-align: {{ section.settings.alignment }};"
->
-  <h2>{{ section.settings.header }}</h2>
-  <p>{{ section.settings.paragraph }}</p>
+<div class="color-{{ section.settings.color_scheme }} gradient shopify-section section">
+  <div
+    class="page-width page-width--narrow section-{{ section.id }}-padding"
+    style="text-align: {{ section.settings.alignment }};"
+  >
+    <h2>{{ section.settings.header }}</h2>
+    <p>{{ section.settings.paragraph }}</p>
+  </div>
 </div>
 
 {% schema %}

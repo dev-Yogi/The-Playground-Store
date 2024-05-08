@@ -1,0 +1,274 @@
+{
+  "sections": {
+    "rich_text_xBA9Qb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Cxjx9M": {
+          "type": "heading",
+          "settings": {
+            "heading": "Planning & Resources",
+            "heading_size": "h1"
+          }
+        },
+        "text_m3wnrr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This page will accompany on your journey to purchasing your new playground. You will be taken through the process of planning, designing and purchasing a new playground for your park, school or daycare. This page also links to helpful and informative articles that will give you more tips and guidance in your search.<\/p>"
+          }
+        },
+        "button_fE8wqd": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Cxjx9M",
+        "text_m3wnrr",
+        "button_fE8wqd"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 24,
+        "padding_bottom": 28
+      }
+    },
+    "resource_articles_PgPF8k": {
+      "type": "resource-articles",
+      "blocks": {
+        "icon_KV4UwM": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/swing-set-icon_e6507e04-6ed6-42c6-a480-111aa43b4e93.png",
+            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/playground-equipment\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/playground-equipment\/\">Playground Equipment<\/a>"
+          }
+        },
+        "icon_yQLBMn": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/design.png",
+            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/design-services\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/design-services\/\">Design<\/a>"
+          }
+        },
+        "icon_h9Bzkp": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/stack-icon.png",
+            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/materials\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/materials\/\">Materials<\/a>"
+          }
+        },
+        "icon_z3P8r8": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/organization.png",
+            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/organization\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/organization\/\">Organization<\/a>"
+          }
+        },
+        "icon_WWF8zQ": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/maintenance.png",
+            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/maintenance\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/maintenance\/\">Maintenance<\/a>"
+          }
+        },
+        "icon_hf4tRD": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/dollar-icon.png",
+            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/buying-guides\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/buying-guides\/\">Buying Guides<\/a>"
+          }
+        },
+        "icon_qhXwbT": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/book-icon.png",
+            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/teaching\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/teaching\/\">Teaching<\/a>"
+          }
+        },
+        "icon_EWkUKb": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/healthy-heart-icon.png",
+            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/health\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/health\/\">Health<\/a>"
+          }
+        },
+        "icon_KKrenf": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/happy-family-icon.png",
+            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/family\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/family\/\">Family<\/a>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_KV4UwM",
+        "icon_yQLBMn",
+        "icon_h9Bzkp",
+        "icon_z3P8r8",
+        "icon_WWF8zQ",
+        "icon_hf4tRD",
+        "icon_qhXwbT",
+        "icon_EWkUKb",
+        "icon_KKrenf"
+      ],
+      "settings": {
+        "header": "Resource Articles",
+        "padding_top": 24,
+        "padding_bottom": 20,
+        "color_scheme": "scheme-1",
+        "include_padding": false
+      }
+    },
+    "multicolumn_qtmpyC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RYJEQH": {
+          "type": "column",
+          "settings": {
+            "title": "The Process",
+            "text": "<ol><li><a href=\"\/pages\/getting-started\" title=\"Getting Started\">Getting Started<\/a><\/li><li>Delivery<\/li><li>Installation<\/li><li>Maintenance<\/li><\/ol>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DyWarU": {
+          "type": "column",
+          "settings": {
+            "title": "Purchasing",
+            "text": "<ol><li>Purchasing Process<\/li><li>Financing & Leasing<\/li><li>Fundraising Guide<\/li><li>Grants & Stimulus<\/li><\/ol>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tJejry": {
+          "type": "column",
+          "settings": {
+            "title": "Design",
+            "text": "<ol><li>Design FAQ<\/li><li>Design Basics<\/li><li>Color Options<\/li><li>Playground Colorizer<\/li><\/ol>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_RYJEQH",
+        "column_DyWarU",
+        "column_tJejry"
+      ],
+      "settings": {
+        "title": "Planning Guides",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "simple_text_37BDxC": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
+        "header": "More Questions?",
+        "paragraph": "<p>Contact a Rep or Call 1-833-575-0255<\/p>",
+        "font_size": 20,
+        "alignment": "center",
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_DdXWAX": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_iBKgfJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much does a playground slide cost?",
+            "icon": "question_mark",
+            "row_content": "<p>The cost of a commercial playground slide can vary greatly. You can typically find them priced anywhere from $1,500 to $20,000, but the average cost is around $3,000 to 5,000. A slide is an important part of every play set, so it's definitely important to factor at least one into your playground cost estimate. Keep in mind that \"commercial-grade playground equipment\" does not refer to the standard backyard play set; these are heavy-duty pieces found in public parks or schools. Most of these slides will be made from high-quality molded plastic with steel posts and steps, built to withstand years of daily use and harsh weather. That's why your playground cost will naturally be a bit higher than it would if you were just buying equipment for your backyard.<\/p><p>Slides can be found in a wide selection of shapes, colors and sizes. It would be difficult to come across two slides that looked exactly alike! Because of their customizable nature and variety, it can be helpful to know some of the terms used to describe different kinds of playground slides.<\/p><h3>Common Types of Slides<\/h3><ul><li><strong>Freestanding Slides<\/strong>: \"Freestanding\" refers to the fact that the slide can stand alone; it does not have to be attached to a play structure. They can be a variety of sizes (3 foot, 4 foot, 5 foot, etc.), and they can be curved, straight, or wavy.<\/li><li><strong>Tube Slides<\/strong>: These slides have enclosed chutes that may or may not have transparent sections. They can be straight or spiral as well as freestanding or mounted.<\/li><li><strong>Spiral Slides<\/strong>: Spiral means exactly what you would expect; the chute winds in a spiral pattern from the entrance to the exit. They can be tube slides or traditional open slides, freestanding or mounted, and anywhere from 8 to 16 feet.<\/li><li><strong>Embankment Slides<\/strong>: Embankment slides are ideal for honoring the natural landscape of a play area. They are designed to be installed directly into the slope of a hill. You will find these in single or double versions as a freestanding option.<\/li><li><strong>Straight Slide<\/strong>: Straight slides are pretty straightforward, no pun intended. They have no curving or spiraling from top to bottom and can be open or enclosed. You will find these as freestanding options or mounted to play systems.<\/li><li><strong>Wavy Slide<\/strong>: \"Wavy\" refers to the humps along the slide. The shallow dips offer a little extra thrill during the ride. They will be found as straight slides and in a variety of heights.<\/li><\/ul><h3>Cost Considerations for Playground Slides<\/h3><p>The price of slides increases as the desired height increases. Additionally, tube slides are typically more expensive than open slides of a similar height because they use more materials to enclose the chute. Spiral slides often cost more than straight ones at the same height for similar reasons.<\/p><p>There is a slide for every project and every budget, and at PlaygroundEquipment.com, we can help you find it, whether that means matching you up with your dream slide or having a custom playground slide made just for you. Whether you are planning out the playground cost for a new project or refreshing an existing play area, commercial playground slides are sure to make any play space a destination for children of all ages.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_edxGXP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the best thing to put under a playset?",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_LKPaXV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What do you use for playground flooring?",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_wYxiHT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much does it cost to build a special needs playground?",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_iBKgfJ",
+        "collapsible_row_edxGXP",
+        "collapsible_row_LKPaXV",
+        "collapsible_row_wYxiHT"
+      ],
+      "settings": {
+        "caption": "FAQ",
+        "heading": "Featured Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-3",
+        "container_color_scheme": "scheme-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "rich_text_xBA9Qb",
+    "main",
+    "resource_articles_PgPF8k",
+    "multicolumn_qtmpyC",
+    "simple_text_37BDxC",
+    "collapsible_content_DdXWAX"
+  ]
+}
