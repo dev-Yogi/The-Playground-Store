@@ -1,0 +1,200 @@
+{% assign color_scheme_id = section.settings.color_scheme %}
+{% assign color_scheme = section.settings.color_scheme | prepend: 'color_schemes.' | json %}
+
+{% if color_scheme_id != blank and color_scheme != blank %}
+  {% assign settings = color_scheme.settings %}
+  <style>
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+
+    .page-width {
+      max-width: var(--page-width);
+      background: {{ settings.background }};
+      background: {{ settings.background_gradient }};
+      color: {{ settings.text }};
+      box-shadow:{{ settings.shadow }};
+    }
+
+    .custom-section .title {
+      padding-left: 8.5em;
+      padding-right: 5em;
+    }
+
+    button {
+      background-color: {{ settings.button }};
+      color: {{ settings.button_label }};
+    }
+
+    button.secondary {
+      color: {{ settings.secondary_button_label }};
+    }
+    .video-section{
+      display: flex;
+      justify-content: space-around;
+    }
+    .video-frame-container{
+      max-width: 650px;
+      max-height: 450px;
+    }
+    .video{
+      width: 100%;
+    }
+    .text-icon-list{
+      display: flex;
+      margin: 1.5em 0;
+    }
+    .text-icon-list img{
+      margin-right: 25px;
+    }
+    {% for block in section.blocks %}
+    .text-content-container{
+      background: {{ block.settings.background}};
+      border-radius: 1em 2em;
+      text-align: center;
+    }
+      {% endfor %}
+  </style>
+{% endif %}
+
+<div class="color-{{ section.settings.color_scheme }} gradient shopify-section section-{{ section.id }}-padding section custom-section">
+  <h1 class="page-title title h1{{ section.settings.heading_size }}">
+    {{ section.settings.header }}
+  </h1>
+  <div class="page-width page-width--narrow section-{{ section.id }}-padding video-section">
+    {% if section.settings.video_url != blank %}
+      <section class="video-content-container col-xs-12 col-sm-7 col-md-6 mb-4 mb-md-0">
+        {%- if section.settings.video_url.type == 'youtube' -%}
+          <div class="video-frame-container">
+            <iframe
+              height="355"
+              width="560"
+              src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}?enablejsapi=1&autoplay=1{{  }}"
+              class="js-youtube video"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+              title="{{ section.settings.description | escape }}"
+            ></iframe>
+          </div>
+        {% endif %}
+      </section>
+    {% endif %}
+
+    <section
+      class="text-content-container col-xs-12 col-sm-5 col-md-4"
+    >
+      {% for block in section.blocks %}
+        {% if block.settings.text_content_header != blank %}
+          <h3 style="background: #f79e02; margin-top: -15px; color: white; text-align: center; padding: 10px; border-radius: 50px;">
+            {{ block.settings.text_content_header }}
+          </h3>
+        {% endif %}
+        {% if block.settings.text_content != blank %}
+          <div class="text-icon-list">
+            <img src="{{ block.settings.icon | image_url}}" alt="Icon" width="50" height="50">
+            {{ block.settings.text_content }}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </section>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Video and Text Content",
+  "settings": [
+    {
+      "type": "text",
+      "id": "header",
+      "label": "Header",
+      "default": "Heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+     {
+           "type": "video_url",
+          "label": "Video URL",
+          "id": "video_url",
+          "info": "t:sections.video.settings.video_url.info",
+          "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+          "accept": [
+            "youtube",
+            "vimeo"
+          ]
+        },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "include_padding",
+      "default": true,
+      "label": "Make section margins the same as theme"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video and Text Content"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Icon List Item",
+      "settings": [
+        {
+        "type": "text",
+        "id": "text_content_header",
+        "label": "Text Content Header"
+    },
+       {
+      "type": "image_picker",
+      "id": "icon",
+      "label": "Icon"
+    },
+        {
+          "type": "richtext",
+          "label": "Text Content",
+          "id": "text_content"
+        },
+        {
+            "type": "color_background",
+            "id": "background",
+            "label": "Background",
+            "default": "#ffffff"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

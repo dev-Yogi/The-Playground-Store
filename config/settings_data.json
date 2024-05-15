@@ -183,8 +183,8 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#6cdaee",
-          "background_gradient": "",
+          "background": "#ffffff",
+          "background_gradient": "linear-gradient(180deg, rgba(108, 218, 238, 1), rgba(108, 218, 238, 0.53) 100%)",
           "text": "#002b57",
           "button": "#ffa101",
           "button_label": "#002b57",
@@ -212,6 +212,17 @@
           "button_label": "#ffffff",
           "secondary_button_label": "#f79e02",
           "shadow": "#ffffff"
+        }
+      },
+      "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5": {
+        "settings": {
+          "background": "#0074e1",
+          "background_gradient": "linear-gradient(320deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+          "text": "#f79e02",
+          "button": "#10e7dc",
+          "button_label": "#002b57",
+          "secondary_button_label": "#0074e1",
+          "shadow": "#002b57"
         }
       }
     }

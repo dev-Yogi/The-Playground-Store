@@ -1,0 +1,455 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "simple_text_fw6X7j": {
+      "type": "simple-text",
+      "custom_css": [
+        ".title {font-size: 30px;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-5",
+        "header": "Playground Delivery Guide",
+        "heading_font_size": 34,
+        "paragraph": "",
+        "text_font_size": 16,
+        "alignment": "center",
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    },
+    "video_cPjnjQ": {
+      "type": "video",
+      "custom_css": [
+        ".video-section {width: 50%; box-shadow: 0 5px 40px 10px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "enable_video_looping": true,
+        "video_url": "https:\/\/youtu.be\/LMqNRTVgSMY?si=UPetmBvtNZD5DDm9",
+        "cover_image": "shopify:\/\/shop_images\/Screenshot_2024-05-14_at_10.49.12_AM.png",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "scheme-5",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "resource_articles_rg8U4V": {
+      "type": "resource-articles",
+      "blocks": {
+        "icon_dNmn4y": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/shipping-basics.png",
+            "icon_link": "<a href=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__simple_text_Q7J4Nn\" title=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__simple_text_Q7J4Nn\">Shipping Basics<\/a>"
+          }
+        },
+        "icon_jgaF4t": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/eye-monitoring-icon.png",
+            "icon_link": "<a href=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__collapsible_content_mxVVgt\" title=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__collapsible_content_mxVVgt\">What to Look For<\/a>"
+          }
+        },
+        "icon_hir8Fg": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/policy-shield.png",
+            "icon_link": "<a href=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__multicolumn_wtwhyG\" title=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__multicolumn_wtwhyG\">Shipping Policies<\/a>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_dNmn4y",
+        "icon_jgaF4t",
+        "icon_hir8Fg"
+      ],
+      "custom_css": [
+        ".custom-section {margin-top: -65px;}",
+        ".icon-group-container {padding-top: 35px;}",
+        ".icon {width: 120px; height: 120px;}",
+        "span.icon-link a {color: #f79e02 !important; font-size: x-large;}"
+      ],
+      "settings": {
+        "header": "Quick Links",
+        "padding_top": 72,
+        "padding_bottom": 36,
+        "color_scheme": "scheme-ea19c1cc-ac4a-4cba-9c56-bb8af02d0c80",
+        "include_padding": true
+      }
+    },
+    "simple_text_Q7J4Nn": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "header": "Shipping Basics",
+        "heading_font_size": 32,
+        "paragraph": "<p>We coordinate the shipping of playground equipment with destinations all around the world. Our global presence provides PlaygroundEquipment.com customer service representatives the task of handling a variety of situations on a regular basis. Freight services are an integral part of our operations.<\/p>",
+        "text_font_size": 18,
+        "alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_8U46ex": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_nF4JkD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playground-clip-art.png",
+            "title": "",
+            "text": "<p>Commercial playground equipment will generally ship freight with the exception of small items.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yNCahK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shipping-freight.webp",
+            "title": "",
+            "text": "<ol><li>95% of equipment ships freight<\/li><li>Equipment is packed into open crates<\/li><li>Our average crate size is 14ft long<\/li><li>Most deliveries are made on an 18 wheeler.<\/li><\/ol>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xBBryX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unloading.png",
+            "title": "",
+            "text": "<p>Most swing parts such as seats and hardware, and general replacement parts depending on quantity ship ground via UPS or USPS.<br\/><br\/>These products usually arrive 3-7 days from day of shipment.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_nF4JkD",
+        "column_yNCahK",
+        "column_xBBryX"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_xVVTTf": {
+      "type": "multirow",
+      "blocks": {
+        "row_mRQWY3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/comparing.webp",
+            "caption": "Quick Ship Structures vs. Custom Structures",
+            "heading": "",
+            "text": "<h3>Quick Ship Structures:<br\/><\/h3><ul><li>We keep 29 of our most popular structure designs in-stock<\/li><li>We offer all 29 structures in two contrasting color palettes: Neutral or Primary. Any other colors are considered custom.<\/li><li>Quick Ship structures generally ship within 1-2 weeks.<\/li><\/ul><p><\/p><h3>Custom Structures:<\/h3><h3><\/h3><ul><li>Custom Structures are any structures not offered Quick Ship.<\/li><li>These structures are manufactured to customer specifications regarding color palette and aspects of play.<\/li><li>Custom Structures generally ship within 6-8 weeks.<\/li><\/ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_mRQWY3"
+      ],
+      "custom_css": [
+        ".media > img {object-fit: contain; padding: 20px;}"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "small",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "scheme-2",
+        "row_color_scheme": "scheme-5",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_mxVVgt": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_YDmaNp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What to Expect:",
+            "icon": "question_mark",
+            "row_content": "<ul><li>A large open-air crate full of lots of parts & pieces of equipment.<\/li><li>Team lift unload: have 2-3 able bodied people ready to help!<\/li><li>It is the customers responsibility to unload and properly store the order.<\/li><li>If you chose professional installation, please see our installation guide.<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cDC7GB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Before Driver Departs",
+            "icon": "return",
+            "row_content": "<p>• Check shipping sticker to ensure that you have received the correct order!<br\/>• Inspect for damage: broken crate, dents, scrapes, scratches, torn package etc.<br\/>• Photograph the crate from all angles, photograph any damage.<br\/>• <strong>ANY DAMAGE MUST BE NOTED ON DELIVERY RECEIPT WITH DRIVER!<\/strong><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ibAXCJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Once Driver Departs",
+            "icon": "truck",
+            "row_content": "<p>• Report any damage noted on freight delivery receipt to us <strong>IMMEDIATELY<\/strong>!<br\/>• Check the contents of your crate against the packing list provided.<br\/>• Report any missing pieces or discrepancies to us within 72 hrs of delivery.<br\/>• Failure to report damage\/missing pieces may result in denial of claim.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_YDmaNp",
+        "collapsible_row_cDC7GB",
+        "collapsible_row_ibAXCJ"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "caption": "Before your order arrives we suggest taking a minute to read over this important information regarding what to look for when you receive your freight shipment.",
+        "heading": "What to Look For",
+        "heading_size": "h0",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "small",
+        "desktop_layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_yMCkK9": {
+      "type": "video",
+      "custom_css": [
+        ".video-section {width: 50%; box-shadow: 0 5px 40px 10px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/youtu.be\/JRDTHxUXUXA?si=eCK7wB2XUw4nICio",
+        "cover_image": "shopify:\/\/shop_images\/Screenshot_2024-05-15_at_8.45.37_AM.png",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "multicolumn_wtwhyG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_K6RqGA": {
+          "type": "column",
+          "settings": {
+            "title": "General Shipping Policy Information",
+            "text": "<p>• The carrier will contact you within 24 hours of freight delivery.<\/p><p>• Failure to report any and all damage, and missing parts to PlaygroundEquipment.com will result in your freight claim being denied, and loss of your ability to receive replacement parts at no additional cost.<\/p><p>• If you find a concealed damage problem all original packaging must be kept for inspection by the Freight Carrier.<\/p><p>• PlaygroundEquipment.com reserves the right to select the most cost effective method of transportation and carrier for shipping the products and charge the customer for freight in addition to the cost of products.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_n4BrKj": {
+          "type": "column",
+          "settings": {
+            "title": "It Is The Customer's Responsibility To:",
+            "text": "<p>• Unload the order and store it properly unless prior agreement exists.<\/p><p>• Count the contents of the order, compare it to freight line & bill of lading before signing receipt.<\/p><p>• Inspect the delivery for any obvious signs of damage and for signs of potential concealed damage.<\/p><p>• Mark any damage found, including damage to packaging that may result in concealed damage, on the delivery receipt before the driver departs.<\/p><p>• Report any damage or missing parts to us within 48 hours of receipt of delivery.<\/p><p>• Cover any additional fees stemming from delivery delay at customer fault.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_K6RqGA",
+        "column_n4BrKj"
+      ],
+      "custom_css": [
+        ".multicolumn-card__info {color: white;}",
+        ".multicolumn-list p {font-size: 18px;}"
+      ],
+      "settings": {
+        "title": "Shipping Policies",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_dGhhQT": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_tg7TB7": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h6><em><strong>Your order(s) have been held in our warehouse for 30 days and still have not been scheduled to ship out because the customer is not ready to accept shipment, has nowhere to store their own equipment, etc…<\/strong><\/em><\/h6><p><\/p><p>Once your order arrives at NVB’s warehouse, it is required to ship out within 30 days of arrival as to not take up space for incoming shipments. NVB can no longer act as a storage facility and customers need to prepare to accept their orders in a more timely manner. NVB will notify you once your order arrives and reach out about scheduling the shipment. If the order(s) is\/are not scheduled to ship\/leave our dock within the first 30 days after the initial contact regarding your order(s) on day 31 storage fees begin to accrue and are assessed for each business day until the date your order(s) is\/are shipped out.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_z4LFhE": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h6><em><strong>Your order is given an appointment on our shipping schedule and you\/the customer requests to delay the shipment for any reason...<\/strong><\/em><\/h6><p>Once you have scheduled an appointment for the shipment of your order(s), delaying the scheduled shipment will result in storage fees regardless of the 30 days to schedule rule. Our shipping schedule and dock have limited space\/availability. Once the schedule is full and set, we have to turn away other customer requests to be added to the schedule or have their shipments bumped up. If you’ve been given an appointment on our shipping schedule, it is required that you keep your shipping appointment and prepare to accept your order(s). If the order(s) are delayed\/rescheduled, storage fees begin to accrue the next business day and are assessed for each business day until the date your order(s) are shipped out.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zhYh8L": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h6><em><strong>Your order is already crated according to your scheduled shipment date but wasn’t sent out\/picked up by your carrier etc. and is now taking up space on our dock…<\/strong><\/em><\/h6><p>Once you are given an appointment on our schedule to ship out your order(s), NVB starts processing those orders for shipment. Typically, your order(s) is\/are crated and ready to go out by the end of the business day prior to your ship date to try to avoid any delays of your shipment on NVB’s end. Should your order be crated on our dock and the shipment\/pickup of the order(s) is delayed for ANY reason, (examples: you ask to delay\/push back shipment for a few days, the customer decides they are not ready, you send your own carrier and they do not show up or show up without enough space to pickup your order, your arrive in a non dock height vehicle without a team to load the equipment yourselves, etc.) storage fees begin the business day following your original ship date and are assessed for each business day until your order(s) leave our dock.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_q9bFRF": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h6><em><strong>Your order(s) are shipped and then returned to us by the carrier for ANY reason…<\/strong><\/em><\/h6><p>Once your order(s) has\/have left our dock, should the carriers not be able to deliver the shipment and have to return it to us for ANY reason, storage fees begin to accrue immediately and are assessed for each business day until your order(s) ships back out to you. Please also keep in mind in this scenario, if the carrier assesses any additional fees, you will be responsible for those as well along with the additional cost to reship your order(s) out.<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_tg7TB7",
+        "column_z4LFhE",
+        "column_zhYh8L",
+        "column_q9bFRF"
+      ],
+      "custom_css": [
+        ".multicolumn-list p {font-size: 18px;}",
+        ".multicolumn-card__info div h6 em strong {font-size: 14px;}"
+      ],
+      "settings": {
+        "title": "Storage Fee Policy",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_gFe9zq": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_W6kMCe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/maintenance.png",
+            "title": "Installation",
+            "text": "<p>The types of installation that we off and their benefits.<\/p>",
+            "link_label": "Playground Installation Guide",
+            "link": ""
+          }
+        },
+        "column_4WbQj6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/delivery.png",
+            "title": "Delivery",
+            "text": "<p>What to expect with your shipment and what to do next.<\/p>",
+            "link_label": "Playground Delivery Guide",
+            "link": ""
+          }
+        },
+        "column_ebTgVY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service-tools-icon.png",
+            "title": "Maintenance",
+            "text": "<p>How to care of your playground so that it last for years.<\/p>",
+            "link_label": "Playground Maintenance Guide",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_W6kMCe",
+        "column_4WbQj6",
+        "column_ebTgVY"
+      ],
+      "custom_css": [
+        ".button.button--primary {border: 3px solid #10e7dc;}"
+      ],
+      "settings": {
+        "title": "Links to Other Helpful Guides",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "View All Plans & Tools",
+        "button_link": "shopify:\/\/pages\/view-all-plans-tools",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "simple_text_fw6X7j",
+    "video_cPjnjQ",
+    "resource_articles_rg8U4V",
+    "simple_text_Q7J4Nn",
+    "multicolumn_8U46ex",
+    "multirow_xVVTTf",
+    "collapsible_content_mxVVgt",
+    "video_yMCkK9",
+    "multicolumn_wtwhyG",
+    "multicolumn_dGhhQT",
+    "multicolumn_gFe9zq"
+  ]
+}

@@ -130,7 +130,7 @@
       ],
       "settings": {
         "header": "Resource Articles",
-        "padding_top": 24,
+        "padding_top": 28,
         "padding_bottom": 20,
         "color_scheme": "scheme-1",
         "include_padding": false

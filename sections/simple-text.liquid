@@ -29,18 +29,17 @@
     button.secondary {
       color: {{ settings.secondary_button_label }};
     }
-    p{
-      font-size: {{section.settings.font_size}}px;
+    .simple-text-custom p{
+      font-size: {{section.settings.text_font_size}}px;
     }
   </style>
 {% endif %}
-<div class="color-{{ section.settings.color_scheme }} gradient shopify-section section">
-  <div
-    class="page-width page-width--narrow section-{{ section.id }}-padding"
-    style="text-align: {{ section.settings.alignment }};"
-  >
-    <h2>{{ section.settings.header }}</h2>
-    <p>{{ section.settings.paragraph }}</p>
+<div class="color-{{ section.settings.color_scheme }} gradient shopify-section section simple-text-custom">
+  <div class="page-width page-width--narrow section-{{ section.id }}-padding">
+    <div style="text-align: {{ section.settings.alignment }};">
+      <h2 class="title" style="font-size: {{ section.settings.heading_font_size}}px;">{{ section.settings.header }}</h2>
+      {{ section.settings.paragraph }}
+    </div>
   </div>
 </div>
 
@@ -62,6 +61,17 @@
         "label": "Header",
         "default" : "Heading"
     },
+        {
+      "type": "range",
+      "id": "heading_font_size",
+      "min": 12,
+      "max": 42,
+      "step": 1,
+      "unit": "px",
+      "label": "Heading Font size",
+      "default": 16
+    },
+
     {
         "type": "richtext",
         "id": "paragraph",
@@ -70,12 +80,12 @@
     },
     {
       "type": "range",
-      "id": "font_size",
+      "id": "text_font_size",
       "min": 12,
-      "max": 24,
+      "max": 42,
       "step": 1,
       "unit": "px",
-      "label": "Font size",
+      "label": "Text Font size",
       "default": 16
     },
     {

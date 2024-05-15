@@ -79,7 +79,9 @@
     "budget_calculator_RLGMPb": {
       "type": "budget-calculator",
       "settings": {
-        "color_scheme": "scheme-1"
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 60
       }
     },
     "simple_text_FQQwjf": {
@@ -87,9 +89,10 @@
       "settings": {
         "color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
         "header": "1.) Finalize a Budget",
+        "heading_font_size": 32,
         "paragraph": "<p>The funds available in your budget will be an important determining factor when beginning the playground planning process. On average, a commercial grade playground costs about $8,000. If you’re interested in investing in just a few smaller items like spring riders, slides or monkey bars, rather than large structures, it can be less. The pie graph on the left shows a typical break-down of costs to help budget playground equipment. If you are in need of funding, we recommend viewing our <a href=\"https:\/\/www.playgroundequipment.com\/playground-equipment-grants-and-stimulus-guide\/\">Grants and Stimulus guide <\/a>and our <a href=\"https:\/\/www.playgroundequipment.com\/fundraising\/\">Fundraising Guide<\/a>.<\/p>",
-        "font_size": 16,
-        "alignment": "center",
+        "text_font_size": 18,
+        "alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -99,9 +102,10 @@
       "settings": {
         "color_scheme": "scheme-5",
         "header": "2.) Evaluate the Community",
+        "heading_font_size": 32,
         "paragraph": "<p>Children of different ages need to have separate areas to play, as they all have different ability levels. This allows each age group to be sufficiently challenged while also staying safe on the playground. Another factor to consider is foot traffic. Will your site be near a busy sidewalk in a public area and visited often? This can determine the types of equipment, as well as the maintenance needs. Additionally, it is important to consider accessibility; all children benefit from socialization and play. Making accommodations for children with disabilities should include surfacing, ground play elements, ramps, ADA swings and more. Understanding the demographics of the community will help you design and implement an appropriate playground for the area.<\/p>",
-        "font_size": 16,
-        "alignment": "center",
+        "text_font_size": 18,
+        "alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -111,9 +115,10 @@
       "settings": {
         "color_scheme": "scheme-4",
         "header": "3.) Analyze the Space",
+        "heading_font_size": 32,
         "paragraph": "<p>A commercial playground is a sizable investment worthy of protecting. Choosing an appropriate space and preparing your site for installation are two important factors to consider in the playground planning process. First, is there enough room to accommodate the playground you need? Additionally, is the land free of sitting water, busy roads, hazardous plants, steep slopes and utility lines? Natural landscapes can complement a play space and offer beauty to the location. But if too much work is needed, that will begin to eat away at your budget. Experts and assessors can help you determine if a site is right for your plans.<\/p>",
-        "font_size": 16,
-        "alignment": "center",
+        "text_font_size": 18,
+        "alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -123,9 +128,10 @@
       "settings": {
         "color_scheme": "scheme-1",
         "header": "4.) Determine the Timeline",
+        "heading_font_size": 32,
         "paragraph": "<p>The project deadline can significantly affect the budget for equipment. A rushed project can result in higher overall costs. An average installation can take nine or more months to complete and custom structures may take even longer. If you are on a tight schedule, check out our selection of <a href=\"https:\/\/www.playgroundequipment.com\/products\/in-stock\/\">Quick-Ship Structures<\/a> and consider a diy customer install. It is ideal to plan ahead and allot a proper amount of time for this process. Start with your Grand Opening and work backwards, being sure to include the smaller steps in between. Begin the playground plans early on and form your team with plenty of time to dedicate to the project.<\/p>",
-        "font_size": 16,
-        "alignment": "center",
+        "text_font_size": 18,
+        "alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -135,9 +141,10 @@
       "settings": {
         "color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
         "header": "5.) Choose the Equipment",
+        "heading_font_size": 32,
         "paragraph": "<p>Envisioning types and styles of playset designs is one of the most exciting parts of playground planning. But it’s also a stage where you’ll have to do some of your most in-depth research. Consider the ages of your future visitors, as differently-sized children have varying abilities when it comes to the types of play equipment they can safely maneuver. Our in-house team can also help bring your vision to life with playground design plans.<\/p><p>There are three major types of equipment that should be considered when planning your new playground:<\/p><ol><li><strong>Play Structures<\/strong> - Large play structures are typically the centerpiece of a play area. They are often made up of ramps, slides, raised decks and climbers and may incorporate a theme or unique color scheme. Choosing a play system first can help inspire the rest of the equipment choices.<\/li><li><strong>Swings<\/strong> - Swings are a favorite for children of all ages and a simple way to make your play area more appealing. Take a look at our age-appropriate and ADA accessible swing frames and seats to integrate this staple element into your playground.<\/li><li><strong>Independent Play<\/strong> - Independent play items are perfect for filling in the gaps and adding unique finishing touches to a playground. This can include a number of elements including, climbers, spring riders, freestanding musical instruments, merry-go-rounds and much more.<\/li><\/ol>",
-        "font_size": 16,
-        "alignment": "center",
+        "text_font_size": 18,
+        "alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -147,9 +154,10 @@
       "settings": {
         "color_scheme": "scheme-5",
         "header": "6.) Prepare for Shipping",
+        "heading_font_size": 32,
         "paragraph": "<p>Purchases will ship differently depending on the size, weight, and contents. Most playground equipment will ship freight, with only a few exceptions. It is packed into crates and carefully delivered to the site. We offer 29 in-stock structures that ship within one to two weeks but custom structures will take more like six to eight. This is an important factor in planning your timeline. Prepare for your equipment’s day of arrival by having either a trustworthy crew of helpers on hand or accounting for additional budgetary costs for professional unloading assistance. Learn more about playground equipment delivery here or check out our Shipping & Delivery video for more information!<\/p>",
-        "font_size": 16,
-        "alignment": "center",
+        "text_font_size": 18,
+        "alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -159,9 +167,10 @@
       "settings": {
         "color_scheme": "scheme-4",
         "header": "7.) Pan for Installation",
+        "heading_font_size": 32,
         "paragraph": "<p>There are three main types of installation:<\/p><ul><li>Customer - This option is the most affordable for the customer and can save you some time. But it requires that your volunteers have the proper tools and know-how to get the job done safely. If you are considering coordinating the install yourself, think about having frequent meetings with your install team to be sure they have everything they need.<\/li><li>Supervised - A supervised install can save you thousands of dollars. A certified CPSI installer will coordinate the project and offer expert advice to assist your capable volunteers.<\/li><li>Professional - A full professional install will be the most hassle-free experience for customers but also has the highest price tag. The cost of installation is not included in equipment prices but it is worth it to know that your playground is being handled by trained professionals.<\/li><\/ul><p>Each of them have their own unique benefits. Talk to a representative to learn more about your install options. And take a look at our Installation Options video for more information!<\/p>",
-        "font_size": 16,
-        "alignment": "center",
+        "text_font_size": 18,
+        "alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -171,9 +180,10 @@
       "settings": {
         "color_scheme": "",
         "header": "8.) Make a Maintenance Plan",
+        "heading_font_size": 32,
         "paragraph": "<p>Extend the life of your investment and keep it looking nice and new by establishing a proper playground maintenance plan early on. Regular inspections and a weekly, monthly and yearly playground maintenance checklist will reduce the risk of serious damages or injuries. High frequency tasks include things like trash cleanup, surface raking and checking for vandalism. Low frequency tasks can be done annually and include hardware and moving component inspections that should be looked at by a certified inspector. Control the risk as an owner or operator by maintaining your playground to the highest standards. Frequent checks and fixes also reduce the chances of incurring bigger issues that are more costly to repair. Consider the manufacturer’s instructions as well as standards set by the<a href=\"https:\/\/cpsc.gov\/\" target=\"_blank\">CPSC<\/a>and<a href=\"https:\/\/www.astm.org\/\" target=\"_blank\">ASTM<\/a>. Take a look at our<a href=\"https:\/\/www.playgroundequipment.com\/playground-maintenance-guide\/\">Maintenance Guide<\/a>or check out the video below for more information.<\/p>",
-        "font_size": 16,
-        "alignment": "center",
+        "text_font_size": 18,
+        "alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }

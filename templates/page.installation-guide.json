@@ -8,36 +8,179 @@
         "padding_bottom": 28
       }
     },
-    "simple_text_h6h94E": {
-      "type": "simple-text",
+    "video_plus_text_V6aLHj": {
+      "type": "video-plus-text",
+      "blocks": {
+        "text_HVj4FG": {
+          "type": "text",
+          "settings": {
+            "text_content_header": "Choose Your Preference:",
+            "icon": "shopify:\/\/shop_images\/maintenance.png",
+            "text_content": "<h3>Customer<\/h3>",
+            "background": "#ffffff"
+          }
+        },
+        "text_HgDUYA": {
+          "type": "text",
+          "settings": {
+            "text_content_header": "",
+            "icon": "shopify:\/\/shop_images\/stack-icon.png",
+            "text_content": "<h3>Supervised<\/h3>",
+            "background": "#ffffff"
+          }
+        },
+        "text_qR7NRB": {
+          "type": "text",
+          "settings": {
+            "text_content_header": "",
+            "icon": "shopify:\/\/shop_images\/healthy-heart-icon.png",
+            "text_content": "<h3>Professional<\/h3>",
+            "background": "#ffffff"
+          }
+        },
+        "text_EPD996": {
+          "type": "text",
+          "settings": {
+            "text_content_header": "",
+            "text_content": "",
+            "background": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "text_HVj4FG",
+        "text_HgDUYA",
+        "text_qR7NRB",
+        "text_EPD996"
+      ],
       "settings": {
-        "color_scheme": "",
         "header": "Playground Installation Guide",
-        "paragraph": "<p>Different installation options<\/p>",
-        "font_size": 16,
-        "alignment": "left",
+        "padding_top": 20,
+        "padding_bottom": 36,
+        "video_url": "https:\/\/youtu.be\/Ys7CAvdgngY?si=LBMlAUgLT1fBznFR",
+        "color_scheme": "scheme-2",
+        "include_padding": true
+      }
+    },
+    "multirow_668ktd": {
+      "type": "multirow",
+      "blocks": {
+        "row_aaNxLP": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/installation1.webp",
+            "caption": "DIY",
+            "heading": "Customer Installation",
+            "text": "<p>With this option, the customer is responsible for assembling and installing their equipment, which is often the best way to save money and afford more equipment.<\/p><p>Major factors to consider before choosing this option are the knowledge, experience, and availability of your volunteers. Also consider if you possess the right tools and equipment to complete the job safely and efficiently.<\/p><p>We reccommend you set aside time in advance when your volunteers can meet to discuss if they possess the necessary tools, equipment and experience to make this option worthwhile.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_wrfYVr": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/installation2.webp",
+            "caption": "Community Build",
+            "heading": "Supervised",
+            "text": "<p>Save thousands of dollars on your project, and ensure that your installation is efficient and error-free by choosing a supervised installation.<\/p><p>This option requires the customer to provide all labor and tools for installing the equipment. We send an installation supervisor to provide valuable knowledge and help coordinate your volunteers effectively.<\/p><p><br\/>For customers with the manpower to install their equipment but a lack of knowledge and experience, supervision by a certified playground installer is a more cost-effective option than full professional installation.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_c699dG": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/installation3.webp",
+            "caption": "Certified Experts",
+            "heading": "Professional",
+            "text": "<p>This option includes professional Installation of all play equipment by a crew of safety certified playground installers.<\/p><p>Our crew will bring all of the necessary tools & materials and will handle every aspect of your install. Your newly purchased equipment will be assembled and installed by our crew in the safest most efficient manner possible.<\/p><p>The cost is not included in the price of equipment, but is well worth the money as we guarantee a hassle-free experience with our professional and experienced installation experts!<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_aaNxLP",
+        "row_wrfYVr",
+        "row_c699dG"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-4",
+        "row_color_scheme": "scheme-5",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "video_YYzPr9": {
-      "type": "video",
+    "multicolumn_pX7U8f": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_n38yLp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rocket.png",
+            "title": "Getting Started",
+            "text": "<p>You've already begun your journey to the ideal playground or outdoor space.<\/p>",
+            "link_label": "Getting Started Page",
+            "link": "\/pages\/getting-started"
+          }
+        },
+        "column_tTbhyy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/delivery.png",
+            "title": "Delivery",
+            "text": "<p>What to expect with your shipment and what to do next.<\/p>",
+            "link_label": "Playground Delivery Guide",
+            "link": "\/pages\/shipping-delivery"
+          }
+        },
+        "column_QFA6U9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service-tools-icon.png",
+            "title": "Maintenance",
+            "text": "<p>How to take care of your playground so that it lasts for years.<\/p>",
+            "link_label": "Playground Maintenance Guide",
+            "link": "\/pages\/getting-started"
+          }
+        }
+      },
+      "block_order": [
+        "column_n38yLp",
+        "column_tTbhyy",
+        "column_QFA6U9"
+      ],
       "settings": {
-        "heading": "Video",
-        "heading_size": "h2",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/youtu.be\/Ys7CAvdgngY",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-3",
-        "padding_top": 12,
-        "padding_bottom": 12
+        "title": "Links to other helpful guides:",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "simple_text_h6h94E",
-    "video_YYzPr9"
+    "video_plus_text_V6aLHj",
+    "multirow_668ktd",
+    "multicolumn_pX7U8f"
   ]
 }

@@ -23,8 +23,8 @@
       box-shadow:{{ settings.shadow }};
     }
     .custom-section .title{
-      padding-left: 5em;
-      padding-right: 5em;
+      padding: 0 5rem;
+      margin-bottom: 25px;
 
     }
     button {
@@ -56,27 +56,29 @@
 {% endif %}
 
 <div class="color-{{ section.settings.color_scheme }} gradient shopify-section section custom-section">
-  <h1 class="page-title title h1{{ section.settings.heading_size }}">
-    {{ section.settings.header }}
-  </h1>
-  <div class="page-width page-width--narrow section-{{ section.id }}-padding icon-group-container">
-    {% for block in section.blocks %}
-      <section class="icon-group">
-        {% if block.settings.icon %}
-          <img
-            class="icon"
-            src="{{ block.settings.icon | image_url  }}"
-            alt="Icon"
-            width="70"
-            height="70"
-          >
+  <div class="page-width page-width--narrow section-{{ section.id }}-padding">
+    <h2 class="title h1{{ section.settings.heading_size }}">
+      {{ section.settings.header }}
+    </h2>
+    <div class="icon-group-container ">
+      {% for block in section.blocks %}
+        <section class="icon-group">
+          {% if block.settings.icon %}
+            <img
+              class="icon"
+              src="{{ block.settings.icon | image_url  }}"
+              alt="Icon"
+              width="70"
+              height="70"
+            >
 
-          <span class="icon-link">
-            {{ block.settings.icon_link }}
-          </span>
-        {% endif %}
-      </section>
-    {% endfor %}
+            <span class="icon-link">
+              {{ block.settings.icon_link }}
+            </span>
+          {% endif %}
+        </section>
+      {% endfor %}
+    </div>
   </div>
 </div>
 

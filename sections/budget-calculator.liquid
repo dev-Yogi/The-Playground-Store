@@ -17,10 +17,11 @@
     }
      .page-width {
       max-width: var(--page-width);
-      background: {{ settings.background }};
-      background: {{ settings.background_gradient }};
-      color: {{ settings.text }};
-      box-shadow:{{ settings.shadow }};
+      background: {{ section.settings.background }};
+      background: {{ section.settings.background_gradient }};
+      color: {{ section.settings.text }};
+      box-shadow:{{ section.settings.shadow }};
+      padding: 0 5rem;
     }
     button {
       background-color: {{ settings.button }};
@@ -32,87 +33,141 @@
     #install-alert{
       color: white;
     }
-    #budget-results ul li span.result,
+    #budget-results{
+      display: flex;
+    }
+
     #budget-results ul li
     {
       font-size: 30px !important;
       color:#6CDAEE;
     }
+    #budget-results ul li span.result{
+      font-size: 28px;
+      display: block;
+      text-indent: 50px;
+      color: #f79e02;
+    }
+    .pie-chart{
+      width: 60%;
+    }
+    .pg-budget-calc-input{
+      line-height: 2;
+      font-size: 2em;
+      border: none;
+      border-radius: 10px;
+    }
+    .calc-btn{
+      font-size: 2em;
+      border: 3px solid white;
+      border-radius: 10px;
+      background-color: transparent;
+      color: white;
+    }
   </style>
 {% endif %}
-<div class="color-{{ section.settings.color_scheme }} gradient col container">
-  <h1 class="page-title title h1{{ section.settings.heading_size }}">Playground Budget Calculator</h1>
+<div class="color-{{ section.settings.color_scheme }} gradient shopify-section section">
+  <div class="page-width page-width--narrow section-{{ section.id }}-padding">
+    <h1 class="page-title title h1">Playground Budget Calculator</h1>
+    <div
+      id="pg-budget-calc"
+      class=""
+    >
+      <label for="budget_total_before_tax">{{ section.settings.budget_total_before_tax.label }}</label>
+      <input
+        type="number"
+        pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$"
+        id="budget_total_before_tax"
+        placeholder="($) Enter Budget Total"
+        class="pg-budget-calc-input"
+      >
+      <button class="calc-btn" onclick="calculateBudget()">Calculate</button>
+      <div id="budget-results">
+        <div class="budget-list">
+          <h3 class="">How much you have for:</h3>
+          <ul>
+            <li id="equipment">Equipment: <span class="result"></span></li>
+            <li id="installation">Installation: <span class="result"></span></li>
+            <span id="install-alert"
+              >*Installation prices vary based on travel costs. Surfacing is an estimate of wood mulch only</span
+            >
+            <li id="surfacing">Surfacing: <span class="result"></span></li>
+            <li id="ground-preparation">Ground Preparation: <span class="result"></span></li>
+            <li id="delivery">Delivery: <span class="result"></span></li>
+          </ul>
+        </div>
 
-  <div
-    id="pg-budget-calc"
-    class="page-width page-width--narrow section-{{ section.id }}-padding"
-  >
-    <label for="budget_total_before_tax">{{ section.settings.budget_total_before_tax.label }}</label>
-    <input type="number" id="budget_total_before_tax" value="{{ section.settings.budget_total_before_tax.default }}">
-    <button onclick="calculateBudget()">Calculate</button>
-    <div id="budget-results">
-      <h2 class="">How much you have for:</h2>
-      <ul>
-        <li id="equipment">Equipment: $<span class="result"></span></li>
-        <li id="installation">Installation: $<span class="result"></span></li>
-        <span id="install-alert"
-          >*Installation prices vary based on travel costs. Surfacing is an estimate of wood mulch only</span
-        >
-        <li id="surfacing">Surfacing: $<span class="result"></span></li>
-        <li id="ground-preparation">Ground Preparation: $<span class="result"></span></li>
-        <li id="delivery">Delivery: $<span class="result"></span></li>
-      </ul>
-      <canvas id="budget-chart"></canvas>
+        <div>
+          <canvas id="budget-chart" class="col pie-chart"></canvas>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
 <script>
-  function calculateBudget() {
-    var totalBudget = parseFloat(document.getElementById('budget_total_before_tax').value);
-    var equipmentPercent = 0.4;
-    var installationPercent = 0.2;
-    var surfacingPercent = 0.15;
-    var groundPreparationPercent = 0.1;
-    var deliveryPercent = 0.15;
+    function calculateBudget() {
+      var totalBudgetStr = document.getElementById('budget_total_before_tax').value;
 
-    var equipmentBudget = totalBudget * equipmentPercent;
-    var installationBudget = totalBudget * installationPercent;
-    var surfacingBudget = totalBudget * surfacingPercent;
-    var groundPreparationBudget = totalBudget * groundPreparationPercent;
-    var deliveryBudget = totalBudget * deliveryPercent;
+      // Removing dollar sign and commas
+      var totalBudget = parseFloat(totalBudgetStr.replace(/[^\d.]/g, ''));
 
-    document.getElementById('equipment').querySelector('span').innerText = equipmentBudget.toFixed(2);
-    document.getElementById('installation').querySelector('span').innerText = installationBudget.toFixed(2);
-    document.getElementById('surfacing').querySelector('span').innerText = surfacingBudget.toFixed(2);
-    document.getElementById('ground-preparation').querySelector('span').innerText = groundPreparationBudget.toFixed(2);
-    document.getElementById('delivery').querySelector('span').innerText = deliveryBudget.toFixed(2);
+      var equipmentPercent = 0.4;
+      var installationPercent = 0.2;
+      var surfacingPercent = 0.15;
+      var groundPreparationPercent = 0.1;
+      var deliveryPercent = 0.15;
 
-    // Draw Pie Chart
-    var ctx = document.getElementById('budget-chart').getContext('2d');
-    var budgetChart = new Chart(ctx, {
-      type: 'pie',
-      data: {
-        labels: ['Equipment', 'Installation', 'Surfacing', 'Ground Preparation', 'Delivery'],
-        datasets: [
-          {
-            label: 'Budget Allocation',
-            data: [equipmentBudget, installationBudget, surfacingBudget, groundPreparationBudget, deliveryBudget],
-            backgroundColor: [
-              'rgba(255, 99, 132, 0.7)',
-              'rgba(54, 162, 235, 0.7)',
-              'rgba(255, 206, 86, 0.7)',
-              'rgba(75, 192, 192, 0.7)',
-              'rgba(153, 102, 255, 0.7)',
-            ],
-          },
-        ],
-      },
-      options: {
-        responsive: true,
-      },
-    });
-  }
+      var equipmentBudget = totalBudget * equipmentPercent;
+      var installationBudget = totalBudget * installationPercent;
+      var surfacingBudget = totalBudget * surfacingPercent;
+      var groundPreparationBudget = totalBudget * groundPreparationPercent;
+      var deliveryBudget = totalBudget * deliveryPercent;
+
+  var formatter = new Intl.NumberFormat('en-US', {
+          style: 'currency',
+          currency: 'USD'
+      });
+
+  document.getElementById('equipment').querySelector('span').innerText = formatter.format(equipmentBudget);
+  document.getElementById('installation').querySelector('span').innerText = formatter.format(installationBudget);
+  document.getElementById('surfacing').querySelector('span').innerText = formatter.format(surfacingBudget);
+  document.getElementById('ground-preparation').querySelector('span').innerText = formatter.format(groundPreparationBudget);
+  document.getElementById('delivery').querySelector('span').innerText = formatter.format(deliveryBudget);
+
+      // Set canvas width and height
+      var canvas = document.getElementById('budget-chart');
+      canvas.width = 500;
+      canvas.height = 500;
+
+      // Draw Pie Chart
+      var ctx = canvas.getContext('2d');
+
+      var budgetChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+          labels: ['Equipment', 'Installation', 'Surfacing', 'Ground Preparation', 'Delivery'],
+          datasets: [
+            {
+              label: 'Budget Allocation',
+              data: [equipmentBudget, installationBudget, surfacingBudget, groundPreparationBudget, deliveryBudget],
+              backgroundColor: [
+                'rgba(255, 99, 132, 0.7)',
+                'rgba(54, 162, 235, 0.7)',
+                'rgba(255, 206, 86, 0.7)',
+                'rgba(75, 192, 192, 0.7)',
+                'rgba(153, 102, 255, 0.7)',
+              ],
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+
+        },
+      });
+
+    }
 </script>
 
 {% schema %}
@@ -126,6 +181,26 @@
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
       "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
     }
   ],
   "presets": [
