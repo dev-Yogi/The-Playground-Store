@@ -4,54 +4,75 @@
 {% if color_scheme_id != blank and color_scheme != blank %}
   {% assign settings = color_scheme.settings %}
   <style>
-      .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-    }
+          .section-{{ section.id }}-padding {
+          padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+          padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+        }
 
-    @media screen and (min-width: 750px) {
-      .section-{{ section.id }}-padding {
-        padding-top: {{ section.settings.padding_top }}px;
-        padding-bottom: {{ section.settings.padding_bottom }}px;
-      }
-    }
-     .page-width {
-      max-width: var(--page-width);
-      background: {{ settings.background }};
-      background: {{ settings.background_gradient }};
-      color: {{ settings.text }};
-      box-shadow:{{ settings.shadow }};
-    }
-    .custom-section .title{
-      padding: 0 5rem;
-      margin-bottom: 25px;
+        @media screen and (min-width: 750px) {
+          .section-{{ section.id }}-padding {
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+          }
+        }
+         .page-width {
+          max-width: var(--page-width);
+          background: {{ settings.background }};
+          background: {{ settings.background_gradient }};
+          color: {{ settings.text }};
+          box-shadow:{{ settings.shadow }};
+        }
+        .custom-section .title{
+          padding: 0 5rem;
+          margin-bottom: 25px;
 
-    }
-    button {
-      background-color: {{ settings.button }};
-      color: {{ settings.button_label }};
-    }
-    button.secondary {
-      color: {{ settings.secondary_button_label }};
-    }
-    .icon-group-container{
-      display: flex;
+        }
+        button {
+          background-color: {{ settings.button }};
+          color: {{ settings.button_label }};
+        }
+        button.secondary {
+          color: {{ settings.secondary_button_label }};
+        }
+        /* .icon-group-container{
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          text-align:center;
+        } */
+    #shopify-section-template--22557990224158__resource_articles_rg8U4V .icon-group-container{
+       display: flex;
       justify-content: space-around;
+          flex-wrap: wrap;
+          text-align:center;
+      width: 100%;
+    }
+        .icon-group-container {
+      display: flex;
+      justify-content: center;
       flex-wrap: wrap;
-      text-align:center;
-
+      text-align: center;
+      width: 50%;
+      margin: 0 auto;
     }
-    .icon-group{
-      height: auto;
-      width: 8em;
-    }
-    span.icon-link{
-      display: block;
-      margin-top: 10px;
-    }
-     span.icon-link a{
-      color: white !important;
-    }
+        .icon-group{
+          height: auto;
+          width: 10em;
+        }
+        span.icon-link{
+          display: block;
+          margin-top: 10px;
+        }
+         span.icon-link a{
+          color: white !important;
+        }
+           /* Responsive styles */
+           @media screen and (max-width: 750px) {
+        .icon-group-container{
+          width: 100%;
+          justify-content: space-between;
+        }
+           }
   </style>
 {% endif %}
 
@@ -60,7 +81,7 @@
     <h2 class="title h1{{ section.settings.heading_size }}">
       {{ section.settings.header }}
     </h2>
-    <div class="icon-group-container ">
+    <div id="{{ section.id }}" class="icon-group-container ">
       {% for block in section.blocks %}
         <section class="icon-group">
           {% if block.settings.icon %}

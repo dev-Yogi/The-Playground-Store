@@ -6,11 +6,22 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+      .video-section{
+        width: 50%;
+        box-shadow: 0 5px 10px 0;
+      }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+    @media screen and (max-width: 750px) {
+    .video-section{
+      width: 100%;
+      box-shadow: none;
     }
   }
 {%- endstyle -%}

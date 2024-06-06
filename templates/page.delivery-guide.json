@@ -27,7 +27,7 @@
     "video_cPjnjQ": {
       "type": "video",
       "custom_css": [
-        ".video-section {width: 50%; box-shadow: 0 5px 40px 10px;}"
+
       ],
       "settings": {
         "heading": "",
@@ -249,7 +249,7 @@
     "video_yMCkK9": {
       "type": "video",
       "custom_css": [
-        ".video-section {width: 50%; box-shadow: 0 5px 40px 10px;}"
+
       ],
       "settings": {
         "heading": "",
@@ -311,6 +311,22 @@
         "padding_bottom": 36
       }
     },
+    "simple_text_gy9dtW": {
+      "type": "simple-text",
+      "custom_css": [
+        "div > div > div {padding: 0 5rem;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "header": "Storage Fee Policy",
+        "heading_font_size": 31,
+        "paragraph": "<p>Effective March 1, 2023, we implemented storage fees for equipment\/orders that are here in our warehouse and available for shipping out. Storage fees will be assessed at $100.00(US Dollars) per crate\/pallet related to each order every business day after your order(s) has\/have reached a status that qualifies. Below is a list of qualifying storage fee guidelines. Any fees accrued must be paid in full prior to NVB releasing shipment of order(s). Orders become subject to Storage Fees of $100.00(US Dollars) each business day if any of the following apply. NVB does reserve the right to assess Storage Fees to any order if\/when necessary or the order is hindering our productivity.<\/p>",
+        "text_font_size": 16,
+        "alignment": "left",
+        "padding_top": 12,
+        "padding_bottom": 32
+      }
+    },
     "multicolumn_dGhhQT": {
       "type": "multicolumn",
       "blocks": {
@@ -362,7 +378,7 @@
         ".multicolumn-card__info div h6 em strong {font-size: 14px;}"
       ],
       "settings": {
-        "title": "Storage Fee Policy",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -374,8 +390,8 @@
         "color_scheme": "scheme-5",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "multicolumn_gFe9zq": {
@@ -449,6 +465,7 @@
     "collapsible_content_mxVVgt",
     "video_yMCkK9",
     "multicolumn_wtwhyG",
+    "simple_text_gy9dtW",
     "multicolumn_dGhhQT",
     "multicolumn_gFe9zq"
   ]

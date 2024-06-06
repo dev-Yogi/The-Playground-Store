@@ -136,6 +136,14 @@
     "content_for_index": [
 
     ],
+    "blocks": {
+      "14082181514032464150": {
+        "type": "shopify:\/\/apps\/o-request-a-quote\/blocks\/omgrfq_script\/5f4ac0e6-8a57-4f3d-853e-0194eab86273",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
@@ -223,6 +231,17 @@
           "button_label": "#002b57",
           "secondary_button_label": "#0074e1",
           "shadow": "#002b57"
+        }
+      },
+      "scheme-303b4181-c6ee-4c9a-8813-41b2252d4652": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.49) 49%, rgba(0, 43, 87, 0) 100%)",
+          "text": "#002b57",
+          "button": "#ffa101",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#002b57",
+          "shadow": "#ffffff"
         }
       }
     }
@@ -421,7 +440,9 @@
   },
   "platform_customizations": {
     "custom_css": [
-
+      "#HeaderMenu-MenuList-2 {display: flex; width: 85rem;}",
+      "#HeaderMenu-MenuList-1 {display: flex; flex-wrap: wrap; width: 75rem;}",
+      "#HeaderMenu-MenuList-1 li{padding: 10px 0;}"
     ]
   }
 }

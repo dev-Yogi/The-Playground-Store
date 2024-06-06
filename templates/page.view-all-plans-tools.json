@@ -128,6 +128,9 @@
         "icon_EWkUKb",
         "icon_KKrenf"
       ],
+      "custom_css": [
+        "h2 {text-align: center; font-size: 26px;}"
+      ],
       "settings": {
         "header": "Resource Articles",
         "padding_top": 28,
@@ -142,8 +145,9 @@
         "column_RYJEQH": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/refresh.png",
             "title": "The Process",
-            "text": "<ol><li><a href=\"\/pages\/getting-started\" title=\"Getting Started\">Getting Started<\/a><\/li><li>Delivery<\/li><li>Installation<\/li><li>Maintenance<\/li><\/ol>",
+            "text": "<ol><li><a href=\"\/pages\/getting-started\" title=\"Getting Started\">Getting Started<br\/><\/a><\/li><li><a href=\"\/pages\/shipping-delivery\" title=\"\/pages\/shipping-delivery\">Delivery<br\/><\/a><\/li><li><a href=\"\/pages\/installation\" title=\"\/pages\/installation\">Installation<br\/><\/a><\/li><li>Maintenance<\/li><\/ol>",
             "link_label": "",
             "link": ""
           }
@@ -151,6 +155,7 @@
         "column_DyWarU": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/invoice.png",
             "title": "Purchasing",
             "text": "<ol><li>Purchasing Process<\/li><li>Financing & Leasing<\/li><li>Fundraising Guide<\/li><li>Grants & Stimulus<\/li><\/ol>",
             "link_label": "",
@@ -160,6 +165,7 @@
         "column_tJejry": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/brush.png",
             "title": "Design",
             "text": "<ol><li>Design FAQ<\/li><li>Design Basics<\/li><li>Color Options<\/li><li>Playground Colorizer<\/li><\/ol>",
             "link_label": "",
@@ -172,19 +178,22 @@
         "column_DyWarU",
         "column_tJejry"
       ],
+      "custom_css": [
+        ".multicolumn-card-spacing {margin: 0 auto;}"
+      ],
       "settings": {
         "title": "Planning Guides",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-5",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -194,8 +203,9 @@
       "settings": {
         "color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
         "header": "More Questions?",
+        "heading_font_size": 30,
         "paragraph": "<p>Contact a Rep or Call 1-833-575-0255<\/p>",
-        "font_size": 20,
+        "text_font_size": 22,
         "alignment": "center",
         "padding_top": 28,
         "padding_bottom": 36
@@ -236,7 +246,34 @@
           "settings": {
             "heading": "How much does it cost to build a special needs playground?",
             "icon": "question_mark",
-            "row_content": "",
+            "row_content": "<p>There are many different types of swings to choose from, like traditional belt seats, bucket seats, tire seats, nest seats (disc-shaped), adaptive seats, and wheelchair platforms. And commercial swing sets can be customized in several different ways to create many combinations of swing seats, components, sizes, and colors! <\/p><p>Since there are so many different choices available, how do you decide which option suits your needs the best? Choosing the right type of swing for your children starts with understanding the different types of swings available and the differences between them. Considering this information and the ages and play preferences of the children who will use your swings should help you make the right choice.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WAErtU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the different types of swings?",
+            "icon": "question_mark",
+            "row_content": "<p>There are many different types of swings to choose from, like traditional belt seats, bucket seats, tire seats, nest seats (disc-shaped), adaptive seats, and wheelchair platforms. And commercial swing sets can be customized in several different ways to create many combinations of swing seats, components, sizes, and colors! <\/p><p>Since there are so many different choices available, how do you decide which option suits your needs the best? Choosing the right type of swing for your children starts with understanding the different types of swings available and the differences between them. Considering this information and the ages and play preferences of the children who will use your swings should help you make the right choice.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_DNnpeP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the most popular playground equipment?",
+            "icon": "question_mark",
+            "row_content": "<p>The most popular playground equipment consists of classic pieces, such as swings and slides, which have long been cherished by generations of children. In recent years, there has been a growing trend towards incorporating playground equipment that is inspired by creativity, inclusivity, and innovative technologies, catering to the ever-evolving interests of kids. These modern play structures often feature interactive elements like musical playground equipment and sensory play areas, all of which captivate children's imagination and encourage active engagement. While innovation is on the rise, it's essential to remember that the best playground equipment seamlessly blends the timeless charm of traditional pieces with these contemporary additions, ensuring a harmonious blend of old and new. Beyond pure enjoyment, today's playgrounds also prioritize safety, fostering a sense of community among children and parents, promoting physical exercise, and, most importantly, offering a space where kids can make lasting memories filled with laughter and fun.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4GThmP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the spinny things at playgrounds called?",
+            "icon": "question_mark",
+            "row_content": "<p>There are two main categories of “spinny things” at playgrounds and parks: Merry-Go-Rounds and Free-Standing Spinners. Spinning playground equipment is a classic staple in many communities. Children love spinning; it comes with various health benefits like improved vestibular sense, balance, and mental health, and best of all, it’s a lot of fun!<\/p>",
             "page": ""
           }
         }
@@ -245,7 +282,13 @@
         "collapsible_row_iBKgfJ",
         "collapsible_row_edxGXP",
         "collapsible_row_LKPaXV",
-        "collapsible_row_wYxiHT"
+        "collapsible_row_wYxiHT",
+        "collapsible_row_WAErtU",
+        "collapsible_row_DNnpeP",
+        "collapsible_row_4GThmP"
+      ],
+      "custom_css": [
+        ".media > img {object-fit: contain;}"
       ],
       "settings": {
         "caption": "FAQ",
@@ -256,7 +299,8 @@
         "color_scheme": "scheme-3",
         "container_color_scheme": "scheme-2",
         "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
+        "image": "shopify:\/\/shop_images\/question-mark.png",
+        "image_ratio": "small",
         "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36

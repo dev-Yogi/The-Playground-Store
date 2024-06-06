@@ -24,11 +24,6 @@
       box-shadow:{{ settings.shadow }};
     }
 
-    .custom-section .title {
-      padding-left: 8.5em;
-      padding-right: 5em;
-    }
-
     button {
       background-color: {{ settings.button }};
       color: {{ settings.button_label }};
@@ -59,52 +54,76 @@
     .text-content-container{
       background: {{ block.settings.background}};
       border-radius: 1em 2em;
-      text-align: center;
     }
       {% endfor %}
+
+    @media screen and (max-width : 600px){
+      .video-section{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0;
+      }
+      .section-{{ section.id }}-padding{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+      .video-content-container{
+        margin-bottom: 20px;
+        padding: 0;
+      }
+
+    }
   </style>
 {% endif %}
 
-<div class="color-{{ section.settings.color_scheme }} gradient shopify-section section-{{ section.id }}-padding section custom-section">
-  <h1 class="page-title title h1{{ section.settings.heading_size }}">
-    {{ section.settings.header }}
-  </h1>
-  <div class="page-width page-width--narrow section-{{ section.id }}-padding video-section">
-    {% if section.settings.video_url != blank %}
-      <section class="video-content-container col-xs-12 col-sm-7 col-md-6 mb-4 mb-md-0">
-        {%- if section.settings.video_url.type == 'youtube' -%}
-          <div class="video-frame-container">
-            <iframe
-              height="355"
-              width="560"
-              src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}?enablejsapi=1&autoplay=1{{  }}"
-              class="js-youtube video"
-              allow="autoplay; encrypted-media"
-              allowfullscreen
-              title="{{ section.settings.description | escape }}"
-            ></iframe>
-          </div>
-        {% endif %}
-      </section>
-    {% endif %}
-
-    <section
-      class="text-content-container col-xs-12 col-sm-5 col-md-4"
+<div class="color-{{ section.settings.color_scheme }} gradient shopify-section section custom-section">
+  <div class="page-width page-width--narrow section-{{ section.id }}-padding">
+    <h1
+      class="title {{ section.settings.heading_size }}"
+      style=" text-align: {{ section.settings.header-alignment }};"
     >
-      {% for block in section.blocks %}
-        {% if block.settings.text_content_header != blank %}
-          <h3 style="background: #f79e02; margin-top: -15px; color: white; text-align: center; padding: 10px; border-radius: 50px;">
-            {{ block.settings.text_content_header }}
-          </h3>
-        {% endif %}
-        {% if block.settings.text_content != blank %}
-          <div class="text-icon-list">
-            <img src="{{ block.settings.icon | image_url}}" alt="Icon" width="50" height="50">
-            {{ block.settings.text_content }}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </section>
+      {{ section.settings.header }}
+    </h1>
+    <div class="page-width page-width--narrow section-{{ section.id }}-padding video-section">
+      {% if section.settings.video_url != blank %}
+        <section class="video-content-container col-md-6 mb-4 mb-md-0">
+          {%- if section.settings.video_url.type == 'youtube' -%}
+            <div class="video-frame-container">
+              <iframe
+                height="355"
+                width="560"
+                src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}?enablejsapi=1&autoplay=1{{  }}"
+                class="js-youtube video"
+                allow="autoplay; encrypted-media"
+                allowfullscreen
+                title="{{ section.settings.description | escape }}"
+              ></iframe>
+            </div>
+          {% endif %}
+        </section>
+      {% endif %}
+
+      <section
+        class="text-content-container col-md-4"
+      >
+        {% for block in section.blocks %}
+          {% if block.settings.text_content_header != blank %}
+            <h3 style="background: #f79e02; margin-top: -15px; color: white; text-align: center; padding: 10px; border-radius: 50px;">
+              {{ block.settings.text_content_header }}
+            </h3>
+          {% endif %}
+          {% if block.settings.text_content != blank %}
+            <div class="text-icon-list">
+              {% if block.settings.icon != blank %}
+                <img src="{{ block.settings.icon | image_url}}" alt="Icon" width="50" height="50">
+              {% endif %}
+              <p style="text-align: {{ section.settings.text-alignment }};">{{ block.settings.text_content }}</p>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </section>
+    </div>
   </div>
 </div>
 
@@ -117,6 +136,13 @@
       "id": "header",
       "label": "Header",
       "default": "Heading"
+    },
+    {
+      "type": "text_alignment",
+      "id": "header-alignment",
+      "label": "Header Alignment",
+      "default": "center"
+
     },
     {
       "type": "range",
@@ -187,6 +213,13 @@
           "label": "Text Content",
           "id": "text_content"
         },
+    {
+      "type": "text_alignment",
+      "id": "text-alignment",
+      "label": "Text Alignment",
+      "default": "center"
+
+    },
         {
             "type": "color_background",
             "id": "background",

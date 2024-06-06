@@ -16,7 +16,8 @@
           "settings": {
             "text_content_header": "Choose Your Preference:",
             "icon": "shopify:\/\/shop_images\/maintenance.png",
-            "text_content": "<h3>Customer<\/h3>",
+            "text_content": "<h3><a href=\"\/pages\/installation\/#Customer Installation\" title=\"\/pages\/installation\/#Customer Installation\">Customer<\/a><\/h3>",
+            "text-alignment": "center",
             "background": "#ffffff"
           }
         },
@@ -25,7 +26,8 @@
           "settings": {
             "text_content_header": "",
             "icon": "shopify:\/\/shop_images\/stack-icon.png",
-            "text_content": "<h3>Supervised<\/h3>",
+            "text_content": "<h3><a href=\"\/pages\/installation\/#Supervised\" title=\"\/pages\/installation\/#Supervised\">Supervised<\/a><\/h3>",
+            "text-alignment": "center",
             "background": "#ffffff"
           }
         },
@@ -34,15 +36,8 @@
           "settings": {
             "text_content_header": "",
             "icon": "shopify:\/\/shop_images\/healthy-heart-icon.png",
-            "text_content": "<h3>Professional<\/h3>",
-            "background": "#ffffff"
-          }
-        },
-        "text_EPD996": {
-          "type": "text",
-          "settings": {
-            "text_content_header": "",
-            "text_content": "",
+            "text_content": "<h3><a href=\"\/pages\/installation\/#Professional\" title=\"\/pages\/installation\/#Professional\">Professional<\/a><\/h3>",
+            "text-alignment": "center",
             "background": "#ffffff"
           }
         }
@@ -50,11 +45,11 @@
       "block_order": [
         "text_HVj4FG",
         "text_HgDUYA",
-        "text_qR7NRB",
-        "text_EPD996"
+        "text_qR7NRB"
       ],
       "settings": {
         "header": "Playground Installation Guide",
+        "header-alignment": "center",
         "padding_top": 20,
         "padding_bottom": 36,
         "video_url": "https:\/\/youtu.be\/Ys7CAvdgngY?si=LBMlAUgLT1fBznFR",
@@ -71,7 +66,7 @@
             "image": "shopify:\/\/shop_images\/installation1.webp",
             "caption": "DIY",
             "heading": "Customer Installation",
-            "text": "<p>With this option, the customer is responsible for assembling and installing their equipment, which is often the best way to save money and afford more equipment.<\/p><p>Major factors to consider before choosing this option are the knowledge, experience, and availability of your volunteers. Also consider if you possess the right tools and equipment to complete the job safely and efficiently.<\/p><p>We reccommend you set aside time in advance when your volunteers can meet to discuss if they possess the necessary tools, equipment and experience to make this option worthwhile.<\/p>",
+            "text": "<ul><li>With this option, the customer is responsible for assembling and installing their equipment, which is often the best way to save money and afford more equipment.<\/li><\/ul><p><\/p><ul><li>Major factors to consider before choosing this option are the knowledge, experience, and availability of your volunteers. Also consider if you possess the right tools and equipment to complete the job safely and efficiently.<\/li><\/ul><p><\/p><ul><li>We recommend you set aside time in advance when your volunteers can meet to discuss if they possess the necessary tools, equipment and experience to make this option worthwhile.<\/li><\/ul>",
             "button_label": "",
             "button_link": ""
           }
@@ -82,7 +77,7 @@
             "image": "shopify:\/\/shop_images\/installation2.webp",
             "caption": "Community Build",
             "heading": "Supervised",
-            "text": "<p>Save thousands of dollars on your project, and ensure that your installation is efficient and error-free by choosing a supervised installation.<\/p><p>This option requires the customer to provide all labor and tools for installing the equipment. We send an installation supervisor to provide valuable knowledge and help coordinate your volunteers effectively.<\/p><p><br\/>For customers with the manpower to install their equipment but a lack of knowledge and experience, supervision by a certified playground installer is a more cost-effective option than full professional installation.<\/p>",
+            "text": "<ul><li>Save thousands of dollars on your project, and ensure that your installation is efficient and error-free by choosing a supervised installation.<\/li><\/ul><p><\/p><ul><li>This option requires the customer to provide all labor and tools for installing the equipment. We send an installation supervisor to provide valuable knowledge and help coordinate your volunteers effectively.<\/li><\/ul><p><\/p><ul><li>For customers with the manpower to install their equipment but a lack of knowledge and experience, supervision by a certified playground installer is a more cost-effective option than full professional installation.<\/li><\/ul>",
             "button_label": "",
             "button_link": ""
           }
@@ -93,7 +88,7 @@
             "image": "shopify:\/\/shop_images\/installation3.webp",
             "caption": "Certified Experts",
             "heading": "Professional",
-            "text": "<p>This option includes professional Installation of all play equipment by a crew of safety certified playground installers.<\/p><p>Our crew will bring all of the necessary tools & materials and will handle every aspect of your install. Your newly purchased equipment will be assembled and installed by our crew in the safest most efficient manner possible.<\/p><p>The cost is not included in the price of equipment, but is well worth the money as we guarantee a hassle-free experience with our professional and experienced installation experts!<\/p>",
+            "text": "<ul><li>This option includes professional Installation of all play equipment by a crew of safety certified playground installers.<\/li><\/ul><p><\/p><ul><li>Our crew will bring all of the necessary tools & materials and will handle every aspect of your install. Your newly purchased equipment will be assembled and installed by our crew in the safest most efficient manner possible.<\/li><\/ul><p><\/p><ul><li>The cost is not included in the price of equipment, but is well worth the money as we guarantee a hassle-free experience with our professional and experienced installation experts!<\/li><\/ul>",
             "button_label": "",
             "button_link": ""
           }
@@ -116,7 +111,7 @@
         "section_color_scheme": "scheme-4",
         "row_color_scheme": "scheme-5",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
+        "padding_top": 68,
         "padding_bottom": 36
       }
     },

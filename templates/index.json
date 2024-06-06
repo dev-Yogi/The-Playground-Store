@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "Playground Equipment Galore & More!",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "text_4YmLJ3": {
@@ -20,11 +20,11 @@
         "buttons_gYnVfB": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "View Playground Sets",
-            "button_link_1": "shopify:\/\/collections\/commercial-playgrounds",
+            "button_label_1": "Getting Started",
+            "button_link_1": "\/pages\/getting-started",
             "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_2": "Planning & Tools",
+            "button_link_2": "\/pages\/view-all-plans-tools",
             "button_style_secondary_2": false
           }
         }
@@ -36,14 +36,14 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pg-homepage-footer-cta-img.png",
-        "image_overlay_opacity": 40,
-        "image_height": "medium",
+        "image_overlay_opacity": 20,
+        "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-303b4181-c6ee-4c9a-8813-41b2252d4652",
         "image_behavior": "ambient",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }

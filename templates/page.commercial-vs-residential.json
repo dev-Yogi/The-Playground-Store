@@ -2,27 +2,186 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
-        "padding_top": 28,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
     "simple_text_JC4kQG": {
       "type": "simple-text",
+      "custom_css": [
+
+      ],
       "settings": {
-        "color_scheme": "",
-        "header": "",
-        "heading_font_size": 16,
+        "color_scheme": "scheme-2",
+        "header": "Commercial Vs. ResidentaI",
+        "heading_font_size": 36,
         "paragraph": "<p>Compare commercial and residential grade playground equipment. Please remember that residential playground equipment is strictly for residential use. The chart compares the differences in appropriate placement, materials, and safety.<\/p>",
         "text_font_size": 18,
         "alignment": "left",
-        "padding_top": 0,
+        "padding_top": 12,
+        "padding_bottom": 8
+      }
+    },
+    "custom_table_yXJqCb": {
+      "type": "custom-table",
+      "blocks": {
+        "table_data_ebgj86": {
+          "type": "table_data",
+          "settings": {
+            "for_use_title": "In Home Child Care",
+            "for_use_text": "<p>For in-home child care, either residential or commercial grade equipment is acceptable. Those with a limited budget may prefer the usually smaller and cheaper residential equipment. However, smaller commercial structures are still a viable option.<\/p>",
+            "commercial_icon": "shopify:\/\/shop_images\/check.png",
+            "residential_icon": "shopify:\/\/shop_images\/check.png"
+          }
+        },
+        "table_data_AfgR4B": {
+          "type": "table_data",
+          "settings": {
+            "for_use_title": "Daycare Centers",
+            "for_use_text": "<p>Daycare centers generally opt for commercial grade play equipment. Even small children need space to play, and residential playgrounds are usually not equipped to handle the high volume of children found in daycare centers.<\/p>",
+            "commercial_icon": "shopify:\/\/shop_images\/check.png",
+            "residential_icon": "shopify:\/\/shop_images\/close.png"
+          }
+        },
+        "table_data_t3F9AP": {
+          "type": "table_data",
+          "settings": {
+            "for_use_title": "Faith Centers",
+            "for_use_text": "<p>Faith centers typically look for similar playgrounds to those used by schools. Their budget and needed capacity typically surpass the range of residential playgrounds. Additionally, they often appreciate the themes available for commercial structures.<\/p>",
+            "commercial_icon": "shopify:\/\/shop_images\/check.png",
+            "residential_icon": "shopify:\/\/shop_images\/close.png"
+          }
+        },
+        "table_data_TBpWe8": {
+          "type": "table_data",
+          "settings": {
+            "for_use_title": "Government",
+            "for_use_text": "<p>Government facilities typically require the dependability of commercial playground equipment. Residential products simply aren’t large enough to handle the large capacity needs of their government locations, which are usually open to the public.<\/p>",
+            "commercial_icon": "shopify:\/\/shop_images\/check.png",
+            "residential_icon": "shopify:\/\/shop_images\/close.png"
+          }
+        },
+        "table_data_9N8DKk": {
+          "type": "table_data",
+          "settings": {
+            "for_use_title": "Home Owners Association",
+            "for_use_text": "<p>Most home owners associations will want commercial playground equipment. Despite being centered around a few home dwellings, most neighborhoods want the longevity of commercial equipment.<\/p>",
+            "commercial_icon": "shopify:\/\/shop_images\/check.png",
+            "residential_icon": "shopify:\/\/shop_images\/close.png"
+          }
+        },
+        "table_data_96w6G3": {
+          "type": "table_data",
+          "settings": {
+            "for_use_title": "Parks",
+            "for_use_text": "<p>Parks are usually public, which means that they are open to all children in the area. Often these children have minimal supervision, and can fall under a range of different ages. For these reasons, the durability of commercial playgrounds is important.<\/p>",
+            "commercial_icon": "shopify:\/\/shop_images\/check.png",
+            "residential_icon": "shopify:\/\/shop_images\/close.png"
+          }
+        },
+        "table_data_AdemDN": {
+          "type": "table_data",
+          "settings": {
+            "for_use_title": "Private Homes",
+            "for_use_text": "<p>Most residential playground equipment is sold to private homes. Since they cost less and take up less space, they are usually a better fit for homes. They also don’t last as long, which makes them appropriate for a single generation of children in a family.<\/p>",
+            "commercial_icon": "shopify:\/\/shop_images\/check.png",
+            "residential_icon": "shopify:\/\/shop_images\/check.png"
+          }
+        },
+        "table_data_fTw4z8": {
+          "type": "table_data",
+          "settings": {
+            "for_use_title": "Schools",
+            "for_use_text": "<p>Schools can’t afford to continually replace their playgrounds, which means that residential playground equipment isn’t ideal. While commercial equipment is more expensive, it pays for itself in the long run.<\/p>",
+            "commercial_icon": "shopify:\/\/shop_images\/check.png",
+            "residential_icon": "shopify:\/\/shop_images\/close.png"
+          }
+        },
+        "table_data_7VExzY": {
+          "type": "table_data",
+          "settings": {
+            "for_use_title": "Public Facilities",
+            "for_use_text": "<p>Public facilities generally want the size and reliability of commercial playgrounds. Residential options simply don’t offer enough customization options to suit the needs of most public areas.<\/p>",
+            "commercial_icon": "shopify:\/\/shop_images\/check.png",
+            "residential_icon": "shopify:\/\/shop_images\/close.png"
+          }
+        }
+      },
+      "block_order": [
+        "table_data_ebgj86",
+        "table_data_AfgR4B",
+        "table_data_t3F9AP",
+        "table_data_TBpWe8",
+        "table_data_9N8DKk",
+        "table_data_96w6G3",
+        "table_data_AdemDN",
+        "table_data_fTw4z8",
+        "table_data_7VExzY"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "image_banner_QkxQ4n": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_tCRh9h": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready. Set. Play",
+            "heading_size": "h1"
+          }
+        },
+        "text_cVNX3J": {
+          "type": "text",
+          "settings": {
+            "text": "Browse through our products to find the perfect playground!",
+            "text_style": "body"
+          }
+        },
+        "buttons_gnTK8B": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Commercial Playgrounds",
+            "button_link_1": "shopify:\/\/collections\/commercial-playgrounds",
+            "button_style_secondary_1": false,
+            "button_label_2": "Residential Playgrounds",
+            "button_link_2": "shopify:\/\/collections\/free-standing-play",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_tCRh9h",
+        "text_cVNX3J",
+        "buttons_gnTK8B"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/playground-aerial-view-playground-stock.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
   "order": [
     "main",
-    "simple_text_JC4kQG"
+    "simple_text_JC4kQG",
+    "custom_table_yXJqCb",
+    "image_banner_QkxQ4n"
   ]
 }
