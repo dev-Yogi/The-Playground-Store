@@ -1,12 +1,155 @@
 {
   "sections": {
+    "hero_banner_AiWx97": {
+      "type": "hero-banner",
+      "settings": {
+        "hero_heading": "The Playground Store",
+        "hero_subheading": "Playground Equipment Galore & More!\n\nDiscover our latest products",
+        "hero_button_link": "shopify:\/\/pages\/getting-started",
+        "hero_button_text": "Getting Started",
+        "hero_video": "shopify:\/\/files\/videos\/new playground video (2).mp4"
+      }
+    },
+    "multicolumn_ib3kqi": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_UABLge": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6-23-months.webp",
+            "title": "<a href=\"https:\/\/theplaygroundstore.com\/collections\/commercial-playgrounds\/Ages-6-23-Months\" title=\"https:\/\/theplaygroundstore.com\/collections\/commercial-playgrounds\/Ages-6-23-Months\">6-23 Months<\/a>",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/theplaygroundstore.com\/collections\/commercial-playgrounds\/Ages-6-23-Months"
+          }
+        },
+        "column_ANxVK9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sister-brother_85909.png",
+            "title": "<a href=\"https:\/\/theplaygroundstore.com\/collections\/commercial-playgrounds\/Ages-2-5-Years\" title=\"https:\/\/theplaygroundstore.com\/collections\/commercial-playgrounds\/Ages-2-5-Years\">2-5 Years<\/a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GWQT9H": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/basketball_248644.png",
+            "title": "<a href=\"https:\/\/theplaygroundstore.com\/collections\/commercial-playgrounds\/Ages-2-12\" title=\"https:\/\/theplaygroundstore.com\/collections\/commercial-playgrounds\/Ages-2-12\">2-12 Years<\/a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9rPXLq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/standing-up-man_10522.png",
+            "title": "<a href=\"https:\/\/theplaygroundstore.com\/collections\/commercial-playgrounds\/Ages-5-12-Years\" title=\"https:\/\/theplaygroundstore.com\/collections\/commercial-playgrounds\/Ages-5-12-Years\">5-12 Years<\/a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UABLge",
+        "column_ANxVK9",
+        "column_GWQT9H",
+        "column_9rPXLq"
+      ],
+      "custom_css": [
+        "a:hover {color: white;}"
+      ],
+      "settings": {
+        "title": "Shop Products By Age",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_6aqPgB": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_Vhc8QC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "commercial-playgrounds"
+          }
+        },
+        "featured_collection_6pbF6p": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "free-standing-play"
+          }
+        },
+        "featured_collection_Nn6rPR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "park-site-amenities"
+          }
+        },
+        "featured_collection_pmkHrX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "outdoor-fitness"
+          }
+        },
+        "featured_collection_GMkaWH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shade"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_Vhc8QC",
+        "featured_collection_6pbF6p",
+        "featured_collection_Nn6rPR",
+        "featured_collection_pmkHrX",
+        "featured_collection_GMkaWH"
+      ],
+      "settings": {
+        "title": "Shop Product By Type",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
+        "show_view_all": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "products_by_tag_Rjd8dN": {
+      "type": "products-by-tag",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "product_tags": "Games,Swing Sets,Music"
+      }
+    },
     "image_banner_FfRePa": {
       "type": "image-banner",
       "blocks": {
         "heading_wXFgR8": {
           "type": "heading",
           "settings": {
-            "heading": "Playground Equipment Galore & More!",
+            "heading": "Empowering Play",
             "heading_size": "h1"
           }
         },
@@ -20,10 +163,10 @@
         "buttons_gYnVfB": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Getting Started",
+            "button_label_1": "Planning & Tools",
             "button_link_1": "\/pages\/getting-started",
-            "button_style_secondary_1": true,
-            "button_label_2": "Planning & Tools",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
             "button_link_2": "\/pages\/view-all-plans-tools",
             "button_style_secondary_2": false
           }
@@ -33,6 +176,10 @@
         "heading_wXFgR8",
         "text_4YmLJ3",
         "buttons_gYnVfB"
+      ],
+      "custom_css": [
+        "p {text-align: left;}",
+        "@media screen and (max-width: 700px) {div {color: white; text-shadow: 0 2px 5px #002b57; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pg-homepage-footer-cta-img.png",
@@ -44,8 +191,8 @@
         "color_scheme": "scheme-303b4181-c6ee-4c9a-8813-41b2252d4652",
         "image_behavior": "ambient",
         "mobile_content_alignment": "left",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "multicolumn_fjBXKc": {
@@ -90,88 +237,6 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-3",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_WQyydY": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_AriDk9": {
-          "type": "heading",
-          "settings": {
-            "heading": "Adventure Awaits",
-            "heading_size": "h1"
-          }
-        },
-        "text_L3p7J9": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Discover a diverse range of high-quality, durable playground equipment designed to ignite imaginations and foster active play. Our carefully curated collection features innovative designs, vibrant colors, and safety-focused construction to create memorable play experiences for children of all ages. Explore our site and unlock the joy of playtime today!<\/p>"
-          }
-        },
-        "button_87VniP": {
-          "type": "button",
-          "settings": {
-            "button_label": "Start Exploring!",
-            "button_link": "shopify:\/\/collections",
-            "button_style_secondary": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_AriDk9",
-        "text_L3p7J9",
-        "button_87VniP"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "collection_list_axYYQz": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_HFkHNa": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "commercial-playgrounds"
-          }
-        },
-        "featured_collection_QBHJxx": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "free-standing-play"
-          }
-        },
-        "featured_collection_4Lnxcc": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "outdoor-fitness"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_HFkHNa",
-        "featured_collection_QBHJxx",
-        "featured_collection_4Lnxcc"
-      ],
-      "settings": {
-        "title": "Products",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "scheme-4",
-        "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -303,10 +368,12 @@
     }
   },
   "order": [
+    "hero_banner_AiWx97",
+    "multicolumn_ib3kqi",
+    "collection_list_6aqPgB",
+    "products_by_tag_Rjd8dN",
     "image_banner_FfRePa",
     "multicolumn_fjBXKc",
-    "rich_text_WQyydY",
-    "collection_list_axYYQz",
     "image-with-text",
     "featured_collection_b4aTLc",
     "multicolumn_AaKDfy"

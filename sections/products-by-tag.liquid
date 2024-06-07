@@ -1,0 +1,84 @@
+{% schema %}
+{
+  "name": "Featured Tags Products",
+  "settings": [
+    {
+      "type": "text",
+      "id": "product_tags",
+      "label": "Product Tags",
+      "default": "tag1,tag2,tag3",
+      "info": "Enter the product tags separated by commas."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured Tags Products"
+    }
+  ]
+}
+{% endschema %}
+<div class="color-{{ section.settings.color_scheme }} gradient shopify-section section">
+  <div class="page-width section-{{ section.id }}-padding">
+    <div class="featured-tags-products">
+      <div class="grid">
+        {%- assign tags = section.settings.product_tags | split: ',' -%}
+
+        {% for collection in collections %}
+          {% for product in collections.all.products %}
+            {%- assign product_tags = product.tags %}
+
+            {% for product_tag in product_tags %}
+              {% if product_tag %}
+                {% for tag in tags %}
+                  {% if product_tag == tag %}
+                    <div>{{ product_tag }} = {{ tag }}</div>
+
+                    {{ tag }}
+                    <div class="grid-item">
+                      <div class="product-card">
+                        <a href="{{ product.url | within: collections }}">
+                          {% if product.featured_image %}
+                            <img
+                              src="{{ product.images[0].src | image_url | image_tag: product.images[0].alt }}"
+                              class="{{ product.tags | split: ''}}"
+                              width="100"
+                              height="100"
+                              alt="{{ product.title | escape }}"
+                            >
+                          {% endif %}
+                          <h3>{{ product.title }}</h3>
+                          <p>{{ product.price | money }}</p>
+                        </a>
+                      </div>
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  h3 {
+    color: white;
+  }
+  .featured-tags-products .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .featured-tags-products .grid-item {
+    margin: 10px;
+  }
+  .featured-tags-products .product-card {
+    border: 1px solid black;
+    text-align: center;
+  }
+  .featured-tags-products .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>

@@ -47,7 +47,7 @@
     "collection_card_style": "card",
     "collection_card_image_padding": 0,
     "collection_card_text_alignment": "left",
-    "collection_card_color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
+    "collection_card_color_scheme": "scheme-4",
     "collection_card_border_thickness": 0,
     "collection_card_border_opacity": 10,
     "collection_card_corner_radius": 0,
@@ -442,7 +442,7 @@
     "custom_css": [
       "#HeaderMenu-MenuList-2 {display: flex; width: 85rem;}",
       "#HeaderMenu-MenuList-1 {display: flex; flex-wrap: wrap; width: 75rem;}",
-      "#HeaderMenu-MenuList-1 li{padding: 10px 0;}"
+      "#HeaderMenu-MenuList-1 li {padding: 10px 0;}"
     ]
   }
 }
