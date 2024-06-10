@@ -17,50 +17,66 @@
   ]
 }
 {% endschema %}
-<div class="color-{{ section.settings.color_scheme }} gradient shopify-section section">
-  <div class="page-width section-{{ section.id }}-padding">
-    <div class="featured-tags-products">
-      <div class="grid">
-        {%- assign tags = section.settings.product_tags | split: ',' -%}
 
-        {% for collection in collections %}
-          {% for product in collections.all.products %}
-            {%- assign product_tags = product.tags %}
-
-            {% for product_tag in product_tags %}
-              {% if product_tag %}
-                {% for tag in tags %}
-                  {% if product_tag == tag %}
-                    <div>{{ product_tag }} = {{ tag }}</div>
-
-                    {{ tag }}
-                    <div class="grid-item">
-                      <div class="product-card">
-                        <a href="{{ product.url | within: collections }}">
-                          {% if product.featured_image %}
-                            <img
-                              src="{{ product.images[0].src | image_url | image_tag: product.images[0].alt }}"
-                              class="{{ product.tags | split: ''}}"
-                              width="100"
-                              height="100"
-                              alt="{{ product.title | escape }}"
-                            >
-                          {% endif %}
-                          <h3>{{ product.title }}</h3>
-                          <p>{{ product.price | money }}</p>
-                        </a>
-                      </div>
+{% paginate collections.all.products by 500 %}
+  <div class="color-{{ section.settings.color_scheme }} gradient shopify-section section">
+    <div class="page-width section-{{ section.id }}-padding">
+      <div class="featured-tags-products">
+        <div class="grid">
+          {%- assign tags = section.settings.product_tags | split: ',' -%}
+          {% for tag in tags %}
+            {% assign tag = tag | strip %}
+            {% for product in collections.all.products %}
+              {%- assign product_tags = product.tags | strip -%}
+              {% for product_tag in product_tags %}
+                {% if product_tag contains tag %}
+                  <div class="grid-item">
+                    <div class="product-card">
+                      <a href="{{ product.url }}">
+                        {% if product.featured_image %}
+                          <img
+                            src="{{ product.images[0].src | image_url | image_tag: product.images[0].alt }}"
+                            class="{{ product.tags | join: ' ' }}"
+                            alt="{{ product.title | escape }}"
+                            height="150"
+                            width="150"
+                          >
+                        {% endif %}
+                        <h3>{{ product.title }}</h3>
+                        <p>{{ product.price | money }}</p>
+                      </a>
                     </div>
-                  {% endif %}
-                {% endfor %}
-              {% endif %}
+                  </div>
+                {% endif %}
+              {% endfor %}
             {% endfor %}
           {% endfor %}
-        {% endfor %}
+        </div>
+      </div>
+      <div class="pagination">
+        {% if paginate.pages > 1 %}
+          <ul>
+            {% if paginate.previous %}
+              <li><a href="{{ paginate.previous.url }}" class="prev">Previous</a></li>
+            {% endif %}
+            {% for part in paginate.parts %}
+              {% if part.is_link %}
+                <li>
+                  <a href="{{ part.url }}">{{ part.title }}</a>
+                </li>
+              {% else %}
+                <li class="current">{{ part.title }}</li>
+              {% endif %}
+            {% endfor %}
+            {% if paginate.next %}
+              <li><a href="{{ paginate.next.url }}" class="next">Next</a></li>
+            {% endif %}
+          </ul>
+        {% endif %}
       </div>
     </div>
   </div>
-</div>
+{% endpaginate %}
 
 <style>
   h3 {
@@ -72,13 +88,56 @@
   }
   .featured-tags-products .grid-item {
     margin: 10px;
+    width: calc(20% - 1px);
   }
   .featured-tags-products .product-card {
     border: 1px solid black;
     text-align: center;
+    padding: 10px;
+    background: white;
   }
   .featured-tags-products .product-card img {
     max-width: 100%;
     height: auto;
   }
+  .pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .pagination ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .pagination li {
+    display: inline;
+    margin: 0 5px;
+  }
+  .pagination a {
+    text-decoration: none;
+    color: #000;
+  }
+  .pagination .current {
+    font-weight: bold;
+  }
 </style>
+
+<script>
+  $(document).ready(function(){
+      var tagSetting = "{{ section.settings.product_tags }}";
+      var tagsArray = tagSetting.split(',').map(tag => tag.trim().toLowerCase());
+
+      // Hide all grid items initially
+      $('.grid-item').hide();
+
+      // Loop through each product card
+      $('.grid-item').each(function(){
+          var productTags = $(this).find('img').attr('class').split(' ').map(tag => tag.toLowerCase());
+          var matches = productTags.some(tag => tagsArray.includes(tag));
+
+          // Show the product if it matches any tag
+          if(matches) {
+              $(this).show();
+          }
+      });
+  });
+</script>
