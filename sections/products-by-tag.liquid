@@ -1,31 +1,160 @@
-{% schema %}
-{
-  "name": "Featured Tags Products",
-  "settings": [
-    {
-      "type": "text",
-      "id": "product_tags",
-      "label": "Product Tags",
-      "default": "tag1,tag2,tag3",
-      "info": "Enter the product tags separated by commas."
-    }
-  ],
-  "presets": [
-    {
-      "name": "Featured Tags Products"
-    }
-  ]
-}
-{% endschema %}
+{% assign color_scheme_id = section.settings.color_scheme %}
+{% assign color_scheme = section.settings.color_scheme | prepend: 'color_schemes.' | json %}
 
-{% paginate collections.all.products by 500 %}
+{% if color_scheme_id != blank and color_scheme != blank %}
+  {% assign settings = color_scheme.settings %}
+  <style>
+         .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+      }
+      h3 {
+        color: white;
+      }
+      .featured-tags-products .grid {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: unset;
+      }
+      .featured-tags-products .grid-item {
+        margin: 10px;
+        width: 20%;
+      }
+      .featured-tags-products .product-card {;
+        text-align: center;
+        position: relative;
+      }
+      .featured-tags-products .product-card img {
+        max-width: 100%;
+        height: 100%;
+        max-height: 200px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+      }
+    .product_card_details{
+      background: #0074E1;
+    display: flex;
+      flex-direction: column;
+      height: 9rem;
+      width: 100%;
+      border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+      .pagination {
+        text-align: center;
+        margin-top: 20px;
+      }
+      .pagination ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      .pagination li {
+        display: inline;
+        margin: 0 5px;
+        font-size: 18px;
+      }
+      .pagination a {
+        text-decoration: none;
+        color: white;
+      }
+      .pagination .current {
+        font-weight: bold;
+      }
+
+    .view-more{
+    text-align: center;
+    background: #F79E02;
+    width: 25%;
+    margin: 0 auto;
+    font-size: large;
+    padding: 10px;
+      border-radius: 12px;
+    }
+    .view-more a{
+      color: white;
+    }
+    .product_card_details h3{
+      margin: auto;
+      font-size: 20px;
+      width: 90%;
+    }
+
+      @media screen and (max-width: 768px) {
+        .section-{{ section.id }}-padding {
+          padding-top: {{ section.settings.padding_top }}px;
+          padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+
+       .page-width {
+        max-width: var(--page-width);
+        background: {{ settings.background }};
+        background: {{ settings.background_gradient }};
+        color: {{ settings.text }};
+        box-shadow:{{ settings.shadow }};
+      }
+
+        .featured-tags-products .grid-item {
+          margin: 0;
+          width: 20%;
+        }
+         .featured-tags-products .product-card img {
+           height: auto;
+           max-height: 100px;
+         }
+      .view-more{
+        width: 75%;
+      }
+
+      .product_card_details h3{
+        font-size: 16px;
+      }
+    }
+
+     @media screen and (max-width: 600px) {
+        .section-{{ section.id }}-padding {
+          padding-top: {{ section.settings.padding_top }}px;
+          padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+
+       .page-width {
+        max-width: var(--page-width);
+        background: {{ settings.background }};
+        background: {{ settings.background_gradient }};
+        color: {{ settings.text }};
+        box-shadow:{{ settings.shadow }};
+      }
+      button {
+        background-color: {{ settings.button }};
+        color: {{ settings.button_label }};
+      }
+      button.secondary {
+        color: {{ settings.secondary_button_label }};
+      }
+      .featured-tags-products .grid-item {
+        margin: 10px;
+        width: 40%;
+      }
+       .featured-tags-products .product-card img {
+         height: auto;
+         max-height: 100px;
+       }
+
+    }
+  </style>
+{% endif %}
+
+{% paginate collections.all.products by 580 %}
   <div class="color-{{ section.settings.color_scheme }} gradient shopify-section section">
     <div class="page-width section-{{ section.id }}-padding">
+      <h1>{{ section.settings.product_tag_card_heading }}</h1>
       <div class="featured-tags-products">
         <div class="grid">
           {%- assign tags = section.settings.product_tags | split: ',' -%}
           {% for tag in tags %}
             {% assign tag = tag | strip %}
+            <h2>{{ tag }}</h2>
+            {%- assign product_counter = 0 -%}
+
             {% for product in collections.all.products %}
               {%- assign product_tags = product.tags | strip -%}
               {% for product_tag in product_tags %}
@@ -38,17 +167,27 @@
                             src="{{ product.images[0].src | image_url | image_tag: product.images[0].alt }}"
                             class="{{ product.tags | join: ' ' }}"
                             alt="{{ product.title | escape }}"
-                            height="150"
-                            width="150"
+                            height="200"
+                            width="300"
                           >
                         {% endif %}
-                        <h3>{{ product.title }}</h3>
-                        <p>{{ product.price | money }}</p>
+                        <div class="product_card_details">
+                          <h3>{{ product.title }}</h3>
+                          <!-- <p>{{ product.price | money }}</p> -->
+                        </div>
                       </a>
                     </div>
                   </div>
+                  {%- assign product_counter = product_counter | plus: 1 -%}
+
+                  {% if product_counter >= 4 %}
+                    {% break %}
+                  {% endif %}
                 {% endif %}
               {% endfor %}
+              {% if product_counter >= 4 %}
+                {% break %}
+              {% endif %}
             {% endfor %}
           {% endfor %}
         </div>
@@ -74,52 +213,12 @@
           </ul>
         {% endif %}
       </div>
+      <div class="view-more">
+        <a href="/collections/free-standing-play/">View All Freestanding Equipment</a>
+      </div>
     </div>
   </div>
 {% endpaginate %}
-
-<style>
-  h3 {
-    color: white;
-  }
-  .featured-tags-products .grid {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .featured-tags-products .grid-item {
-    margin: 10px;
-    width: calc(20% - 1px);
-  }
-  .featured-tags-products .product-card {
-    border: 1px solid black;
-    text-align: center;
-    padding: 10px;
-    background: white;
-  }
-  .featured-tags-products .product-card img {
-    max-width: 100%;
-    height: auto;
-  }
-  .pagination {
-    text-align: center;
-    margin-top: 20px;
-  }
-  .pagination ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  .pagination li {
-    display: inline;
-    margin: 0 5px;
-  }
-  .pagination a {
-    text-decoration: none;
-    color: #000;
-  }
-  .pagination .current {
-    font-weight: bold;
-  }
-</style>
 
 <script>
   $(document).ready(function(){
@@ -141,3 +240,53 @@
       });
   });
 </script>
+{% schema %}
+{
+  "name": "Featured Tags Products",
+  "settings": [
+    {
+      "type": "text",
+      "id": "product_tag_card_heading",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "product_tags",
+      "label": "Product Tags",
+      "default": "tag1,tag2,tag3",
+      "info": "Enter the product tags separated by commas."
+    },
+     {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+        {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured Tags Products"
+    }
+  ]
+}
+{% endschema %}

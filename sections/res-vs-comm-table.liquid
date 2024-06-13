@@ -9,7 +9,6 @@
          padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
        }
 
-
        @media screen and (min-width: 750px) {
          .section-{{ section.id }}-padding {
            padding-top: {{ section.settings.padding_top }}px;
@@ -35,11 +34,11 @@
       vertical-align:middle;
     }
     .table>thead:first-child>tr:first-child>th.with_border{
-      border: 2px solid #F79E02 !important;
+      border: 4px solid #F79E02 !important;
 
     }
       .with_border{
-      border: 2px solid #F79E02;
+      border: 4px solid #F79E02;
       text-align: center;
      }
     #cvr th{
@@ -105,62 +104,66 @@
        }
   </style>
 {% endif %}
+
 <div class="color-{{ section.settings.color_scheme }} gradient shopify-section section">
   <div class="page-width page-width--narrow section-{{ section.id }}-padding">
-    <h2>{{ section.settings.table_heading }}</h2>
-    <div class="custom-table-section">
-      <table>
-        <!--
-          <thead>
-            <tr>
-              <th>Column 1</th>
-              <th>Column 2</th>
-              <th>Column 3</th>
-            </tr>
-          </thead>
-        -->
-        <tbody>
-          {% for row in section.blocks %}
-            <tr>
-              <td>{{ row.settings.column_1 }}</td>
-              <td>{{ row.settings.column_2 }}</td>
-              <td>{{ row.settings.column_3 }}</td>
-            </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-    </div>
+    <table class="tabl-spec-c-r table">
+      <thead>
+        <tr id="cvr">
+          <th style="border-color: transparent;">&nbsp;</th>
+          <th rowspan="2" class="with_border">Commercial</th>
+
+          <th rowspan="2" class="with_border">Residential</th>
+        </tr>
+        <tr id="for-use">
+          <th style="border-color: transparent;">For Use In</th>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody class="tbody">
+        {% for block in section.blocks %}
+          <tr>
+            {% if block.settings.for_use_title != blank %}
+              <td>
+                <h4 class="table_row_title">{{ block.settings.for_use_title }}</h4>
+                {% if block.settings.for_use_text != blank %}
+                  {{ block.settings.for_use_text }}
+                {% endif %}
+              </td>
+            {% endif %}
+
+            <td class="with_border" data-label="Commercial">
+              <img
+                class="icon"
+                src="{{ block.settings.commercial_icon | image_url}}"
+                alt="commerical_icon"
+                width="40"
+                height="40"
+              >
+            </td>
+
+            <td class="with_border" data-label="Residential">
+              <img
+                class="icon"
+                src="{{ block.settings.residential_icon | image_url}}"
+                alt="residential"
+                width="40"
+                height="40"
+              >
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
   </div>
 </div>
 
-<style>
-  .custom-table-section {
-    margin: 20px 0;
-  }
-  .custom-table-section table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  .custom-table-section th, .custom-table-section td {
-    border: 1px solid #ddd;
-    padding: 8px;
-  }
-  .custom-table-section th {
-    background-color: #f2f2f2;
-  }
-</style>
-
 {% schema %}
 {
-  "name": "Custom Table",
+  "name": "Custom Table Settings",
   "settings": [
-    {
-      "type": "text",
-      "id": "table_heading",
-      "label": "Table Heading",
-      "default": "My Custom Table"
-    },
-            {
+        {
         "type": "color_scheme",
         "id": "color_scheme",
         "label": "t:sections.all.colors.label",
@@ -186,34 +189,38 @@
       "default": 36
     }
   ],
-  "blocks": [
-    {
-      "type": "row",
-      "name": "Table Row",
-      "settings": [
-        {
-          "type": "text",
-          "id": "column_1",
-          "label": "Column 1"
-        },
-        {
-          "type": "text",
-          "id": "column_2",
-          "label": "Column 2"
-        },
-        {
-          "type": "text",
-          "id": "column_3",
-          "label": "Column 3"
-        }
-      ]
-    }
-  ],
   "presets": [
     {
-      "name": "Custom Table",
+      "name": "Residental vs Commercial Table",
       "category": "Custom"
     }
-  ]
+  ],
+  "blocks": [{
+    "type": "table_data",
+    "name": "Table Row",
+    "settings": [
+      {
+        "type": "text",
+        "label": "For Use In - Title",
+        "id": "for_use_title"
+      },
+      {
+        "type": "richtext",
+        "label": "For Use In - Text",
+        "id": "for_use_text"
+      },
+      {
+        "type": "image_picker",
+        "label": "Commercial Use?",
+        "id": "commercial_icon"
+      },
+      {
+        "type": "image_picker",
+        "label": "Residental Use?",
+        "id": "residential_icon"
+      }
+    ]
+  }]
+
 }
 {% endschema %}

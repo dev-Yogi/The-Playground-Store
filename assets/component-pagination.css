@@ -1,6 +1,9 @@
 .pagination-wrapper {
   margin-top: 4rem;
 }
+.pagination{
+  display: block;
+}
 
 @media screen and (min-width: 990px) {
   .pagination-wrapper {

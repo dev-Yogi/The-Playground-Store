@@ -37,53 +37,76 @@
 </section>
 
 <style>
-  .hero-banner {
-    position: relative;
-    overflow: hidden;
-    height: 100vh; /* Full viewport height */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
+          .hero-banner {
+            position: relative;
+            overflow: hidden;
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+          }
 
-  .hero-video-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: -1;
-  }
-  .hero-video-wrapper video{
-    width: 100%;
-  }
+          .hero-video-wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+          }
+          .hero-video-wrapper video{
+            width: 100%;
+          }
 
-  .hero-overlay {
-    position: relative;
-    z-index: 1;
-    color: #fff;
-  }
+          .hero-overlay {
+            position: relative;
+            z-index: 1;
+            color: #fff;
+          }
 
-  .hero-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #000;
-    color: #fff;
-    text-decoration: none;
-    margin-top: 20px;
-    border-radius: 5px;
-  }
+          .hero-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0074E1;
+            border: 2px solid #F79E02;
+            color: #fff;
+            text-decoration: none;
+            margin-top: 20px;
+            border-radius: 5px;
+          }
 
-  @media (max-width: 768px) {
-    .hero-overlay{
-      padding-bottom: 30px;
+      /* for laptops */
+    @media only screen
+      and (min-width: 991px)
+      and (max-width: 1366px) {
+              section.hero-banner{
+               height: 30vh;
+            }
     }
-  .hero-video-wrapper video{
-    height: 100vh;
-    object-fit:cover;
-  }
+
+        /* for large tablets */
+        @media only screen and (min-width: 769px) and (max-width: 990px) {
+            section.hero-banner{
+               height: 35vh;
+            }
+        }
+            /* for smaller tablets */
+      @media only screen
+        and (min-width: 481px)
+        and (max-width: 768px) {
+         section.hero-banner{
+              height: 40vh;
+            }
+      }
+    /* for cellphones */
+  @media only screen
+    and (max-width: 480px) {
+       .hero-video-wrapper video{
+         height: 100vh;
+         object-fit: cover;
+       }
   }
 </style>
 

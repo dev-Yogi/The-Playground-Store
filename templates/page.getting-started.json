@@ -22,7 +22,7 @@
           "type": "heading",
           "settings": {
             "heading": "HOW MUCH DOES A PLAYGROUND COST?",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "button_fggQJR": {
@@ -46,7 +46,7 @@
           "type": "heading",
           "settings": {
             "heading": "Playground Budgeting : Playground Planning Calculator",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_wpYGHc": {
@@ -86,6 +86,9 @@
     },
     "simple_text_FQQwjf": {
       "type": "simple-text",
+      "custom_css": [
+
+      ],
       "settings": {
         "color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
         "header": "1.) Finalize a Budget",
@@ -99,6 +102,9 @@
     },
     "simple_text_WFfJcL": {
       "type": "simple-text",
+      "custom_css": [
+        ".simple-text-custom {width: 50%; float: left; height: 350px;}"
+      ],
       "settings": {
         "color_scheme": "scheme-5",
         "header": "2.) Evaluate the Community",

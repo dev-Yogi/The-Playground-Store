@@ -11,12 +11,14 @@
     "image-banner": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/playground-2457320_1280.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-1",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
@@ -28,14 +30,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "RICH TEXT",
+            "heading": "A Better Way To Play",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Introduce your team by providing an overview of what they do, when they joined, and how their expertise shapes your brand. <\/p>"
+            "text": "<p>At ThePlaygroundStore.com, we advocate a superior approach to play, offering equipment that epitomizes excellence. Despite our competitive pricing within the industry, our commitment to uncompromising quality extends beyond our products to encompass unparalleled customer service. Our unwavering dedication to our brand is evident in every detail. Through continuous innovation, we distinguish ourselves by introducing novel play experiences that enrich children's playtime. We eagerly anticipate the opportunity for each child and client to immerse themselves in the results of our diligent efforts.<\/p>"
           }
         },
         "button": {
@@ -58,10 +60,52 @@
       ],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "content_alignment": "left",
         "color_scheme": "scheme-1",
         "full_width": true,
-        "padding_top": 0,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "rich_text_ctTMH7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EDyKY4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Choose Us?",
+            "heading_size": "h1"
+          }
+        },
+        "text_6WAkxx": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_XARPHD": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_EDyKY4",
+        "text_6WAkxx",
+        "button_XARPHD"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 28,
         "padding_bottom": 0
       }
     },
@@ -71,8 +115,8 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "TEAM MEMBER NAME",
-            "text": "<p>Describe this team member's expertise and unique skills. Consider adding an image to your column to represent this team member. <\/p>",
+            "title": "<strong>&#10162;<\/strong> 10+ Years OF Experience",
+            "text": "<p>Expertise is paramount. Our team boasts extensive tenure in the playground industry, averaging over 20 years in construction, with a significant focus on recreation. These cumulative experiences have honed their proficiency and efficiency in the field.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -80,8 +124,8 @@
         "column-2": {
           "type": "column",
           "settings": {
-            "title": "TEAM MEMBER NAME",
-            "text": "<p>Describe this team member's expertise and unique skills. Consider adding an image to your column to represent this team member. <\/p>",
+            "title": "<strong>⚒<\/strong> 1,100+ Projects Served",
+            "text": "<p>Our staff has extensive experience across numerous playground companies, having successfully served thousands of clients nationwide. Our expertise spans product delivery, consultations, and installations.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -89,8 +133,8 @@
         "column-3": {
           "type": "column",
           "settings": {
-            "title": "TEAM MEMBER NAME",
-            "text": "<p>Describe this team member's expertise and unique skills. Consider adding an image to your column to represent this team member. <\/p>",
+            "title": "<strong>&#10227; <\/strong>High Quality Processes",
+            "text": "<p>With over a decade of experience in the playground industry, we have refined our expertise, cultivated best practices, and assembled skilled crews dedicated to installing top-tier playground products.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -108,13 +152,13 @@
         "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "left",
-        "background_style": "none",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-5",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 0,
+        "padding_top": 12,
         "padding_bottom": 0
       }
     },
@@ -124,8 +168,8 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "TEAM MEMBER",
-            "text": "<p>Describe this team member's expertise and unique skills. Consider adding an image to your column to represent this team member. <\/p>",
+            "title": "<strong>&#9788;<\/strong> Community First",
+            "text": "<p>Our playgrounds are meticulously designed with a user-centric approach, prioritizing safety and efficiency in both design and installation. We offer a diverse array of products and accessible features, ensuring inclusive play experiences for individuals of all ages and abilities.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -133,69 +177,17 @@
         "column-2": {
           "type": "column",
           "settings": {
-            "title": "TEAM MEMBER",
-            "text": "<p>Describe this team member's expertise and unique skills. Consider adding an image to your column to represent this team member. <\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-1",
-        "column-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "multicolumn-2": {
-      "type": "multicolumn",
-      "blocks": {
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "TEAM MEMBER",
-            "text": "<p>Describe this team member's expertise and unique skills. Consider adding an image to your column to represent this team member. <\/p>",
+            "title": "<strong>&check; <\/strong>Safety & Security",
+            "text": "<p>At The Playground Store, safety is our paramount concern throughout the installation process and beyond. We ensure that our installers adhere to stringent safety protocols, meticulously vetted for their expertise and commitment to safety standards. Our products are engineered with precision to minimize the risk of accidents, and our comprehensive playground screening provides an additional layer of security.<\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column-2": {
+        "column_86DHiy": {
           "type": "column",
           "settings": {
-            "title": "TEAM MEMBER",
-            "text": "<p>Describe this team member's expertise and unique skills. Consider adding an image to your column to represent this team member. <\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-3": {
-          "type": "column",
-          "settings": {
-            "title": "TEAM MEMBER",
-            "text": "<p>Describe this team member's expertise and unique skills. Consider adding an image to your column to represent this team member. <\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-4": {
-          "type": "column",
-          "settings": {
-            "title": "TEAM MEMBER",
-            "text": "<p>Describe this team member's expertise and unique skills. Consider adding an image to your column to represent this team member. <\/p>",
+            "title": "<strong>&dollar; <\/strong>Return On Investment",
+            "text": "<p><strong> <\/strong>Investing in playground equipment with The Playground Store ensures unparalleled return on investment. With our commitment to competitive pricing and expert installation services, we guarantee the best value for your investment. Our dedication to quality products ensures durability and longevity, promising a superior and lasting recreational experience for your community or organization.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -204,24 +196,204 @@
       "block_order": [
         "column-1",
         "column-2",
-        "column-3",
-        "column-4"
+        "column_86DHiy"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "square",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "left",
-        "background_style": "none",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_banner_gApT3C": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_U4aXC8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Revolutionizing Playgrounds",
+            "heading_size": "h1"
+          }
+        },
+        "text_NWcMeX": {
+          "type": "text",
+          "settings": {
+            "text": "Our impact extends beyond mere play structures; we believe in shaping the future by providing safe, durable, and engaging products that enhance childhood experiences. We strive to create environments that inspire creativity, promote physical activity, and foster social interaction among children of all ages and abilities.",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_NJM8qa": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Explore Our Products",
+            "button_link_1": "\/collections",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_U4aXC8",
+        "text_NWcMeX",
+        "buttons_NJM8qa"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/screen_2x_fd8c553b-0dd2-4775-82eb-e7adafc293e4.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multicolumn_jfQYYm": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_GBUFy9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playground-icon_design_color-variant-2.png",
+            "title": "Design",
+            "text": "<p>With thousands of designs to choose from, you will always be able to find the right piece of equipment that meets your needs. On the off chance that we don’t have the exact design you are looking for, we can make something for you! All of our structures can be customized for color and specific elements, until you have your dream playground.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_b8mEnF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playground-icon_maintenance_color-variant-2.png",
+            "title": "Installation",
+            "text": "<p>After many years in the playground business, we understand that installation can seem like a daunting process. This is exactly why we provide a variety of resources to help the installation process easier including detailed instructions, footer guides, and more. Some of our equipment has been designed in ways that will ease the process as well.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qEdq8P": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/map-location.png",
+            "title": "Distribution & Manufacturing",
+            "text": "<p>Our long-established powder coating and rotational molding processes produces a product that allows little to no amount of Volatile Organic Compounds (VOC). Also, by constantly updating our methods of manufacturing, we can efficiently put new molds into production faster, minimize waste in production, and keep prices affordable in the process.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_GBUFy9",
+        "column_b8mEnF",
+        "column_qEdq8P"
+      ],
+      "custom_css": [
+        ".multicolumn-card-spacing {margin: 0 auto;}",
+        "h3 {text-align: center;}"
+      ],
+      "settings": {
+        "title": "Materials & Quality",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_kw8P7z": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_CEmQzF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playground-icon_health_color-variant-1.png",
+            "title": "Permanence",
+            "text": "<p>Ensuring that our product lasts a long time without compromising safety is a high priority. We desire children to get years of use from our products. We understand that unforeseen circumstances can arise. This is where our warranty comes into action! We provide a lengthy warranty on our products to help to keep equipment safe and usable.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LW4mwQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/submit-payment.png",
+            "title": "Licenses",
+            "text": "<p>Theplaygroundstore.com is a member of the International Play Equipment Manufacturers Association (IPEMA). This organization provides third party product certifications of U.S. and Canadian commercial play equipment and commercial surfacing materials. Our products are IPEMA tested to meet ASTM standards for public play equipment.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AngBjF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playground-icon_teaching_color-variant-2.png",
+            "title": "Education",
+            "text": "<p>People are a big part of our business and we only partner with the best. The education process starts with a representative in our offices and doesn’t end there. The installation crews, local representatives, and everyone along the way receives some level of training and education to provide you the best possible level of service.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_CEmQzF",
+        "column_LW4mwQ",
+        "column_AngBjF"
+      ],
+      "custom_css": [
+        ".multicolumn-card-spacing {margin: 0 auto;}",
+        "h3 {text-align: center;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 24
+      }
+    },
+    "contact_form_F7rdyh": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact Us",
+        "heading_size": "h1",
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -229,8 +401,12 @@
     "main",
     "image-banner",
     "rich-text",
+    "rich_text_ctTMH7",
     "multicolumn",
     "multicolumn-1",
-    "multicolumn-2"
+    "image_banner_gApT3C",
+    "multicolumn_jfQYYm",
+    "multicolumn_kw8P7z",
+    "contact_form_F7rdyh"
   ]
 }

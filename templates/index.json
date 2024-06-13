@@ -16,7 +16,7 @@
         "column_UABLge": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6-23-months.webp",
+            "image": "shopify:\/\/shop_images\/playground-icon_ages-6-23-months_color-variant-2.png",
             "title": "<a href=\"https:\/\/theplaygroundstore.com\/collections\/commercial-playgrounds\/Ages-6-23-Months\" title=\"https:\/\/theplaygroundstore.com\/collections\/commercial-playgrounds\/Ages-6-23-Months\">6-23 Months<\/a>",
             "text": "",
             "link_label": "",
@@ -26,7 +26,7 @@
         "column_ANxVK9": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sister-brother_85909.png",
+            "image": "shopify:\/\/shop_images\/playground-icon_ages-2-5-yrs_color-variant-1.png",
             "title": "<a href=\"https:\/\/theplaygroundstore.com\/collections\/commercial-playgrounds\/Ages-2-5-Years\" title=\"https:\/\/theplaygroundstore.com\/collections\/commercial-playgrounds\/Ages-2-5-Years\">2-5 Years<\/a>",
             "text": "",
             "link_label": "",
@@ -36,7 +36,7 @@
         "column_GWQT9H": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/basketball_248644.png",
+            "image": "shopify:\/\/shop_images\/playground-icon_ages-2-12-yrs_color-variant-2.png",
             "title": "<a href=\"https:\/\/theplaygroundstore.com\/collections\/commercial-playgrounds\/Ages-2-12\" title=\"https:\/\/theplaygroundstore.com\/collections\/commercial-playgrounds\/Ages-2-12\">2-12 Years<\/a>",
             "text": "",
             "link_label": "",
@@ -46,7 +46,7 @@
         "column_9rPXLq": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/standing-up-man_10522.png",
+            "image": "shopify:\/\/shop_images\/playground-icon_ages-5-12-yrs_color-variant-1.png",
             "title": "<a href=\"https:\/\/theplaygroundstore.com\/collections\/commercial-playgrounds\/Ages-5-12-Years\" title=\"https:\/\/theplaygroundstore.com\/collections\/commercial-playgrounds\/Ages-5-12-Years\">5-12 Years<\/a>",
             "text": "",
             "link_label": "",
@@ -61,12 +61,13 @@
         "column_9rPXLq"
       ],
       "custom_css": [
-        "a:hover {color: white;}"
+        "a:hover {color: white;}",
+        "@media screen and (min-width: 750px) {.multicolumn {padding-left: 5rem; padding-right: 5rem; }}"
       ],
       "settings": {
-        "title": "Shop Products By Age",
+        "title": "Shop By Age",
         "heading_size": "h1",
-        "image_width": "third",
+        "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "center",
@@ -122,7 +123,7 @@
         "featured_collection_GMkaWH"
       ],
       "settings": {
-        "title": "Shop Product By Type",
+        "title": "Shop By Type",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 5,
@@ -132,15 +133,6 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "products_by_tag_Rjd8dN": {
-      "type": "products-by-tag",
-      "custom_css": [
-        "h3{color: black;}"
-      ],
-      "settings": {
-        "product_tags": "Music,Springs,Games"
       }
     },
     "image_banner_FfRePa": {
@@ -178,21 +170,33 @@
         "buttons_gYnVfB"
       ],
       "custom_css": [
-        "p {text-align: left;}",
-        "@media screen and (max-width: 700px) {div {color: white; text-shadow: 0 2px 5px #002b57; }}"
+        "p {text-align: left;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pg-homepage-footer-cta-img.png",
-        "image_overlay_opacity": 20,
+        "image": "shopify:\/\/shop_images\/IMG_3564_56ac083a-e321-43bd-b6db-f901e5c068a5.jpg",
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-303b4181-c6ee-4c9a-8813-41b2252d4652",
-        "image_behavior": "ambient",
+        "color_scheme": "scheme-1",
+        "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": true
+      }
+    },
+    "products_by_tag_Rjd8dN": {
+      "type": "products-by-tag",
+      "custom_css": [
+        "h2 {width: 100%;}"
+      ],
+      "settings": {
+        "product_tag_card_heading": "Shop By Freestanding Categories",
+        "product_tags": "Music,Springs,Balance",
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "multicolumn_fjBXKc": {
@@ -243,54 +247,15 @@
         "padding_bottom": 36
       }
     },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Outdoor Park Furniture & Amenities",
-            "heading_size": "h0"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "SHOP",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/s3.jpg",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-5",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "featured_collection_b4aTLc": {
+    "featured_collection_tjXgwJ": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
+        "title": "Featured Playgrounds",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "",
+        "collection": "commercial-playgrounds",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -310,15 +275,63 @@
         "padding_bottom": 36
       }
     },
+    "image_banner_exDj4i": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_98RPp9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Online Catalogs",
+            "heading_size": "h1"
+          }
+        },
+        "text_iQgeT4": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_T7nVLp": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Quick Ship Digital Catalog",
+            "button_link_1": "shopify:\/\/collections\/commercial-playgrounds",
+            "button_style_secondary_1": false,
+            "button_label_2": "Castle Series Digital Catalog",
+            "button_link_2": "shopify:\/\/collections\/commercial-playgrounds",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_98RPp9",
+        "text_iQgeT4",
+        "buttons_T7nVLp"
+      ],
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/ryan-sepulveda-8NymO2MErVI-unsplash.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
     "multicolumn_AaKDfy": {
       "type": "multicolumn",
       "blocks": {
         "column_FY3B3i": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/boy-hanging-at-playground.jpg",
-            "title": "FINANCING & LEASING",
-            "text": "<p>Play Now. Pay Later. <br\/><br\/>Purchasing new equipment has never been easier!<\/p>",
+            "image": "shopify:\/\/shop_images\/playground-icon_playground-equipment_color-variant-2.png",
+            "title": "GETTING STARTED",
+            "text": "<p>Create & Carry Out Your Playground Plans<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -326,9 +339,9 @@
         "column_gHDn3P": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/screen_2x_fd8c553b-0dd2-4775-82eb-e7adafc293e4.jpg",
-            "title": "GRANTS & STIMULUS",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/playground-icon_buying_guides_color-variant-1.png",
+            "title": "PURCHASING",
+            "text": "<p>We Make Buying Easy<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -336,9 +349,9 @@
         "column_qzgbNX": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/young-boy-on-slide.webp",
-            "title": "FUNDRAISING GUIDE",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/playground-icon_design_color-variant-2.png",
+            "title": "DESIGN",
+            "text": "<p>Important Things You Need to Know When Designing Your Playground<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -349,11 +362,14 @@
         "column_gHDn3P",
         "column_qzgbNX"
       ],
+      "custom_css": [
+        "h3 {color: #0074e1;}"
+      ],
       "settings": {
-        "title": "Helpful Resources",
+        "title": "Quick Links",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "circle",
+        "image_width": "half",
+        "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "primary",
@@ -371,11 +387,11 @@
     "hero_banner_AiWx97",
     "multicolumn_ib3kqi",
     "collection_list_6aqPgB",
-    "products_by_tag_Rjd8dN",
     "image_banner_FfRePa",
+    "products_by_tag_Rjd8dN",
     "multicolumn_fjBXKc",
-    "image-with-text",
-    "featured_collection_b4aTLc",
+    "featured_collection_tjXgwJ",
+    "image_banner_exDj4i",
     "multicolumn_AaKDfy"
   ]
 }

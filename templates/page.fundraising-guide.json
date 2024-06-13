@@ -1,0 +1,260 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "simple_text_tLkGkr": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-5",
+        "header": "Funding Your New Playground",
+        "heading_font_size": 34,
+        "paragraph": "<p>There are lots of different ways to raise money for a playground. However, you have to consider different community dynamics to determine which campaigns will work better than others. It might take a bit of trial and error to figure out what will work in your area, but fundraising doesn’t need to be one-and-done. It might be necessary to run a few different fundraisers to get the necessary money to complete your project. To help you decide on the type of fundraiser, we have provided a list of examples you can think about.<\/p>",
+        "text_font_size": 16,
+        "alignment": "left",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "custom_table_Hbm8ng": {
+      "type": "custom-table",
+      "blocks": {
+        "row_8AUP6J": {
+          "type": "row",
+          "settings": {
+            "column_1": "Magazine Subscription",
+            "column_2": "Newsletter Subscription",
+            "column_3": "Catalog Order Sale"
+          }
+        },
+        "row_iyTMpF": {
+          "type": "row",
+          "settings": {
+            "column_1": "Discount or Coupon Books",
+            "column_2": "Yard Sales",
+            "column_3": "Car Washes"
+          }
+        },
+        "row_gDnKaX": {
+          "type": "row",
+          "settings": {
+            "column_1": "Donated Items",
+            "column_2": "Gift Baskets or Packages",
+            "column_3": "One-time Events"
+          }
+        },
+        "row_bqLgKG": {
+          "type": "row",
+          "settings": {
+            "column_1": "Ongoing Events",
+            "column_2": "Silent Auction",
+            "column_3": "Spoken Auction"
+          }
+        },
+        "row_wqBQWw": {
+          "type": "row",
+          "settings": {
+            "column_1": "Walk-a-thon",
+            "column_2": "Marathon",
+            "column_3": "Relay Race"
+          }
+        },
+        "row_VAMPxd": {
+          "type": "row",
+          "settings": {
+            "column_1": "Athletic Tournament",
+            "column_2": "Music Performance",
+            "column_3": "Talent Show"
+          }
+        },
+        "row_hAYMxX": {
+          "type": "row",
+          "settings": {
+            "column_1": "Drama Play",
+            "column_2": "Comedy Show",
+            "column_3": "Phone-a-thon"
+          }
+        },
+        "row_cGYwET": {
+          "type": "row",
+          "settings": {
+            "column_1": "Gala",
+            "column_2": "Art Exhibit",
+            "column_3": "Food Sales"
+          }
+        },
+        "row_HbXqxF": {
+          "type": "row",
+          "settings": {
+            "column_1": "Food Wars",
+            "column_2": "Fashion Show",
+            "column_3": "Bingo Nights"
+          }
+        }
+      },
+      "block_order": [
+        "row_8AUP6J",
+        "row_iyTMpF",
+        "row_gDnKaX",
+        "row_bqLgKG",
+        "row_wqBQWw",
+        "row_VAMPxd",
+        "row_hAYMxX",
+        "row_cGYwET",
+        "row_HbXqxF"
+      ],
+      "settings": {
+        "table_heading": "Types of Fundraisers",
+        "color_scheme": "scheme-3",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_fdLwmM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bakQxz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playground-icon_financing-and-leasing_color-variant-1.png",
+            "title": "Budget",
+            "text": "<p><strong>‣ <\/strong>These are the funds that will be used for planning the event, buying materials and reserving any spaces.<\/p><p><strong>‣ <\/strong>This may be based on what has been gathered between the committee or based on funds already available to you..<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3p3Cwj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playground-icon_find-a-rep_color-variant-1.png",
+            "title": "Choosing your fundraiser",
+            "text": "<p><strong>‣ <\/strong>This should be a consensus among your committee and community as they will be the ones who will be helping or that you’ll be reaching.<\/p><p><strong>‣ <\/strong>At this point you should start planning potential locations, dates and avenues of planning.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Um9zkT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playground-icon_warranty_color-variant-2.png",
+            "title": "Goals",
+            "text": "<p><strong>‣ <\/strong>Having clear set goals in the beginning allows you to adequately plan towards those goals.<\/p><p><strong>‣ <\/strong>Examples of goals include the amount of money you’d like to raise, the amount of people you’d like to reach or come to your event.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Fea6Q7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playground-icon_contact-us_color-variant-1.png",
+            "title": "Making Connections",
+            "text": "<p><strong>‣ <\/strong>To reach these people you can visit in person, talk to them on the phone or draft letters of inquiry to send out.<\/p><p><strong>‣ <\/strong>These can be business owners, churches, employers, doctor’s offices, banks etc. This also a good time to present your fundraiser to your community to begin gathering resources and volunteers.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_bakQxz",
+        "column_3p3Cwj",
+        "column_Um9zkT",
+        "column_Fea6Q7"
+      ],
+      "custom_css": [
+        "h3 {text-align: center;}",
+        ".multicolumn-card__image-wrapper {margin: 0 auto;}"
+      ],
+      "settings": {
+        "title": "Setting Up a Fundraiser",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_jGma8f": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_eU8KwN": {
+          "type": "column",
+          "settings": {
+            "title": "Leader",
+            "text": "<p>Ideally, this person should be good with managing people, making de-cisions, budgeting, and having ideas. They are the tie-breakers and voice of reason so they should be good with conflicet<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8ycTEk": {
+          "type": "column",
+          "settings": {
+            "title": "Treasurer",
+            "text": "<p>They should be advising the commit-tee about how to handle the money so that the group adhere to the laws of your area. They also need to dis-cuss how the resources can be allo-cated responsibly.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RzhHiw": {
+          "type": "column",
+          "settings": {
+            "title": "Marketer",
+            "text": "<p>They give ideas on how to present yourselves to the public, and gain attention for your cause and fund-raiser. They should be considering and bringing idea about flyers, social media and community engagement<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XfPCE3": {
+          "type": "column",
+          "settings": {
+            "title": "Logistics Managers",
+            "text": "<p>These are the people that make the event happen. They are the ones laying out the event plan so it goes as easily as possible. There might be several of these depending on the size of the event.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_eU8KwN",
+        "column_8ycTEk",
+        "column_RzhHiw",
+        "column_XfPCE3"
+      ],
+      "settings": {
+        "title": "Key Players in the Community",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "simple_text_tLkGkr",
+    "custom_table_Hbm8ng",
+    "multicolumn_fdLwmM",
+    "multicolumn_jGma8f"
+  ]
+}

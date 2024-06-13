@@ -15,7 +15,7 @@
           "type": "text",
           "settings": {
             "text_content_header": "Choose Your Preference:",
-            "icon": "shopify:\/\/shop_images\/maintenance.png",
+            "icon": "shopify:\/\/shop_images\/playground-icon_design_color-variant-2.png",
             "text_content": "<h3><a href=\"\/pages\/installation\/#Customer Installation\" title=\"\/pages\/installation\/#Customer Installation\">Customer<\/a><\/h3>",
             "text-alignment": "center",
             "background": "#ffffff"
@@ -25,7 +25,7 @@
           "type": "text",
           "settings": {
             "text_content_header": "",
-            "icon": "shopify:\/\/shop_images\/stack-icon.png",
+            "icon": "shopify:\/\/shop_images\/playground-icon_organization_color-variant-2.png",
             "text_content": "<h3><a href=\"\/pages\/installation\/#Supervised\" title=\"\/pages\/installation\/#Supervised\">Supervised<\/a><\/h3>",
             "text-alignment": "center",
             "background": "#ffffff"
@@ -35,7 +35,7 @@
           "type": "text",
           "settings": {
             "text_content_header": "",
-            "icon": "shopify:\/\/shop_images\/healthy-heart-icon.png",
+            "icon": "shopify:\/\/shop_images\/playground-icon_installation_color-variant-1.png",
             "text_content": "<h3><a href=\"\/pages\/installation\/#Professional\" title=\"\/pages\/installation\/#Professional\">Professional<\/a><\/h3>",
             "text-alignment": "center",
             "background": "#ffffff"
@@ -121,7 +121,7 @@
         "column_n38yLp": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/rocket.png",
+            "image": "shopify:\/\/shop_images\/playground-icon_getting-started_color-variant-2.png",
             "title": "Getting Started",
             "text": "<p>You've already begun your journey to the ideal playground or outdoor space.<\/p>",
             "link_label": "Getting Started Page",
@@ -131,7 +131,7 @@
         "column_tTbhyy": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/delivery.png",
+            "image": "shopify:\/\/shop_images\/playground-icon_shipping-delivery_color-variant-2.png",
             "title": "Delivery",
             "text": "<p>What to expect with your shipment and what to do next.<\/p>",
             "link_label": "Playground Delivery Guide",
@@ -141,7 +141,7 @@
         "column_QFA6U9": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/service-tools-icon.png",
+            "image": "shopify:\/\/shop_images\/playground-icon_maintenance_color-variant-2.png",
             "title": "Maintenance",
             "text": "<p>How to take care of your playground so that it lasts for years.<\/p>",
             "link_label": "Playground Maintenance Guide",
@@ -154,10 +154,13 @@
         "column_tTbhyy",
         "column_QFA6U9"
       ],
+      "custom_css": [
+        "h3 {color: #0074e1;}"
+      ],
       "settings": {
         "title": "Links to other helpful guides:",
         "heading_size": "h1",
-        "image_width": "third",
+        "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",

@@ -24,19 +24,19 @@
         "padding_bottom": 8
       }
     },
-    "custom_table_yXJqCb": {
-      "type": "custom-table",
+    "res_vs_comm_table_R4BWge": {
+      "type": "res-vs-comm-table",
       "blocks": {
-        "table_data_ebgj86": {
+        "table_data_DH6egx": {
           "type": "table_data",
           "settings": {
-            "for_use_title": "In Home Child Care",
+            "for_use_title": "In home Child care",
             "for_use_text": "<p>For in-home child care, either residential or commercial grade equipment is acceptable. Those with a limited budget may prefer the usually smaller and cheaper residential equipment. However, smaller commercial structures are still a viable option.<\/p>",
             "commercial_icon": "shopify:\/\/shop_images\/check.png",
-            "residential_icon": "shopify:\/\/shop_images\/check.png"
+            "residential_icon": "shopify:\/\/shop_images\/close.png"
           }
         },
-        "table_data_AfgR4B": {
+        "table_data_QQRtxJ": {
           "type": "table_data",
           "settings": {
             "for_use_title": "Daycare Centers",
@@ -45,7 +45,7 @@
             "residential_icon": "shopify:\/\/shop_images\/close.png"
           }
         },
-        "table_data_t3F9AP": {
+        "table_data_WBeDKt": {
           "type": "table_data",
           "settings": {
             "for_use_title": "Faith Centers",
@@ -54,7 +54,7 @@
             "residential_icon": "shopify:\/\/shop_images\/close.png"
           }
         },
-        "table_data_TBpWe8": {
+        "table_data_rKVPeB": {
           "type": "table_data",
           "settings": {
             "for_use_title": "Government",
@@ -63,16 +63,16 @@
             "residential_icon": "shopify:\/\/shop_images\/close.png"
           }
         },
-        "table_data_9N8DKk": {
+        "table_data_beRpWC": {
           "type": "table_data",
           "settings": {
-            "for_use_title": "Home Owners Association",
+            "for_use_title": "Home Owner Association",
             "for_use_text": "<p>Most home owners associations will want commercial playground equipment. Despite being centered around a few home dwellings, most neighborhoods want the longevity of commercial equipment.<\/p>",
             "commercial_icon": "shopify:\/\/shop_images\/check.png",
             "residential_icon": "shopify:\/\/shop_images\/close.png"
           }
         },
-        "table_data_96w6G3": {
+        "table_data_kRdcKE": {
           "type": "table_data",
           "settings": {
             "for_use_title": "Parks",
@@ -81,7 +81,7 @@
             "residential_icon": "shopify:\/\/shop_images\/close.png"
           }
         },
-        "table_data_AdemDN": {
+        "table_data_hWzgM9": {
           "type": "table_data",
           "settings": {
             "for_use_title": "Private Homes",
@@ -90,7 +90,7 @@
             "residential_icon": "shopify:\/\/shop_images\/check.png"
           }
         },
-        "table_data_fTw4z8": {
+        "table_data_nqfR6x": {
           "type": "table_data",
           "settings": {
             "for_use_title": "Schools",
@@ -99,7 +99,7 @@
             "residential_icon": "shopify:\/\/shop_images\/close.png"
           }
         },
-        "table_data_7VExzY": {
+        "table_data_KLteLd": {
           "type": "table_data",
           "settings": {
             "for_use_title": "Public Facilities",
@@ -110,18 +110,15 @@
         }
       },
       "block_order": [
-        "table_data_ebgj86",
-        "table_data_AfgR4B",
-        "table_data_t3F9AP",
-        "table_data_TBpWe8",
-        "table_data_9N8DKk",
-        "table_data_96w6G3",
-        "table_data_AdemDN",
-        "table_data_fTw4z8",
-        "table_data_7VExzY"
-      ],
-      "custom_css": [
-
+        "table_data_DH6egx",
+        "table_data_QQRtxJ",
+        "table_data_WBeDKt",
+        "table_data_rKVPeB",
+        "table_data_beRpWC",
+        "table_data_kRdcKE",
+        "table_data_hWzgM9",
+        "table_data_nqfR6x",
+        "table_data_KLteLd"
       ],
       "settings": {
         "color_scheme": "scheme-2",
@@ -181,7 +178,7 @@
   "order": [
     "main",
     "simple_text_JC4kQG",
-    "custom_table_yXJqCb",
+    "res_vs_comm_table_R4BWge",
     "image_banner_QkxQ4n"
   ]
 }

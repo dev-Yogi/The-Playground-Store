@@ -48,21 +48,21 @@
         "icon_dNmn4y": {
           "type": "icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/shipping-basics.png",
+            "icon": "shopify:\/\/shop_images\/playground-icon_shipping-delivery_color-variant-1.png",
             "icon_link": "<a href=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__simple_text_Q7J4Nn\" title=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__simple_text_Q7J4Nn\">Shipping Basics<\/a>"
           }
         },
         "icon_jgaF4t": {
           "type": "icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/eye-monitoring-icon.png",
+            "icon": "shopify:\/\/shop_images\/playground-icon_what-to-look-for_color-variant-2.png",
             "icon_link": "<a href=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__collapsible_content_mxVVgt\" title=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__collapsible_content_mxVVgt\">What to Look For<\/a>"
           }
         },
         "icon_hir8Fg": {
           "type": "icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/policy-shield.png",
+            "icon": "shopify:\/\/shop_images\/playground-icon_shipping-policies_color-variant-2.png",
             "icon_link": "<a href=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__multicolumn_wtwhyG\" title=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__multicolumn_wtwhyG\">Shipping Policies<\/a>"
           }
         }
@@ -75,7 +75,7 @@
       "custom_css": [
         ".custom-section {margin-top: -65px;}",
         ".icon-group-container {padding-top: 35px;}",
-        ".icon {width: 120px; height: 120px;}",
+        ".icon {width: 180px; height: 180px;}",
         "span.icon-link a {color: #f79e02 !important; font-size: x-large;}"
       ],
       "settings": {
@@ -400,7 +400,7 @@
         "column_W6kMCe": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/maintenance.png",
+            "image": "shopify:\/\/shop_images\/playground-icon_installation_color-variant-1.png",
             "title": "Installation",
             "text": "<p>The types of installation that we off and their benefits.<\/p>",
             "link_label": "Playground Installation Guide",
@@ -410,17 +410,17 @@
         "column_4WbQj6": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/delivery.png",
-            "title": "Delivery",
+            "image": "shopify:\/\/shop_images\/playground-icon_financing-and-leasing_color-variant-2.png",
+            "title": "Financing & Leasing",
             "text": "<p>What to expect with your shipment and what to do next.<\/p>",
-            "link_label": "Playground Delivery Guide",
+            "link_label": "Financing & Leasing Guide",
             "link": ""
           }
         },
         "column_ebTgVY": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/service-tools-icon.png",
+            "image": "shopify:\/\/shop_images\/playground-icon_maintenance_color-variant-2.png",
             "title": "Maintenance",
             "text": "<p>How to care of your playground so that it last for years.<\/p>",
             "link_label": "Playground Maintenance Guide",
@@ -434,7 +434,8 @@
         "column_ebTgVY"
       ],
       "custom_css": [
-        ".button.button--primary {border: 3px solid #10e7dc;}"
+        ".button.button--primary {border: 3px solid #10e7dc;}",
+        "h3 {color: #0074e1;}"
       ],
       "settings": {
         "title": "Links to Other Helpful Guides",

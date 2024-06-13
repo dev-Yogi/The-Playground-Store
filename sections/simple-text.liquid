@@ -4,39 +4,68 @@
 {% if color_scheme_id != blank and color_scheme != blank %}
   {% assign settings = color_scheme.settings %}
   <style>
-        .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-    }
+            .section-{{ section.id }}-padding {
+            padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+            padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+          }
+          #state_menu_container{
+            width: 80%;
+            margin: 0 auto;
+          }
+          #state_grants .state_grants_menu{
+            display: flex;
+            flex-wrap: wrap;
+          }
+          #state_grants .state_grants_menu span{
+            display: block;
+            width: 25%;
+            text-align:left;
+          }
 
-    @media screen and (min-width: 750px) {
-      .section-{{ section.id }}-padding {
-        padding-top: {{ section.settings.padding_top }}px;
-        padding-bottom: {{ section.settings.padding_bottom }}px;
+          @media screen and (min-width: 750px) {
+            .section-{{ section.id }}-padding {
+              padding-top: {{ section.settings.padding_top }}px;
+              padding-bottom: {{ section.settings.padding_bottom }}px;
+            }
+           .page-width {
+            max-width: var(--page-width);
+            background: {{ settings.background }};
+            background: {{ settings.background_gradient }};
+            color: {{ settings.text }};
+            box-shadow:{{ settings.shadow }};
+          }
+          button {
+            background-color: {{ settings.button }};
+            color: {{ settings.button_label }};
+          }
+          button.secondary {
+            color: {{ settings.secondary_button_label }};
+          }
+          .simple-text-custom p{
+            font-size: {{section.settings.text_font_size}}px;
+          }
+
+          }
+
+        /* for cellphones */
+    @media only screen
+      and (max-width: 480px) {
+               #state_grants .state_grants_menu span{
+            width: auto;
+          }
+      #state_grants .state_grants_menu{
+        display: block;
       }
-    }
-     .page-width {
-      max-width: var(--page-width);
-      background: {{ settings.background }};
-      background: {{ settings.background_gradient }};
-      color: {{ settings.text }};
-      box-shadow:{{ settings.shadow }};
-    }
-    button {
-      background-color: {{ settings.button }};
-      color: {{ settings.button_label }};
-    }
-    button.secondary {
-      color: {{ settings.secondary_button_label }};
-    }
-    .simple-text-custom p{
-      font-size: {{section.settings.text_font_size}}px;
     }
   </style>
 {% endif %}
-<div class="color-{{ section.settings.color_scheme }} gradient shopify-section section simple-text-custom">
+{% assign section_header = section.settings.header | replace: ' ', '_' | downcase %}
+<div class="simple-text-custom color-{{ section.settings.color_scheme }} gradient shopify-section section">
   <div class="page-width page-width--narrow section-{{ section.id }}-padding">
-    <div style="text-align: {{ section.settings.alignment }};">
+    <div
+      id="{{ section_header }}"
+      style="text-align: {{ section.settings.alignment }};"
+    >
       <h2 class="title" style="font-size: {{ section.settings.heading_font_size}}px;">{{ section.settings.header }}</h2>
       {{ section.settings.paragraph }}
     </div>
@@ -123,3 +152,34 @@
   ]
 }
 {% endschema %}
+
+<script>
+  $(document).ready(function() {
+    $('#state_grants').append('<div id="state_menu_container"></div>')
+      var menu = $('<div class="state_grants_menu"></div>');
+
+      $('#shopify-section-template--22732055445790__simple_text_a7dJwj>.simple-text-custom>.page-width>div>h3').each(function(i, v) {
+          var state = $(this).text().trim();
+          var id = state.replace(/\s+/g, '_');
+          $(this).attr('id', id);
+
+          // Create a menu item with a link to the ID
+          var menuItem = $('<span></span>');
+          var link = $('<a style="color: #002b57; display: list-item;"></a>').attr('href', '#' + id).text(state);
+          menuItem.append(link);
+          menu.append(menuItem);
+      });
+
+      $('#state_menu_container').append(menu);
+
+    var seen = false;
+    $('#state_menu_container > .state_grants_menu').each(function() {
+        if (seen) {
+            $(this).remove();
+        } else {
+            seen = true;
+        }
+    });
+
+  });
+</script>

@@ -1,0 +1,194 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_MVBCNf": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_iVA6AF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Play Now. Pay Later",
+            "heading_size": "h0"
+          }
+        },
+        "text_qFd6wP": {
+          "type": "text",
+          "settings": {
+            "text": "Purchasing new playground equipment has never been easier!",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iVA6AF",
+        "text_qFd6wP"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_3675.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_B4nEGX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YQppcd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Payment Solutions",
+            "heading_size": "h1"
+          }
+        },
+        "text_rJ3XBE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At PlaygroundEquipment.com, we understand that funding is often the most daunting aspect of any project. The truth is, playgrounds involve much more than just equipment costs. Necessities such as shipping, installation, and surfacing are often overlooked, yet are costs that cannot be avoided.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YQppcd",
+        "text_rJ3XBE"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 12
+      }
+    },
+    "rich_text_cf6zpH": {
+      "type": "rich-text",
+      "blocks": {
+        "text_a4KAjx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This is why we offer two affordable and easy ways to purchase new equipment:<br\/><\/p><h4>Financing and Leasing.<\/h4>"
+          }
+        }
+      },
+      "block_order": [
+        "text_a4KAjx"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
+    "video_plus_text_rna3Xc": {
+      "type": "video-plus-text",
+      "blocks": {
+        "text_kyQwPd": {
+          "type": "text",
+          "settings": {
+            "text_content_header": "Financing",
+            "text_content": "<p>If you are working with a limited budget and want to spread project costs out over time, financing is the perfect solution! With financing, your playground continues to grow as you install segments of equipment incrementally, paying for each addition as it’s built. You can have the playground of your dreams completed in as little as 3-5 phases.<\/p><p><br\/>Benefits Of Financing include:<\/p><ul><li>Flexibility that allows you to pay as you go<\/li><li>Affordable options that don't stretch your budget too thin<\/li><li>New features are added to your playground each year<\/li><\/ul>",
+            "text-alignment": "center",
+            "background": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "text_kyQwPd"
+      ],
+      "custom_css": [
+        ".text-icon-list {display: block;}"
+      ],
+      "settings": {
+        "header": "",
+        "header-alignment": "center",
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "video_url": "https:\/\/youtu.be\/Ivaw-xUGdvM?si=ozpAUpxNgdGX0l03",
+        "color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
+        "include_padding": true
+      }
+    },
+    "multirow_cK7e3V": {
+      "type": "multirow",
+      "blocks": {
+        "row_3hAFQ6": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a-child-on-a-swing-under-a-blue-sky.jpg",
+            "caption": "Financing & Leasing",
+            "heading": "Leasing",
+            "text": "<p>Do you want to design, build and install your complete plaground as quickly as possible? Our leasing partner, Marlin, offers an easy and affordable way to fund your new play area NOW and pay for it over time. With Marlin, you can get the playground you need, with a plan that fits your budget!<\/p><p>Our leasing plan provides you with the flexibility, and funds needed to get your project started now, with attractive rates, potential tax advantages, and a simple step-by-step application process.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_h7XRRB": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hayward_playground_left_side_start_line.jpg",
+            "caption": "Financing & Leasing",
+            "heading": "Steps to Leasing Play Equipment",
+            "text": "<h4><strong>➤ Shop<\/strong><\/h4><p>Shop online to find the perfect playground equipment for you!<\/p><h4><strong>➤ <\/strong>Apply<\/h4><p>Submit the inquiry & wait for a representative to reach out.<\/p><h4><strong>➤ <\/strong>Sign<\/h4><p>Once approved, sign the final lease agreement with Marlin.<\/p><h4><strong>➤ <\/strong>Receive<\/h4><p>Receive your brand-new playground equipment and enjoy!<\/p><h4><strong>➤ <\/strong>Pay<\/h4><p>Make affordable monthly payments for your play equipment.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_3hAFQ6",
+        "row_h7XRRB"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-4",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "contact_form_zkgGPm": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Leasing Inquiry Form",
+        "heading_size": "h1",
+        "color_scheme": "scheme-5",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_MVBCNf",
+    "rich_text_B4nEGX",
+    "rich_text_cf6zpH",
+    "video_plus_text_rna3Xc",
+    "multirow_cK7e3V",
+    "contact_form_zkgGPm"
+  ]
+}
