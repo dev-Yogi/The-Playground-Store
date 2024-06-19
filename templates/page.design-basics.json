@@ -1,0 +1,179 @@
+{
+  "sections": {
+    "simple_text_ygjWrb": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "header": "Design Basics",
+        "heading_font_size": 34,
+        "paragraph": "<p>Are you ready to start designing your new playground? Before you begin you have to know this important information that will greatly affect how you can design your playground from Play-groundEquipment.com. Things such as colors, safety zones, measurements and ages are important to consider so click on each category to view its valuable information. Our view our FAQ to see if we have answered any of your questions.<\/p>",
+        "text_font_size": 16,
+        "alignment": "left",
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "resource_articles_NPYbFw": {
+      "type": "resource-articles",
+      "blocks": {
+        "icon_hywMiF": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/playground-icon_color-tool_color-variant-1.png",
+            "gif": "shopify:\/\/shop_images\/Color-Tool.gif",
+            "icon_link": "Colors",
+            "modal_content": "<p>We have a wide variety of colors for the many structures and components we offer. You can customize most structures to fit your preference. Our color tool helps you to decide what colors look good together. Take the time to figure out what you really like before placing an order.<\/p>"
+          }
+        },
+        "icon_gJ3JEM": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/sandbox.png",
+            "gif": "shopify:\/\/shop_images\/sandbox.gif",
+            "icon_link": "Measuring",
+            "modal_content": "<p>Having the length and width for your area is the most important starting point. If you don’t know the size of your space, you won’t know what equipment to pick.<\/p>"
+          }
+        },
+        "icon_JRmp36": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/playground-icon_ages-5-12-yrs_color-variant-1.png",
+            "gif": "shopify:\/\/shop_images\/Ages.gif",
+            "icon_link": "Age Groups",
+            "modal_content": "<p>Different age groups have different skills and abilities, so, one playground may not be best for everyone. If you will have more than one age group playing on your playground you will need to have separate play areas to cater to them.<\/p><p>The different age groups are as followed:<br\/><br\/><strong>Toddler<\/strong><br\/>Age 6-23 months<br\/><br\/><strong>Preschool<\/strong><br\/>Age 2-5 years<br\/><br\/><strong>Grade School<\/strong><br\/>Age 5-12 years<\/p>"
+          }
+        },
+        "icon_EAPAXY": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/safety-zone.png",
+            "gif": "shopify:\/\/shop_images\/safety-zone.gif",
+            "icon_link": "Safety Zones",
+            "modal_content": "<p>Safety zones tell you the size of the area that a piece of equipment needs to be safe to use. This is the most important number for you because it tells you how much space it requires. Our design guys can create a 2d site plan for you to show you whether or not your equipment will fit.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_hywMiF",
+        "icon_gJ3JEM",
+        "icon_JRmp36",
+        "icon_EAPAXY"
+      ],
+      "custom_css": [
+        "h2 {text-align: center;}",
+        ".icon {height: 170px; width: 170px;}",
+        " @media screen and (max-width: 480px) {.icon{height: unset; width: 120px; } }"
+      ],
+      "settings": {
+        "header": "Key Components",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "color_scheme": "scheme-2",
+        "include_padding": true
+      }
+    },
+    "video_cmzeFV": {
+      "type": "video",
+      "custom_css": [
+        ".video-section {width: 100%; box-shadow: none;}"
+      ],
+      "settings": {
+        "heading": "Playground Planning & Design",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video_url": "https:\/\/youtu.be\/aDABJsUVLMY?si=MxmlOiE0KtrFUDzJ",
+        "cover_image": "shopify:\/\/shop_images\/Screenshot_2024-06-18_at_10.50.54_AM.png",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "simple_text_8XWXdj": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-303b4181-c6ee-4c9a-8813-41b2252d4652",
+        "header": "Frequently Ask Questions",
+        "heading_font_size": 34,
+        "paragraph": "<h3>Q: Are there specialized options for people in wheelchairs<\/h3><p>Anymore there are many different items that are made to include everyone at the playground. There are ADA swings, fully accessible play structures, wheelchair merry-go-rounds, ADA accessible diggers, ADA accessible sand tables and even wheelchair swings.<\/p><h3>Q: What is ADA compliance?<\/h3><p>ADA stands for the American Disabilities Act. It accounts for simple additions like ramps at public places, crossing signs that make noise, and even handicapped bathrooms in public areas. When it is applied to a play structure, that means it meets the guidelines that are set forth to ensure all children will be included in the play in public spaces. More specifically it requires equipment to have a certain number of ground level activities, transfer stations for children in wheelchairs to gain access to the upper levels without leaving their wheelchair, and measurements that allow for children in wheelchairs or with different abilities to be<\/p><h3>Q: Do I have to build my playground all at once?<\/h3><p>You can always plan your playground in steps and we have a great Leasing and Financing Guide to help you through the process.<\/p><h3>Q: How can I interest children to play on a playground<\/h3><p>Encouraging children to play outside can be difficult if the playground doesn’t have equipment that they want to play on our is just boring. By selecting boldly colored and a variety of equipment can be the first step in getting children playing. The second would be to incorporate some sort of intriguing design into a poured in place surface that can sparks their imaginations before even setting foot in the playground.<\/p><h3>Q: How can I make my playground educational?<\/h3><p>Playgrounds have become so educational it might be difficult to keep education out of the playground. There are panels that teach everything from new languages to basic math concepts. A playground doesn’t have to be a brainless physical place of activity, it can be a place of learning as well.<\/p><h3>Q: Is a playground high-maintenance?<\/h3><p>Its no secret that playgrounds require regular maintenance, but the level of maintenance can vary based on the types of surfacing and equipment selected. However, no matter how low maintenance a playground is, someone on your staff should be running weekly walk-throughs to prevent injuries.<\/p>",
+        "text_font_size": 16,
+        "alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_rNgKW4": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_y96VFa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playground-icon_design-services_color-variant-1.png",
+            "title": "Design Services",
+            "text": "<p>Work with our talented designers to create your playground.<br\/><\/p>",
+            "link_label": "Design Services",
+            "link": "shopify:\/\/pages\/design-basics"
+          }
+        },
+        "column_AzLtEX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playground-icon_color-options_color-variant-2.png",
+            "title": "Color Options",
+            "text": "<p>See the variety of color options we offer for our different components.<br\/><\/p>",
+            "link_label": "Color Options",
+            "link": "shopify:\/\/pages\/design-basics"
+          }
+        },
+        "column_tgD8Vi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playground-icon_color-tool_color-variant-1.png",
+            "title": "Playground Colorizer",
+            "text": "<p>Get an idea of what your playground could look like in our different colors.<br\/><\/p>",
+            "link_label": "Playground Colorizer",
+            "link": "shopify:\/\/pages\/design-basics"
+          }
+        }
+      },
+      "block_order": [
+        "column_y96VFa",
+        "column_AzLtEX",
+        "column_tgD8Vi"
+      ],
+      "settings": {
+        "title": "View these other design related pages:",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "simple_text_ygjWrb",
+    "main",
+    "resource_articles_NPYbFw",
+    "video_cmzeFV",
+    "simple_text_8XWXdj",
+    "multicolumn_rNgKW4"
+  ]
+}

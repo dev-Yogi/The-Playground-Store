@@ -57,63 +57,72 @@
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_playground-equipment_color-variant-2.png",
-            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/playground-equipment\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/playground-equipment\/\">Playground Equipment<\/a>"
+            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/playground-equipment\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/playground-equipment\/\">Playground Equipment<\/a>",
+            "modal_content": "<p>Learn the difference between the different types of swings, commercial and residential equipment, or just look up the history of playground equipment.<\/p>"
           }
         },
         "icon_yQLBMn": {
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_design_color-variant-2.png",
-            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/design-services\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/design-services\/\">Design<\/a>"
+            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/design-services\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/design-services\/\">Design<\/a>",
+            "modal_content": "<p><strong>Playground Design Services<\/strong><\/p><ul><li>Color Renderings<\/li><li>Structure Revision<\/li><li>Custom Structures<\/li><li>Site Plans<\/li><\/ul>"
           }
         },
         "icon_h9Bzkp": {
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_materials_color-variant-1.png",
-            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/materials\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/materials\/\">Materials<\/a>"
+            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/materials\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/materials\/\">Materials<\/a>",
+            "modal_content": "<p>The materials that are used can greatly change the care required.<\/p><ul><li>Galvanized steel<\/li><li>Polyethylene<\/li><li>Recycled plastic<\/li><li>Wood<\/li><\/ul>"
           }
         },
         "icon_z3P8r8": {
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_organization_color-variant-2.png",
-            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/organization\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/organization\/\">Organization<\/a>"
+            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/organization\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/organization\/\">Organization<\/a>",
+            "modal_content": "<p>Whether it is a school, church, or another group, the type of equipment that is needed or wanted can vary greatly.<\/p>"
           }
         },
         "icon_WWF8zQ": {
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_maintenance_color-variant-2.png",
-            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/maintenance\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/maintenance\/\">Maintenance<\/a>"
+            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/maintenance\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/maintenance\/\">Maintenance<\/a>",
+            "modal_content": "<p>Playground equipment requires ongoing maintenance and there can be a lot to keep in mind.<\/p>"
           }
         },
         "icon_hf4tRD": {
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_buying_guides_color-variant-1.png",
-            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/buying-guides\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/buying-guides\/\">Buying Guides<\/a>"
+            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/buying-guides\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/buying-guides\/\">Buying Guides<\/a>",
+            "modal_content": "<p>Playground equipment can be expensive, but with a few tricks, the cost can be brought down to an affordable level.<\/p>"
           }
         },
         "icon_qhXwbT": {
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_teaching_color-variant-1.png",
-            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/teaching\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/teaching\/\">Teaching<\/a>"
+            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/teaching\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/teaching\/\">Teaching<\/a>",
+            "modal_content": "<p>Resources about play and playgrounds specifically for administrators, teachers, and students.<\/p>"
           }
         },
         "icon_EWkUKb": {
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_health_color-variant-1.png",
-            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/health\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/health\/\">Health<\/a>"
+            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/health\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/health\/\">Health<\/a>",
+            "modal_content": "<p>Safety is paramount on the playground while people can all benefit from the use of playgrounds and outdoor fitness equipment.<\/p>"
           }
         },
         "icon_KKrenf": {
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_family_color-variant-1.png",
-            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/family\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/family\/\">Family<\/a>"
+            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/family\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/family\/\">Family<\/a>",
+            "modal_content": "<p>A variety of resources for parents, children and the whole family.<\/p>"
           }
         }
       },
@@ -129,7 +138,9 @@
         "icon_KKrenf"
       ],
       "custom_css": [
-        "h2 {text-align: center; font-size: 26px;}"
+        "h2 {text-align: center; font-size: 26px;}",
+        "p {color: #002b57;}",
+        "li {color: #002b57;}"
       ],
       "settings": {
         "header": "Resource Articles",
@@ -145,7 +156,7 @@
         "column_RYJEQH": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/refresh.png",
+            "image": "shopify:\/\/shop_images\/playground-icon_getting-started_color-variant-2.png",
             "title": "The Process",
             "text": "<ol><li><a href=\"\/pages\/getting-started\" title=\"Getting Started\">Getting Started<br\/><\/a><\/li><li><a href=\"\/pages\/shipping-delivery\" title=\"\/pages\/shipping-delivery\">Delivery<br\/><\/a><\/li><li><a href=\"\/pages\/installation\" title=\"\/pages\/installation\">Installation<br\/><\/a><\/li><li>Maintenance<\/li><\/ol>",
             "link_label": "",
@@ -155,7 +166,7 @@
         "column_DyWarU": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/invoice.png",
+            "image": "shopify:\/\/shop_images\/playground-icon_purchasing-process_color-variant-2.png",
             "title": "Purchasing",
             "text": "<ol><li>Purchasing Process<\/li><li>Financing & Leasing<\/li><li>Fundraising Guide<\/li><li>Grants & Stimulus<\/li><\/ol>",
             "link_label": "",
@@ -165,7 +176,7 @@
         "column_tJejry": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brush.png",
+            "image": "shopify:\/\/shop_images\/playground-icon_design_color-variant-1.png",
             "title": "Design",
             "text": "<ol><li>Design FAQ<\/li><li>Design Basics<\/li><li>Color Options<\/li><li>Playground Colorizer<\/li><\/ol>",
             "link_label": "",
@@ -184,7 +195,7 @@
       "settings": {
         "title": "Planning Guides",
         "heading_size": "h1",
-        "image_width": "third",
+        "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",

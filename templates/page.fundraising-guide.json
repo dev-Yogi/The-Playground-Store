@@ -8,16 +8,52 @@
         "padding_bottom": 28
       }
     },
+    "image_banner_KP3Eam": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_DxphjP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Funding Your New Playground",
+            "heading_size": "h0"
+          }
+        },
+        "text_H8y4TX": {
+          "type": "text",
+          "settings": {
+            "text": "Tips & Tricks for Successful Fundraising",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DxphjP",
+        "text_H8y4TX"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hayward_playground_left_side_start_line.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "simple_text_tLkGkr": {
       "type": "simple-text",
       "settings": {
         "color_scheme": "scheme-5",
-        "header": "Funding Your New Playground",
+        "header": "",
         "heading_font_size": 34,
         "paragraph": "<p>There are lots of different ways to raise money for a playground. However, you have to consider different community dynamics to determine which campaigns will work better than others. It might take a bit of trial and error to figure out what will work in your area, but fundraising doesn’t need to be one-and-done. It might be necessary to run a few different fundraisers to get the necessary money to complete your project. To help you decide on the type of fundraiser, we have provided a list of examples you can think about.<\/p>",
-        "text_font_size": 16,
+        "text_font_size": 18,
         "alignment": "left",
-        "padding_top": 12,
+        "padding_top": 24,
         "padding_bottom": 12
       }
     },
@@ -167,7 +203,11 @@
       ],
       "custom_css": [
         "h3 {text-align: center;}",
-        ".multicolumn-card__image-wrapper {margin: 0 auto;}"
+        ".multicolumn-card__image-wrapper {margin: 0 auto;}",
+        ".grid {column-gap: 0; row-gap: 0;}",
+        "#Slide-template--22739358646558__multicolumn_fdLwmM-1,#Slide-template--22739358646558__multicolumn_fdLwmM-2 {border-bottom: 1px solid;}",
+        "#Slide-template--22739358646558__multicolumn_fdLwmM-1,#Slide-template--22739358646558__multicolumn_fdLwmM-3 {border-right: 1px solid;}",
+        "@media screen and (min-width: 750px) {.grid {column-gap: 0; }}"
       ],
       "settings": {
         "title": "Setting Up a Fundraiser",
@@ -192,7 +232,7 @@
         "column_eU8KwN": {
           "type": "column",
           "settings": {
-            "title": "Leader",
+            "title": "<strong>&starf; <\/strong>Leader",
             "text": "<p>Ideally, this person should be good with managing people, making de-cisions, budgeting, and having ideas. They are the tie-breakers and voice of reason so they should be good with conflicet<\/p>",
             "link_label": "",
             "link": ""
@@ -201,7 +241,7 @@
         "column_8ycTEk": {
           "type": "column",
           "settings": {
-            "title": "Treasurer",
+            "title": "<strong>&#65284; <\/strong>Treasurer",
             "text": "<p>They should be advising the commit-tee about how to handle the money so that the group adhere to the laws of your area. They also need to dis-cuss how the resources can be allo-cated responsibly.<\/p>",
             "link_label": "",
             "link": ""
@@ -210,7 +250,7 @@
         "column_RzhHiw": {
           "type": "column",
           "settings": {
-            "title": "Marketer",
+            "title": "<strong>&#9758; <\/strong>Marketer",
             "text": "<p>They give ideas on how to present yourselves to the public, and gain attention for your cause and fund-raiser. They should be considering and bringing idea about flyers, social media and community engagement<\/p>",
             "link_label": "",
             "link": ""
@@ -219,7 +259,7 @@
         "column_XfPCE3": {
           "type": "column",
           "settings": {
-            "title": "Logistics Managers",
+            "title": "<strong>&#9745; <\/strong>Logistics Managers",
             "text": "<p>These are the people that make the event happen. They are the ones laying out the event plan so it goes as easily as possible. There might be several of these depending on the size of the event.<\/p>",
             "link_label": "",
             "link": ""
@@ -252,6 +292,7 @@
   },
   "order": [
     "main",
+    "image_banner_KP3Eam",
     "simple_text_tLkGkr",
     "custom_table_Hbm8ng",
     "multicolumn_fdLwmM",

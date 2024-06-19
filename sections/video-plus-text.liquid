@@ -46,6 +46,7 @@
     .text-icon-list{
       display: flex;
       margin: 1.5em 0;
+      align-items: center;
     }
     .text-icon-list img{
       margin-right: 25px;
@@ -85,7 +86,7 @@
     >
       {{ section.settings.header }}
     </h1>
-    <div class="page-width page-width--narrow section-{{ section.id }}-padding video-section">
+    <div class="video-section">
       {% if section.settings.video_url != blank %}
         <section class="video-content-container col-md-6 mb-4 mb-md-0">
           {%- if section.settings.video_url.type == 'youtube' -%}
@@ -95,7 +96,7 @@
                 width="560"
                 src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}?enablejsapi=1&autoplay=1{{  }}"
                 class="js-youtube video"
-                allow="autoplay; encrypted-media"
+
                 allowfullscreen
                 title="{{ section.settings.description | escape }}"
               ></iframe>

@@ -1,0 +1,346 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "video_plus_text_dHMfHQ": {
+      "type": "video-plus-text",
+      "blocks": {
+        "text_gUKWa9": {
+          "type": "text",
+          "settings": {
+            "text_content_header": "Request Services",
+            "text_content": "",
+            "text-alignment": "center",
+            "background": "#ffffff"
+          }
+        },
+        "text_HM4UMA": {
+          "type": "text",
+          "settings": {
+            "text_content_header": "",
+            "icon": "shopify:\/\/shop_images\/playground-icon_color-tool_color-variant-1.png",
+            "text_content": "<p><a href=\"\/pages\/design-services\/#color_renderings\" title=\"\/pages\/design-services\/#color_renderings\">Color Renderings<\/a><\/p>",
+            "text-alignment": "left",
+            "background": "#ffffff"
+          }
+        },
+        "text_9JT9at": {
+          "type": "text",
+          "settings": {
+            "text_content_header": "",
+            "icon": "shopify:\/\/shop_images\/playground-icon_installation_color-variant-1.png",
+            "text_content": "<p><a href=\"\/pages\/design-services\/#custom_structures\" title=\"\/pages\/design-services\/#custom_structures\">Custom Structures<\/a><\/p>",
+            "text-alignment": "center",
+            "background": "#ffffff"
+          }
+        },
+        "text_AETanz": {
+          "type": "text",
+          "settings": {
+            "text_content_header": "",
+            "icon": "shopify:\/\/shop_images\/playground-icon_maintenance_color-variant-2.png",
+            "text_content": "<p><a href=\"\/pages\/design-services\/#structure_revision\" title=\"\/pages\/design-services\/#structure_revision\">Structure Revisions<\/a><\/p>",
+            "text-alignment": "center",
+            "background": "#ffffff"
+          }
+        },
+        "text_tGmjbK": {
+          "type": "text",
+          "settings": {
+            "text_content_header": "",
+            "icon": "shopify:\/\/shop_images\/verify-quote-2.png",
+            "text_content": "<p><a href=\"\/pages\/design-services\/#site_rendering\" title=\"\/pages\/design-services\/#site_rendering\">Site Plans<\/a><\/p>",
+            "text-alignment": "center",
+            "background": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "text_gUKWa9",
+        "text_HM4UMA",
+        "text_9JT9at",
+        "text_AETanz",
+        "text_tGmjbK"
+      ],
+      "custom_css": [
+        "a {font-size: x-large;}"
+      ],
+      "settings": {
+        "header": "Design Services",
+        "header-alignment": "left",
+        "padding_top": 4,
+        "padding_bottom": 16,
+        "video_url": "https:\/\/youtu.be\/DCtpDQZUIMI?si=NLMB0dQXBDB03D-0",
+        "color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
+        "include_padding": true
+      }
+    },
+    "simple_text_Mmj8xf": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "header": "Color Renderings",
+        "heading_font_size": 30,
+        "paragraph": "",
+        "text_font_size": 16,
+        "alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "image_with_text_f4xEa7": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_DW9zff": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Of course our structures come in a wide variety of fun colors, but if you want to make the structure unique to your area you can choose your own. Whether the slide, roof or climber - our designers will change the color of any component on the play sysem you choose to match your preference.<\/p><p><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_DW9zff"
+      ],
+      "custom_css": [
+        ".image-with-text__media-item {height: 220px; width: 250px;}",
+        "@media screen and (max-width: 480px) {.image-with-text__text {margin-top: 50px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ds-color-rendering.webp",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "simple_text_YmnX9W": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "header": "Custom Structures",
+        "heading_font_size": 30,
+        "paragraph": "",
+        "text_font_size": 16,
+        "alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "image_with_text_E8a7tE": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_pC6ka3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Of course our structures come in a wide variety of fun colors, but if you want to make the structure unique to your area you can choose your own. Whether the slide, roof or climber - our designers will change the color of any component on the play sysem you choose to match your preference.<\/p><p><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_pC6ka3"
+      ],
+      "custom_css": [
+        ".image-with-text__media-item {height: 220px; width: 250px;}",
+        "@media screen and (max-width: 480px) {.image-with-text__text {margin-top: 50px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ds-custom-structure.gif",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-ea19c1cc-ac4a-4cba-9c56-bb8af02d0c80",
+        "color_scheme": "scheme-ea19c1cc-ac4a-4cba-9c56-bb8af02d0c80",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "simple_text_WfyLdf": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "header": "Site Rendering",
+        "heading_font_size": 30,
+        "paragraph": "",
+        "text_font_size": 16,
+        "alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "image_with_text_TG3FUE": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_Ld8zgj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Of course our structures come in a wide variety of fun colors, but if you want to make the structure unique to your area you can choose your own. Whether the slide, roof or climber - our designers will change the color of any component on the play system you choose to match your preference.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_Ld8zgj"
+      ],
+      "custom_css": [
+        ".image-with-text__media-item {height: 250px; width: 250px;}",
+        "@media screen and (max-width: 480px) {.image-with-text__text {margin-top: 50px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ds-site-rendering.gif",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "simple_text_LQGKpm": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "header": "Structure Revision",
+        "heading_font_size": 30,
+        "paragraph": "",
+        "text_font_size": 16,
+        "alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "image_with_text_CyCWD7": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_nrY46V": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Of course our structures come in a wide variety of fun colors, but if you want to make the structure unique to your area you can choose your own. Whether the slide, roof or climber - our designers will change the color of any component on the play system you choose to match your preference.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_nrY46V"
+      ],
+      "custom_css": [
+        ".image-with-text__media-item {height: 220px; width: 250px;}",
+        "@media screen and (max-width: 480px) {.image-with-text__text {margin-top: 50px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ds-structure-revisions.webp",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
+        "color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_NeiNti": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_gkTL9Q": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playground-icon_design_color-variant-2.png",
+            "title": "Design Basics",
+            "text": "<p>Begin your search with an understanding commercial playground requirements.<br\/><\/p>",
+            "link_label": "Design Basics",
+            "link": "shopify:\/\/pages\/design-services"
+          }
+        },
+        "column_At7GFF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playground-icon_color-options_color-variant-2.png",
+            "title": "Color Options",
+            "text": "<p>See the variety of color options we offer for our different components.<br\/><\/p>",
+            "link_label": "Color Options",
+            "link": "shopify:\/\/pages\/design-services"
+          }
+        },
+        "column_aJGkXh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playground-icon_color-tool_color-variant-1.png",
+            "title": "Playground Colorizer",
+            "text": "<p>See the variety of color options we offer for our different components.<br\/><\/p>",
+            "link_label": "Playground Colorizer",
+            "link": "shopify:\/\/pages\/design-services"
+          }
+        }
+      },
+      "block_order": [
+        "column_gkTL9Q",
+        "column_At7GFF",
+        "column_aJGkXh"
+      ],
+      "custom_css": [
+        "p,h3 {color: white;}",
+        "a {color: #ffa101;}"
+      ],
+      "settings": {
+        "title": "View these other design related pages:",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_plus_text_dHMfHQ",
+    "simple_text_Mmj8xf",
+    "image_with_text_f4xEa7",
+    "simple_text_YmnX9W",
+    "image_with_text_E8a7tE",
+    "simple_text_WfyLdf",
+    "image_with_text_TG3FUE",
+    "simple_text_LQGKpm",
+    "image_with_text_CyCWD7",
+    "multicolumn_NeiNti"
+  ]
+}
