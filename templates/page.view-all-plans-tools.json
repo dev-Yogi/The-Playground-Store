@@ -65,7 +65,7 @@
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_design_color-variant-2.png",
-            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/design-services\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/design-services\/\">Design<\/a>",
+            "icon_link": "<a href=\"\/pages\/design-services\" target=\"_blank\" title=\"\/pages\/design-services\">Design<\/a>",
             "modal_content": "<p><strong>Playground Design Services<\/strong><\/p><ul><li>Color Renderings<\/li><li>Structure Revision<\/li><li>Custom Structures<\/li><li>Site Plans<\/li><\/ul>"
           }
         },
@@ -73,7 +73,7 @@
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_materials_color-variant-1.png",
-            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/materials\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/materials\/\">Materials<\/a>",
+            "icon_link": "<a href=\"\/pages\/about-us\/shopify-section-template--22215892336926__multicolumn_jfQYYm\" target=\"_blank\" title=\"\/pages\/about-us\/shopify-section-template--22215892336926__multicolumn_jfQYYm\">Materials<\/a>",
             "modal_content": "<p>The materials that are used can greatly change the care required.<\/p><ul><li>Galvanized steel<\/li><li>Polyethylene<\/li><li>Recycled plastic<\/li><li>Wood<\/li><\/ul>"
           }
         },
@@ -81,7 +81,7 @@
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_organization_color-variant-2.png",
-            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/organization\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/organization\/\">Organization<\/a>",
+            "icon_link": "<a href=\"\/pages\/commercial-vs-residential\" target=\"_blank\" title=\"Commercial vs. Residential\">Organization<\/a>",
             "modal_content": "<p>Whether it is a school, church, or another group, the type of equipment that is needed or wanted can vary greatly.<\/p>"
           }
         },
@@ -89,7 +89,7 @@
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_maintenance_color-variant-2.png",
-            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/maintenance\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/maintenance\/\">Maintenance<\/a>",
+            "icon_link": "<a href=\"\/pages\/maintenance\" target=\"_blank\" title=\"Maintenance\">Maintenance<\/a>",
             "modal_content": "<p>Playground equipment requires ongoing maintenance and there can be a lot to keep in mind.<\/p>"
           }
         },
@@ -97,7 +97,7 @@
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_buying_guides_color-variant-1.png",
-            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/buying-guides\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/buying-guides\/\">Buying Guides<\/a>",
+            "icon_link": "<a href=\"\/pages\/getting-started\" target=\"_blank\" title=\"Getting Started\">Buying Guides<\/a>",
             "modal_content": "<p>Playground equipment can be expensive, but with a few tricks, the cost can be brought down to an affordable level.<\/p>"
           }
         },
@@ -105,7 +105,7 @@
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_teaching_color-variant-1.png",
-            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/teaching\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/teaching\/\">Teaching<\/a>",
+            "icon_link": "<a href=\"\/pages\/maintenance\/#shopify-section-template--22774246474014__multicolumn_3DChFj\" target=\"_blank\" title=\"\/pages\/maintenance\/#shopify-section-template--22774246474014__multicolumn_3DChFj\">Teaching<\/a>",
             "modal_content": "<p>Resources about play and playgrounds specifically for administrators, teachers, and students.<\/p>"
           }
         },
@@ -113,7 +113,7 @@
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_health_color-variant-1.png",
-            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/health\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/health\/\">Health<\/a>",
+            "icon_link": "Health",
             "modal_content": "<p>Safety is paramount on the playground while people can all benefit from the use of playgrounds and outdoor fitness equipment.<\/p>"
           }
         },
@@ -121,7 +121,7 @@
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_family_color-variant-1.png",
-            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/family\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/family\/\">Family<\/a>",
+            "icon_link": "Family",
             "modal_content": "<p>A variety of resources for parents, children and the whole family.<\/p>"
           }
         }
@@ -158,7 +158,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/playground-icon_getting-started_color-variant-2.png",
             "title": "The Process",
-            "text": "<ol><li><a href=\"\/pages\/getting-started\" title=\"Getting Started\">Getting Started<br\/><\/a><\/li><li><a href=\"\/pages\/shipping-delivery\" title=\"\/pages\/shipping-delivery\">Delivery<br\/><\/a><\/li><li><a href=\"\/pages\/installation\" title=\"\/pages\/installation\">Installation<br\/><\/a><\/li><li>Maintenance<\/li><\/ol>",
+            "text": "<ol><li><a href=\"\/pages\/getting-started\" title=\"Getting Started\">Getting Started<br\/><\/a><\/li><li><a href=\"\/pages\/shipping-delivery\" title=\"\/pages\/shipping-delivery\">Delivery<br\/><\/a><\/li><li><a href=\"\/pages\/installation\" title=\"\/pages\/installation\">Installation<br\/><\/a><\/li><li><a href=\"\/pages\/maintenance\" title=\"Maintenance\">Maintenance<\/a><\/li><\/ol>",
             "link_label": "",
             "link": ""
           }
@@ -168,7 +168,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/playground-icon_purchasing-process_color-variant-2.png",
             "title": "Purchasing",
-            "text": "<ol><li>Purchasing Process<\/li><li>Financing & Leasing<\/li><li>Fundraising Guide<\/li><li>Grants & Stimulus<\/li><\/ol>",
+            "text": "<ol><li><a href=\"\/pages\/purchasing-process\" title=\"Purchasing Process\">Purchasing Process<\/a><\/li><li><a href=\"\/pages\/financing-and-leasing\" title=\"Financing and Leasing\">Financing & Leasing<\/a><\/li><li><a href=\"\/pages\/fundraising-guide\" title=\"Fundraising Guide\">Fundraising Guide<\/a><\/li><li><a href=\"\/pages\/playground-equipment-grants-stimulus-guide\" title=\"Playground Equipment Grants & Stimulus Guide\">Grants & Stimulus<\/a><\/li><\/ol>",
             "link_label": "",
             "link": ""
           }
@@ -178,7 +178,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/playground-icon_design_color-variant-1.png",
             "title": "Design",
-            "text": "<ol><li>Design FAQ<\/li><li>Design Basics<\/li><li>Color Options<\/li><li>Playground Colorizer<\/li><\/ol>",
+            "text": "<ol><li><a href=\"\/pages\/design-services\" title=\"Design Services\">Design FAQ<\/a><\/li><li><a href=\"\/pages\/design-basics\" title=\"Design Basics\">Design Basics<\/a><\/li><li><a href=\"\/pages\/color-options\" title=\"Color Options\">Color Options<\/a><\/li><li><a href=\"\/pages\/playground-color-tool\" title=\"Playground Color Tool\">Playground Colorizer<\/a><\/li><\/ol>",
             "link_label": "",
             "link": ""
           }
@@ -215,7 +215,7 @@
         "color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
         "header": "More Questions?",
         "heading_font_size": 30,
-        "paragraph": "<p>Contact a Rep or Call 1-833-575-0255<\/p>",
+        "paragraph": "<p><a href=\"mailto:customercare@theplaygroundstore.com\" title=\"mailto:customercare@theplaygroundstore.com\">Send Us a Message<\/a> OR <a href=\"tel:+1-833-575-0255\" title=\"tel:+1-833-575-0255\">Call 1-833-575-0255<\/a><\/p>",
         "text_font_size": 22,
         "alignment": "center",
         "padding_top": 28,

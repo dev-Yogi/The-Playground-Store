@@ -196,19 +196,21 @@
         {% if paginate.pages > 1 %}
           <ul>
             {% if paginate.previous %}
-              <li><a href="{{ paginate.previous.url }}" class="prev">Previous</a></li>
+              <li>
+                <a href="{{ paginate.previous.url }}" class="prev" data-page="{{ paginate.previous.url }}">Previous</a>
+              </li>
             {% endif %}
             {% for part in paginate.parts %}
               {% if part.is_link %}
                 <li>
-                  <a href="{{ part.url }}">{{ part.title }}</a>
+                  <a href="{{ part.url }}" data-page="{{ part.url }}">{{ part.title }}</a>
                 </li>
               {% else %}
                 <li class="current">{{ part.title }}</li>
               {% endif %}
             {% endfor %}
             {% if paginate.next %}
-              <li><a href="{{ paginate.next.url }}" class="next">Next</a></li>
+              <li><a href="{{ paginate.next.url }}" class="next" data-page="{{ paginate.next.url }}">Next</a></li>
             {% endif %}
           </ul>
         {% endif %}
@@ -238,6 +240,35 @@
               $(this).show();
           }
       });
+
+     // Function to load new content via AJAX
+    function loadContent(url) {
+      $.ajax({
+        url: url,
+        type: 'GET',
+        success: function(data) {
+          // Parse the returned HTML and find the new content
+          var newContent = $(data).find('#shopify-section-template--22215892271390__products_by_tag_Rjd8dN').html();
+
+          // Replace the current content with the new content
+          $('#shopify-section-template--22215892271390__products_by_tag_Rjd8dN').html(newContent);
+
+          // Update the pagination links
+          var newPagination = $(data).find('.pagination').html();
+          $('.pagination').html(newPagination);
+        },
+        error: function() {
+          console.log('An error occurred while loading new content.');
+        }
+      });
+    }
+
+    // Attach click event to pagination links
+    $(document).on('click', '.pagination a', function(e) {
+      e.preventDefault();
+      var pageUrl = $(this).attr('data-page');
+      loadContent(pageUrl);
+    });
   });
 </script>
 {% schema %}

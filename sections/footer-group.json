@@ -42,21 +42,42 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "link_list_TKCM33": {
+        "link_list_3fPz7U": {
           "type": "link_list",
           "settings": {
-            "heading": "Introduction",
+            "heading": "Guides",
             "menu": "footer-menu"
           }
         },
-        "link_list_44KkAz": {
+        "link_list_3k8gcC": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "Design",
+            "menu": "footer-menu-4"
           }
         },
-        "brand_information_gbKaai": {
+        "link_list_zrKAhY": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Purchasing",
+            "menu": "footer-menu-3"
+          }
+        },
+        "link_list_E9LcgE": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Categories",
+            "menu": "footer-menu-5"
+          }
+        },
+        "text_8MJEfc": {
+          "type": "text",
+          "settings": {
+            "heading": "Questions? Comments? Concerns?",
+            "subtext": "<h2><strong>☏  Call<\/strong><\/h2><h4><a href=\"tel:+1833-575-0255\" title=\"tel:+1833-575-0255\">1-833-575-0255<\/a><\/h4><h2><strong>✎ Message<\/strong><\/h2><h4><a href=\"mailto:customercare@theplaygroundstore.com\" title=\"mailto:customercare@theplaygroundstore.com\">customercare@theplaygroundstore.com<\/a><\/h4>"
+          }
+        },
+        "brand_information_dPjhxz": {
           "type": "brand_information",
           "settings": {
             "show_social": true
@@ -64,25 +85,28 @@
         }
       },
       "block_order": [
-        "link_list_TKCM33",
-        "link_list_44KkAz",
-        "brand_information_gbKaai"
+        "link_list_3fPz7U",
+        "link_list_3k8gcC",
+        "link_list_zrKAhY",
+        "link_list_E9LcgE",
+        "text_8MJEfc",
+        "brand_information_dPjhxz"
       ],
       "custom_css": [
-        ".copyright__content {display: none;}"
+        ".copyright__content {display: ;}"
       ],
       "settings": {
         "color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
         "newsletter_enable": false,
         "newsletter_heading": "",
-        "enable_follow_on_shop": true,
+        "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": true,
         "enable_language_selector": true,
         "payment_enable": true,
         "show_policy": true,
         "margin_top": 0,
-        "padding_top": 44,
+        "padding_top": 36,
         "padding_bottom": 0
       }
     }

@@ -1,0 +1,403 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "multicolumn_z4aFGA": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_MyDjrY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Happy_Hollow_ZONE_4fe21a68-d273-4dc9-9ee9-e82d7efc3eaf.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "\/products\/happy-hollow?_pos=7&_fid=21e8c511c&_ss=c"
+          }
+        },
+        "column_iYtwRY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happyhollow-mainimg4.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_MyDjrY",
+        "column_iYtwRY"
+      ],
+      "custom_css": [
+        "h2 {margin: 0 auto;}"
+      ],
+      "settings": {
+        "title": "Happy Hollow Toddler Playhouse: The Future of Play Is Here!",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Product Options & Pricing Details",
+        "button_link": "shopify:\/\/products\/happy-hollow",
+        "color_scheme": "scheme-ea19c1cc-ac4a-4cba-9c56-bb8af02d0c80",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "simple_text_NQ8GTA": {
+      "type": "simple-text",
+      "custom_css": [
+        "li {font-size: 18px;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
+        "header": "Kids’ Favorite Play Features in the Happy Hollow Playground Set",
+        "heading_font_size": 30,
+        "paragraph": "<ul><li><strong>Shelly the Snail Drum:<\/strong> Shelly’s swirls engage children in pattern recognition as well as musical play.<\/li><li><strong>Inclined Leaves:<\/strong> Kids can develop better balance by climbing the leaves and enjoy exploring the critters underneath.<\/li><li><strong>Carl the Caterpillar:<\/strong> Moving the rings around makes interesting clinking sounds.<\/li><li><strong>Bertie the Bluebird:<\/strong> Bertie can be used as a puppet for dramatic play!<\/li><li><strong>Mailbox:<\/strong> Kids love getting and sending mail, and they’ll work on their fine motor skills as they do it.<\/li><\/ul>",
+        "text_font_size": 17,
+        "alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 4
+      }
+    },
+    "video_plus_text_Bx8tQy": {
+      "type": "video-plus-text",
+      "blocks": {
+        "text_FKWmXR": {
+          "type": "text",
+          "settings": {
+            "text_content_header": "Welcome To Happy Hollow",
+            "text_content": "<p>Whimsy and wonder await infants, toddlers, and preschoolers in Happy Hollow! Kids will squeal with delight as they point out all of the forest friends resting on vines, hiding under leaves, and even hanging on the side of this colorful and cheerful infant tree playhouse. Check out our video to see how kids learn new skills while they play with Happy Hollow.<\/p>",
+            "text-alignment": "center",
+            "background": "white"
+          }
+        }
+      },
+      "block_order": [
+        "text_FKWmXR"
+      ],
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "settings": {
+        "header": "",
+        "header-alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 36,
+        "video_url": "https:\/\/youtu.be\/3L_YG9viVto?si=Hzz-mm2oaiW_feJA",
+        "color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
+        "include_padding": true
+      }
+    },
+    "simple_text_TjaBNz": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "header": "Meet the Forest Friends",
+        "heading_font_size": 38,
+        "paragraph": "<p>Each feature of this toddler tree playhouse is designed to foster children's development while they play. Click on the Forest Friends below to learn about their benefits!<\/p>",
+        "text_font_size": 18,
+        "alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "photo_grid_rXTkUQ": {
+      "type": "photo-grid",
+      "blocks": {
+        "image_hC9VVY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happyhollow-bird2.jpg",
+            "image_caption": "Bertie the Bluebird"
+          }
+        },
+        "image_qQYjcy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happyhollow-house2.jpg",
+            "image_caption": "Mailbox with Chimes"
+          }
+        },
+        "image_8Hc9pW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happyhollow-shell2.jpg",
+            "image_caption": "Shelly the Snail Drum"
+          }
+        },
+        "image_CKUJiC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happyhollow-stone2.jpg",
+            "image_caption": "Stone Climber"
+          }
+        },
+        "image_QMea3t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happyhollow-gusenica2.jpg",
+            "image_caption": "Carl the Caterpillar"
+          }
+        },
+        "image_DwnXgb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happyhollow-btfly2.jpg",
+            "image_caption": "Bella the Butterfly"
+          }
+        },
+        "image_TtRhGE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happyhollow-mushrum2.jpg",
+            "image_caption": "Marty the Sensory Mushroom"
+          }
+        },
+        "image_GkVJdx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happyhollow-step2.jpg",
+            "image_caption": "Vine Bench"
+          }
+        },
+        "image_ReHrBB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happyhollow-bee2.jpg",
+            "image_caption": "Ferah the Firefly"
+          }
+        },
+        "image_LMBjMH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happyhollow-codcow2.jpg",
+            "image_caption": "Lily Lady Bug Spinner"
+          }
+        },
+        "image_G67fTF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happyhollow-leaf2.jpg",
+            "image_caption": "Leaf Slide (3)"
+          }
+        },
+        "image_DnDtNy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happyhollow-window2.jpg",
+            "image_caption": "Windows with Peek"
+          }
+        }
+      },
+      "block_order": [
+        "image_hC9VVY",
+        "image_qQYjcy",
+        "image_8Hc9pW",
+        "image_CKUJiC",
+        "image_QMea3t",
+        "image_DwnXgb",
+        "image_TtRhGE",
+        "image_GkVJdx",
+        "image_ReHrBB",
+        "image_LMBjMH",
+        "image_G67fTF",
+        "image_DnDtNy"
+      ],
+      "custom_css": [
+        ".photo-grid {border: 4px solid white; padding-top: 15px;}",
+        ".photo-container {width: 15%;}",
+        ".photo {border-radius: 15px; box-shadow: 0px 1px 5px white;}",
+        "p {margin-top: 10px;}",
+        ".to_top {display: none;}",
+        "h2 {border-bottom: 0 !important;}",
+        "@media only screen and (max-width: 480px) {.photo-container {width: 50%; }}"
+      ],
+      "settings": {
+        "header": "",
+        "section_id": "",
+        "padding_top": 4,
+        "padding_bottom": 0,
+        "color_scheme": "scheme-2"
+      }
+    },
+    "collage_EXPjHr": {
+      "type": "collage",
+      "blocks": {
+        "image_6wQGLG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happyhollow-indoor2.jpg"
+          }
+        },
+        "product_BMw3gy": {
+          "type": "product",
+          "settings": {
+            "product": "happy-hollow",
+            "second_image": false
+          }
+        },
+        "image_BmNXrw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happyhollow-mainimg4.webp"
+          }
+        }
+      },
+      "block_order": [
+        "image_6wQGLG",
+        "product_BMw3gy",
+        "image_BmNXrw"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_QFBcwq": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_BUThXD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happyhollow-sensory2.jpg",
+            "title": "Sensory Development",
+            "text": "<p>This toddler tree play structure has a variety of different textures kids can touch, flashes of color to look at, and animal sounds to listen to. Carl the Caterpillar has colorful rings that click and clack when they're played with, and Ferah the Firefly has eye-catching colorful beads. All of these sensory stimuli can help infants and toddlers to develop and grow their skills while they're having fun.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hAHLWQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happyhollow-inclusive2.jpg",
+            "title": "Inclusive Play",
+            "text": "<p>The Happy Hollow toddler playhouse is designed to help improve kids' motor skill development, whether they're spinning Bertie the Bluebird around or flipping levers on the mailbox. Every animal companion on this toddler tree playhouse and some of the plants are thoughtfully designed to foster motor skill development that can set the stage for kids to be able to throw a ball, hold a pencil, and handle other crucial tasks in the future.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yeM9Hd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happyhollow-motor2.jpg",
+            "title": "Motor Skill Development",
+            "text": "<p>The Happy Hollow toddler playhouse is designed to help improve kids' motor skill development, whether they're spinning Bertie the Bluebird around or flipping levers on the mailbox. Every animal companion on this toddler tree playhouse and some of the plants are thoughtfully designed to foster motor skill development that can set the stage for kids to be able to throw a ball, hold a pencil, and handle other crucial tasks in the future.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Da4BEj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happyhollow-indoor2_16a29a5e-df68-448e-a5df-2b4c944120fd.jpg",
+            "title": "Indoor or Outdoor Play",
+            "text": "<p>Happy Hollow is designed to be versatile and durable enough for use inside or outside. On beautiful sunny days, children can run outside and enjoy this infant tree play structure, made from heavy-duty plastic that can stand up to the elements, and connect the plants and animals to what they see in their surroundings. And when it's rainy, it's easy to move Happy Hollow inside so the kids can still have fun playing with their new favorite play structure.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_BUThXD",
+        "column_hAHLWQ",
+        "column_yeM9Hd",
+        "column_Da4BEj"
+      ],
+      "custom_css": [
+        "h2 {margin: 0 auto;}"
+      ],
+      "settings": {
+        "title": "Why Do You Need Happy Hollow?",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_table_xUE9XP": {
+      "type": "custom-table",
+      "blocks": {
+        "row_c9qEmb": {
+          "type": "row",
+          "settings": {
+            "column_1": "Age Ranges: 6 months - 5 Years",
+            "column_2": "Fall Height: 18\"",
+            "column_3": "&#10025; USER ZONES"
+          }
+        },
+        "row_eNe6hx": {
+          "type": "row",
+          "settings": {
+            "column_1": "Unit Size: 5' 7\" x 5' 11\" x 6' 2\"",
+            "column_2": "Assembled Weight: 285 pounds",
+            "column_3": "6-23 months: 11' 7\" x 11' 11\""
+          }
+        },
+        "row_MRRna8": {
+          "type": "row",
+          "settings": {
+            "column_1": "Footprint: 5' 7\" x 5' 11\"",
+            "column_2": "Shipping Weight: 360 pounds",
+            "column_3": "2 - 5 years: 17' 7\" x 17' 11\""
+          }
+        }
+      },
+      "block_order": [
+        "row_c9qEmb",
+        "row_eNe6hx",
+        "row_MRRna8"
+      ],
+      "custom_css": [
+        "td{font-size: 18px;}"
+      ],
+      "settings": {
+        "table_heading": "Product Specifications",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multicolumn_z4aFGA",
+    "simple_text_NQ8GTA",
+    "video_plus_text_Bx8tQy",
+    "simple_text_TjaBNz",
+    "photo_grid_rXTkUQ",
+    "collage_EXPjHr",
+    "multicolumn_QFBcwq",
+    "custom_table_xUE9XP"
+  ]
+}

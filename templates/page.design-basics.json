@@ -70,7 +70,7 @@
       "custom_css": [
         "h2 {text-align: center;}",
         ".icon {height: 170px; width: 170px;}",
-        " @media screen and (max-width: 480px) {.icon{height: unset; width: 120px; } }"
+        "@media screen and (max-width: 480px) {.icon {height: unset; width: 120px; }}"
       ],
       "settings": {
         "header": "Key Components",
@@ -121,7 +121,7 @@
             "title": "Design Services",
             "text": "<p>Work with our talented designers to create your playground.<br\/><\/p>",
             "link_label": "Design Services",
-            "link": "shopify:\/\/pages\/design-basics"
+            "link": "shopify:\/\/pages\/design-services"
           }
         },
         "column_AzLtEX": {
@@ -131,17 +131,17 @@
             "title": "Color Options",
             "text": "<p>See the variety of color options we offer for our different components.<br\/><\/p>",
             "link_label": "Color Options",
-            "link": "shopify:\/\/pages\/design-basics"
+            "link": "shopify:\/\/pages\/color-options"
           }
         },
         "column_tgD8Vi": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/playground-icon_color-tool_color-variant-1.png",
-            "title": "Playground Colorizer",
+            "image": "shopify:\/\/shop_images\/playground-icon_maintenance_color-variant-2.png",
+            "title": "Maintenance",
             "text": "<p>Get an idea of what your playground could look like in our different colors.<br\/><\/p>",
-            "link_label": "Playground Colorizer",
-            "link": "shopify:\/\/pages\/design-basics"
+            "link_label": "Maintenance",
+            "link": "shopify:\/\/pages\/maintenance"
           }
         }
       },

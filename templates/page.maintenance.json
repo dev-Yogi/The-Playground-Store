@@ -1,0 +1,563 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "video_plus_text_jeMYtT": {
+      "type": "video-plus-text",
+      "blocks": {
+        "text_zrL8Gf": {
+          "type": "text",
+          "settings": {
+            "text_content_header": "Playground Maintenance Guide",
+            "text_content": "",
+            "text-alignment": "center",
+            "background": "#ffffff"
+          }
+        },
+        "text_eJfiPA": {
+          "type": "text",
+          "settings": {
+            "text_content_header": "",
+            "text_content": "<p>Keeping playground equipment properly maintained is essential to the safety of the children who play there. A quality maintenance program has many benefits. In this guide we will cover:<\/p>",
+            "text-alignment": "center",
+            "background": ""
+          }
+        },
+        "text_JxrUxE": {
+          "type": "text",
+          "settings": {
+            "text_content_header": "",
+            "icon": "shopify:\/\/shop_images\/maintenance_01.png",
+            "text_content": "<p><a href=\"\/pages\/maintenance\/#why_is_maintenance_important?\" title=\"\/pages\/maintenance\/#why_is_maintenance_important?\">The Importance of Maintenance<\/a><\/p>",
+            "text-alignment": "center",
+            "background": "#ffffff"
+          }
+        },
+        "text_7HEEnP": {
+          "type": "text",
+          "settings": {
+            "text_content_header": "",
+            "icon": "shopify:\/\/shop_images\/search_icon_fe1ba8c7-f04b-4434-852d-094d7e99d580.png",
+            "text_content": "<p><a href=\"\/pages\/maintenance\/#shopify-section-template--22774246474014__image_with_text_VWFeXh\" title=\"\/pages\/maintenance\/#shopify-section-template--22774246474014__image_with_text_VWFeXh\">What to Look For<\/a><\/p>",
+            "text-alignment": "center",
+            "background": "#ffffff"
+          }
+        },
+        "text_mHM7gE": {
+          "type": "text",
+          "settings": {
+            "text_content_header": "",
+            "icon": "shopify:\/\/shop_images\/record_icon_cdbb67fc-d839-4bde-9cd4-6608e5e73599.png",
+            "text_content": "<p><a href=\"\/pages\/maintenance\/#shopify-section-template--22774246474014__simple_text_bYktKC\" title=\"\/pages\/maintenance\/#shopify-section-template--22774246474014__simple_text_bYktKC\">Record. Repair. Replace<\/a><\/p>",
+            "text-alignment": "center",
+            "background": "#ffffff"
+          }
+        },
+        "text_jcxDB3": {
+          "type": "text",
+          "settings": {
+            "text_content_header": "",
+            "icon": "shopify:\/\/shop_images\/programs_icon_f8907ca0-a077-4a27-8649-740d4d9353a1.png",
+            "text_content": "<p><a href=\"\/pages\/maintenance\/#shopify-section-template--22774246474014__image_with_text_bXjgwY\" title=\"\/pages\/maintenance\/#shopify-section-template--22774246474014__image_with_text_bXjgwY\">Maintenance Programs<\/a><\/p>",
+            "text-alignment": "center",
+            "background": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "text_zrL8Gf",
+        "text_eJfiPA",
+        "text_JxrUxE",
+        "text_7HEEnP",
+        "text_mHM7gE",
+        "text_jcxDB3"
+      ],
+      "custom_css": [
+        "iframe {height: 500px;}",
+        "@media only screen and (max-width: 480px) {iframe {height: unset; }}"
+      ],
+      "settings": {
+        "header": "Playground Maintenance Guide",
+        "header-alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "video_url": "https:\/\/youtu.be\/rtL7ynWmzqw?si=te2mYjdycTh8gkRS",
+        "color_scheme": "scheme-2",
+        "include_padding": true
+      }
+    },
+    "simple_text_k7EYGR": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-303b4181-c6ee-4c9a-8813-41b2252d4652",
+        "header": "Why is Maintenance Important?",
+        "heading_font_size": 34,
+        "paragraph": "<p>The simple answer is that a properly maintained playground keeps kids safe, but there are many other reasons for regular playground maintenance:<\/p>",
+        "text_font_size": 18,
+        "alignment": "left",
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    },
+    "resource_articles_XPU3JX": {
+      "type": "resource-articles",
+      "blocks": {
+        "icon_jhY7aY": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/playground-icon_family_color-variant-1.png",
+            "icon_link": "<strong>Keep children and families safe<\/strong>",
+            "modal_content": "<p>Properly maintained grounds and equipment help minimize the risk of preventable injuries. Playgrounds are fun, so it’s important to create a safe environment for play and recreation for people of all ages.<\/p>"
+          }
+        },
+        "icon_CK6ygC": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/playground-icon_warranty_color-variant-2.png",
+            "icon_link": "Protect your investment",
+            "modal_content": "<p>Playground equipment, safety surfacing, shade structures, site-amenities and site-development are significant investments. Proper maintenance helps keep your playground and surrounding environment in top shape, while prolonging the life of your equipment.<\/p>"
+          }
+        },
+        "icon_tb94GB": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/playground-icon_financing-and-leasing_color-variant-1.png",
+            "icon_link": "Limit liability",
+            "modal_content": "<p>Proper and timely maintenance of a community’s playgrounds and parks helps to manage risk and limit your liability if injury should occur. Injuries happen, but did you do everything you could to prevent them?<\/p>"
+          }
+        },
+        "icon_mGX3CM": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/playground-icon_playground-equipment_color-variant-2.png",
+            "icon_link": "Improve the play experience",
+            "modal_content": "<p>If playground equipment is broken or otherwise unusable, children will miss out on opportunities to play. Children learn through play, so a safe space for kids to learn, socialize, explore, and grow is essential.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_jhY7aY",
+        "icon_CK6ygC",
+        "icon_tb94GB",
+        "icon_mGX3CM"
+      ],
+      "settings": {
+        "header": "",
+        "padding_top": 4,
+        "padding_bottom": 36,
+        "color_scheme": "scheme-303b4181-c6ee-4c9a-8813-41b2252d4652",
+        "include_padding": true
+      }
+    },
+    "multicolumn_3DChFj": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_wrE6e8": {
+          "type": "column",
+          "settings": {
+            "title": "Each Year...",
+            "text": "<p>In the United States emergency rooms treat more than 200,00 children ages 14 and younder for playground-related injuries.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HPz9bD": {
+          "type": "column",
+          "settings": {
+            "title": "About 45%...",
+            "text": "<p>Of playground-related injuries are severe and include:<\/p><ul><li>Fractures<\/li><li>Internal Injuries<\/li><li>Concussions<\/li><li>Dislocations<\/li><li>Amputations<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AVBPeb": {
+          "type": "column",
+          "settings": {
+            "title": "Playground Injuries...",
+            "text": "<p>Are the leading cause of injury to children in childcare and to children ages 5-14 in schools. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ajFm8J": {
+          "type": "column",
+          "settings": {
+            "title": "Approximately 70%...",
+            "text": "<p>Of playground equipment related injuries involve falls to the surface. <br\/><br\/>It is estimated that only 25% of public playgrounds have adequate surfacing.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Xip6Gd": {
+          "type": "column",
+          "settings": {
+            "title": "Children ages...",
+            "text": "<p>5 to 9 have a higher rates of playground injuries that occur at school.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3eGQq9": {
+          "type": "column",
+          "settings": {
+            "title": "At public playgrounds...",
+            "text": "<p>More injuries occur on climbers than any other equipment. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_wrE6e8",
+        "column_HPz9bD",
+        "column_AVBPeb",
+        "column_ajFm8J",
+        "column_Xip6Gd",
+        "column_3eGQq9"
+      ],
+      "settings": {
+        "title": "Playground Injury Statistics",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_JBDYEU": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_HJFxFa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Properly Maintaining Playgrounds, Keeps Kids Safe!",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HJFxFa"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/playground_slide_activity_equipment.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_VWFeXh": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rN4T3L": {
+          "type": "heading",
+          "settings": {
+            "heading": "What to Look For",
+            "heading_size": "h1"
+          }
+        },
+        "text_zRX78b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Regular inspection of playground equipment is important, it is equally important to look for hazards on the playground property as a whole. <br\/><br\/>Look for the following <strong>&#8681; <\/strong> <strong>⇩ <\/strong> <strong>⇩<\/strong><\/p>",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rN4T3L",
+        "text_zRX78b"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/playground_swing_slide_school.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_e4Jjjk": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6FPL8m": {
+          "type": "column",
+          "settings": {
+            "title": "Equipment Inspection",
+            "text": "<ul><li>Broken or missing equipment<\/li><li>Secure anchors, barriers, & panels<\/li><li>Loose or missing bolts and\/or clamps<\/li><li>Heavily worn moving parts, swing parts<\/li><li>Cracked and\/or broken plastic parts<\/li><li>Rusted, worn, or corroded metals<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aqyzRe": {
+          "type": "column",
+          "settings": {
+            "title": "Ground Inspection",
+            "text": "<ul><li>Broken glass, trash and other debris<\/li><li>Problems with surfacing<\/li><li>User modification such as rope swings<\/li><li>Vandalized, broken and defaced property<\/li><li>Insect damage or infestation<\/li><li>Tripping hazards like exposed tree roots<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_6FPL8m",
+        "column_aqyzRe"
+      ],
+      "custom_css": [
+        "ul {text-align: left; width: 70%; margin: 0 auto;}",
+        "@media only screen and (max-width: 480px) {ul {text-align: left; width: 100%; margin: 0 auto; }}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "simple_text_yzhYc7": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "header": "",
+        "heading_font_size": 16,
+        "paragraph": "<p>If you detect safety hazards during your inspection, record, repair, and replace the equipment as quickly as possilbe to reduce the possibility of injury.<\/p>",
+        "text_font_size": 16,
+        "alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 4
+      }
+    },
+    "simple_text_bYktKC": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5",
+        "header": "Routine Maintenance Guide",
+        "heading_font_size": 34,
+        "paragraph": "",
+        "text_font_size": 16,
+        "alignment": "center",
+        "padding_top": 24,
+        "padding_bottom": 8
+      }
+    },
+    "multirow_zFmU77": {
+      "type": "multirow",
+      "blocks": {
+        "row_c88NrP": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/record_icon_cdbb67fc-d839-4bde-9cd4-6608e5e73599.png",
+            "caption": "Taking Notes",
+            "heading": "Record",
+            "text": "<p>It is important to always record routine playground inspections. Accurate and organized record-keeping is the basis of an effective maintenance program.<\/p><p>Taking note of problems, as well as the corrective actions, and keeping the records organized is vital to keeping kids safe, and keeping your organization safe from injury related lawsuits.<\/p><p>We reccommend using a checklist while performing routine maintenance checks.<\/p><p>Start by downloading our Playground Maintenance Checklist which is based on current ASTM standards, CPSC suggestions, and information from on-staff Certified Playground Safety Inspectors.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_pk94gi": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/maintenance_01.png",
+            "caption": "Assessing damages",
+            "heading": "Repair",
+            "text": "<p>While performing a thorough inspection of the playground equipment, and grounds if you come across a problem, assess the damage or issue and consult with a maintenance professional when necessary.<\/p><p>Children are not always deterred by broken equipment and in some cases, may even be drawn to it which is why it is important to repair or remove any potentially hazardous equipment or obstructions as quickly as possible.<\/p><p>While some problems are easily repaired, significant issues may require the purchase of replacement equipment.<\/p><p>Make sure to check the equipment warranty with the manufacturer and call with any questions you may have.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_GfQdJz": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playground-icon_playground-equipment_color-variant-2.png",
+            "caption": "Updating Issues",
+            "heading": "Replace",
+            "text": "<p>Just because something is broken doens’t mean you must replace it...However, there are times when equipment replacement is necessary:<\/p><p>• If wear and tear is extensive even to the naked eye, or the functioning is compromised in a way that is unsafe.<\/p><p>• If a piece of equipment has already been repaired but is showing new signs of wear.<\/p><p>• If parts of equipment are worn or missing and are not replaceable, you may have to replace the entire piece of equipment.<\/p><p>If your playground needs an update be sure to shop online at Theplaygroundstore.com. We offer full installation and maintenance programs!<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_c88NrP",
+        "row_pk94gi",
+        "row_GfQdJz"
+      ],
+      "custom_css": [
+        "img {object-fit: contain; height: 80%; position: absolute; top: 10%;}"
+      ],
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "small",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5",
+        "row_color_scheme": "scheme-5",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_bXjgwY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xmtLiX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Premiere Maintenance Programs",
+            "heading_size": "h1"
+          }
+        },
+        "text_nf3T4t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Theplaygroundstore.com we offer premiere maintenance programs tailored specifically to your needs, with the goal of keeping your equipment maintained, and above all safe, for years to come.<\/p><p>Several questions to ask yourself when deciding whether or not a maintenance program is right for you are:<\/p><ul><li>Do you have more than one playground?<\/li><li>Are you short staffed?<\/li><li>Does your playground have high foot-traffic?<\/li><li>Do children use your playground year-round?<\/li><li>Is this playground new or old?<\/li><\/ul><p>If you answered yes to one or more of these questions it would be beneficial to speak with a maintenance care specialist.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_pLDjEm": {
+          "type": "button",
+          "settings": {
+            "button_label": "Request Information",
+            "button_link": "shopify:\/\/pages\/maintenance-programs",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xmtLiX",
+        "text_nf3T4t",
+        "button_pLDjEm"
+      ],
+      "custom_css": [
+        ".image-with-text__media {border-top-right-radius: 20px; border-bottom-right-radius: 20px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/stockvault-rock-climbing105440.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_wKiAdL": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_eTbcMQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playground-icon_installation_color-variant-1.png",
+            "title": "Installation",
+            "text": "",
+            "link_label": "Installation Guide",
+            "link": "shopify:\/\/pages\/installation"
+          }
+        },
+        "column_VY3RQm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playground-icon_shipping-delivery_color-variant-1.png",
+            "title": "Delivery",
+            "text": "",
+            "link_label": "Shipping & Delivery",
+            "link": "shopify:\/\/pages\/shipping-delivery"
+          }
+        },
+        "column_LVAzff": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/playground-icon_purchasing-process_color-variant-2.png",
+            "title": "Purchasing",
+            "text": "",
+            "link_label": "Purchasing Process",
+            "link": "shopify:\/\/pages\/purchasing-process"
+          }
+        }
+      },
+      "block_order": [
+        "column_eTbcMQ",
+        "column_VY3RQm",
+        "column_LVAzff"
+      ],
+      "settings": {
+        "title": "Links to Other Helpful Guides",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_plus_text_jeMYtT",
+    "simple_text_k7EYGR",
+    "resource_articles_XPU3JX",
+    "multicolumn_3DChFj",
+    "image_banner_JBDYEU",
+    "image_with_text_VWFeXh",
+    "multicolumn_e4Jjjk",
+    "simple_text_yzhYc7",
+    "simple_text_bYktKC",
+    "multirow_zFmU77",
+    "image_with_text_bXjgwY",
+    "multicolumn_wKiAdL"
+  ]
+}

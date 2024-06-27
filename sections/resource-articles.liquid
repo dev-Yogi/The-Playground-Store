@@ -1,3 +1,40 @@
+{% javascript %}
+  $(document).ready(function(){
+    $('.icon-group').hover(function(){
+      if ($(this).find('.gif').length) {
+        $(this).find('.icon').hide();
+        $(this).find('.gif').show();
+      }
+      if($(this).find('.icon-modal').length){
+        $(this).find('.icon-modal').css({'opacity': '1', 'height': 'auto'}).show();
+      }
+    }, function(){
+      if ($(this).find('.gif').length) {
+        $(this).find('.gif').hide();
+        $(this).find('.icon').show();
+      }
+      if($(this).find('.icon-modal').length){
+        $(this).find('.icon-modal').css({'opacity': '0', 'height': '0'}).hide();
+      }
+    });
+
+    $('.icon-modal .close').click(function(){
+      $(this).closest('.icon-modal').css({'opacity': '0', 'height': '0'}).hide();
+    });
+
+    // For mobile tap functionality
+    $('.icon-group').on('click', function() {
+      if($(window).width() <= 480) {
+        var modal = $(this).find('.icon-modal');
+        if(modal.css('opacity') == '0') {
+          modal.css({'opacity': '1', 'height': 'auto'}).show();
+        } else {
+          modal.css({'opacity': '0', 'height': '0'}).hide();
+        }
+      }
+    });
+  });
+{% endjavascript %}
 {% assign color_scheme_id = section.settings.color_scheme %}
 {% assign color_scheme = section.settings.color_scheme | prepend: 'color_schemes.' | json %}
 
@@ -144,32 +181,6 @@
     </div>
   </div>
 </div>
-
-{% javascript %}
-  $(document).ready(function(){
-    $('.icon-group').hover(function(){
-      if ($(this).find('.gif').length) {
-        $(this).find('.icon').hide();
-        $(this).find('.gif').show();
-      }
-      if($(this).find('.icon-modal').length){
-        $(this).find('.icon-modal').css({'opacity': '1', 'height': 'auto'}).show();
-      }
-    }, function(){
-      if ($(this).find('.gif').length) {
-        $(this).find('.gif').hide();
-        $(this).find('.icon').show();
-      }
-      if($(this).find('.icon-modal').length){
-        $(this).find('.icon-modal').css({'opacity': '0', 'height': '0'}).hide();
-      }
-    });
-
-    $('.icon-modal .close').click(function(){
-      $(this).closest('.icon-modal').css({'opacity': '0', 'height': '0'}).hide();
-    });
-  });
-{% endjavascript %}
 
 {% schema %}
 {

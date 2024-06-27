@@ -1,0 +1,44 @@
+{
+  "sections": {
+    "d59ba751-5427-457f-8812-071e276996da": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "1718977828aef8fcab": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_BcHPDG": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "126706",
+            "text_color": "#002b57",
+            "button_background_color": "#f79e02",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#10e7dc",
+            "errors_color": "#E02229",
+            "text_alignment": "left",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_BcHPDG"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "d59ba751-5427-457f-8812-071e276996da",
+    "1718977828aef8fcab"
+  ]
+}

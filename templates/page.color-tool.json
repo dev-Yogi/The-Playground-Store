@@ -1,0 +1,162 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 16,
+        "padding_bottom": 4
+      }
+    },
+    "simple_text_dcbzKc": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-5",
+        "header": "Live Color Tool",
+        "heading_font_size": 36,
+        "paragraph": "",
+        "text_font_size": 16,
+        "alignment": "left",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "color_tool_ACEVNh": {
+      "type": "color-tool",
+      "blocks": {
+        "pg_parts_label_HFdqnd": {
+          "type": "pg_parts_label",
+          "settings": {
+            "part_label": "Bone Bridge",
+            "part_category": "Painted Parts"
+          }
+        },
+        "pg_parts_label_qAVjhx": {
+          "type": "pg_parts_label",
+          "settings": {
+            "part_label": "Posts",
+            "part_category": ""
+          }
+        },
+        "pg_parts_label_kJdMDw": {
+          "type": "pg_parts_label",
+          "settings": {
+            "part_label": "Rails",
+            "part_category": ""
+          }
+        },
+        "pg_parts_label_73pPQq": {
+          "type": "pg_parts_label",
+          "settings": {
+            "part_label": "Spacers",
+            "part_category": ""
+          }
+        },
+        "pg_parts_label_qMWENn": {
+          "type": "pg_parts_label",
+          "settings": {
+            "part_label": "Climber",
+            "part_category": "Plastic Parts"
+          }
+        },
+        "pg_parts_label_xY9HrD": {
+          "type": "pg_parts_label",
+          "settings": {
+            "part_label": "Crawl Tube",
+            "part_category": ""
+          }
+        },
+        "pg_parts_label_7hHBGj": {
+          "type": "pg_parts_label",
+          "settings": {
+            "part_label": "Full Panel",
+            "part_category": ""
+          }
+        },
+        "pg_parts_label_V6wWcT": {
+          "type": "pg_parts_label",
+          "settings": {
+            "part_label": "Hole Panel",
+            "part_category": ""
+          }
+        },
+        "pg_parts_label_3tNgLU": {
+          "type": "pg_parts_label",
+          "settings": {
+            "part_label": "Panels",
+            "part_category": ""
+          }
+        },
+        "pg_parts_label_kqc8RA": {
+          "type": "pg_parts_label",
+          "settings": {
+            "part_label": "Roofs",
+            "part_category": ""
+          }
+        },
+        "pg_parts_label_Q8AQ9t": {
+          "type": "pg_parts_label",
+          "settings": {
+            "part_label": "Slides",
+            "part_category": ""
+          }
+        },
+        "pg_parts_label_WPqrTc": {
+          "type": "pg_parts_label",
+          "settings": {
+            "part_label": "XO",
+            "part_category": ""
+          }
+        },
+        "pg_parts_label_QijQX8": {
+          "type": "pg_parts_label",
+          "settings": {
+            "part_label": "Bongos",
+            "part_category": "Accessories"
+          }
+        },
+        "pg_parts_label_dGpVNw": {
+          "type": "pg_parts_label",
+          "settings": {
+            "part_label": "Spin Wheel",
+            "part_category": ""
+          }
+        },
+        "pg_parts_label_C6jEyD": {
+          "type": "pg_parts_label",
+          "settings": {
+            "part_label": "Single Drum",
+            "part_category": ""
+          }
+        }
+      },
+      "block_order": [
+        "pg_parts_label_HFdqnd",
+        "pg_parts_label_qAVjhx",
+        "pg_parts_label_kJdMDw",
+        "pg_parts_label_73pPQq",
+        "pg_parts_label_qMWENn",
+        "pg_parts_label_xY9HrD",
+        "pg_parts_label_7hHBGj",
+        "pg_parts_label_V6wWcT",
+        "pg_parts_label_3tNgLU",
+        "pg_parts_label_kqc8RA",
+        "pg_parts_label_Q8AQ9t",
+        "pg_parts_label_WPqrTc",
+        "pg_parts_label_QijQX8",
+        "pg_parts_label_dGpVNw",
+        "pg_parts_label_C6jEyD"
+      ],
+      "settings": {
+        "color_scheme": "scheme-5",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "simple_text_dcbzKc",
+    "color_tool_ACEVNh"
+  ]
+}

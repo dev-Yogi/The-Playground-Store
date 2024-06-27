@@ -21,6 +21,19 @@
         "padding_bottom": 36
       }
     },
+    "simple_text_px6xYT": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-303b4181-c6ee-4c9a-8813-41b2252d4652",
+        "header": "Color Option Quick Links",
+        "heading_font_size": 20,
+        "paragraph": "",
+        "text_font_size": 16,
+        "alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "photo_grid_TLXHXE": {
       "type": "photo-grid",
       "blocks": {
@@ -135,7 +148,7 @@
         "header": "Post and Metals",
         "section_id": "posts_metals",
         "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_bottom": 0,
         "color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5"
       }
     },
@@ -287,9 +300,9 @@
       ],
       "settings": {
         "header": "Plastics",
-        "section_id": "",
+        "section_id": "plastics",
         "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_bottom": 0,
         "color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5"
       }
     },
@@ -384,9 +397,9 @@
       ],
       "settings": {
         "header": "Handholds",
-        "section_id": "",
+        "section_id": "handholds",
         "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_bottom": 0,
         "color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5"
       }
     },
@@ -482,9 +495,9 @@
       ],
       "settings": {
         "header": "Sandwich Color Polyethylene (Full Panel)",
-        "section_id": "",
+        "section_id": "full_panel",
         "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_bottom": 0,
         "color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5"
       }
     },
@@ -556,9 +569,9 @@
       ],
       "settings": {
         "header": "Sandwich Color Polyethylene (Hole Panel Insert)",
-        "section_id": "",
+        "section_id": "hole_panel",
         "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_bottom": 0,
         "color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5"
       }
     },
@@ -607,9 +620,9 @@
       ],
       "settings": {
         "header": "Rope",
-        "section_id": "",
+        "section_id": "ropes",
         "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_bottom": 0,
         "color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5"
       }
     },
@@ -720,9 +733,9 @@
       ],
       "settings": {
         "header": "Single Color Polyethylene",
-        "section_id": "",
+        "section_id": "single_color",
         "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_bottom": 0,
         "color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5"
       }
     },
@@ -796,9 +809,9 @@
       ],
       "settings": {
         "header": "Rain Wheel, ― Ship's Wheel,  ― Parrot Topper",
-        "section_id": "",
+        "section_id": "wheels",
         "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_bottom": 0,
         "color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5"
       }
     },
@@ -848,7 +861,7 @@
       ],
       "settings": {
         "header": "Bear Panel Inserts, ― Elephant Panel Inserts",
-        "section_id": "",
+        "section_id": "animal_panels",
         "padding_top": 36,
         "padding_bottom": 80,
         "color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5"
@@ -1085,6 +1098,7 @@
   "order": [
     "main",
     "simple_text_e8d3JJ",
+    "simple_text_px6xYT",
     "photo_grid_TLXHXE",
     "photo_grid_pLJkf8",
     "photo_grid_DCkM88",

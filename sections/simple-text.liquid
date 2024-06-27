@@ -1,3 +1,37 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" async></script>
+{% javascript %}
+  $( document ).ready(function() {
+    $('#state_grants').append('<div id="state_menu_container"></div>')
+      var menu = $('<div class="state_grants_menu"></div>');
+
+      $('#shopify-section-template--22732055445790__simple_text_a7dJwj>.simple-text-custom>.page-width>div>h3').each(function(i, v) {
+          var state = $(this).text().trim();
+          var id = state.replace(/\s+/g, '_');
+          $(this).attr('id', id);
+
+          // Create a menu item with a link to the ID
+          var menuItem = $('<span></span>');
+          var link = $('<a style="color: #002b57; display: list-item;"></a>').attr('href', '#' + id).text(state);
+          menuItem.append(link);
+          menu.append(menuItem);
+      });
+
+      $('#state_menu_container').append(menu);
+
+    // var seen = false;
+    // $('#state_menu_container > .state_grants_menu').each(function() {
+    //     if (seen) {
+    //         $(this).remove();
+    //     } else {
+    //         seen = true;
+    //     }
+    // });
+
+  });
+
+  $
+{% endjavascript %}
+
 {% assign color_scheme_id = section.settings.color_scheme %}
 {% assign color_scheme = section.settings.color_scheme | prepend: 'color_schemes.' | json %}
 
@@ -50,7 +84,7 @@
         /* for cellphones */
     @media only screen
       and (max-width: 480px) {
-               #state_grants .state_grants_menu span{
+          #state_grants .state_grants_menu span{
             width: auto;
           }
       #state_grants .state_grants_menu{
@@ -152,34 +186,3 @@
   ]
 }
 {% endschema %}
-
-{% javascript %}
-  $(document).ready(function() {
-    $('#state_grants').append('<div id="state_menu_container"></div>')
-      var menu = $('<div class="state_grants_menu"></div>');
-
-      $('#shopify-section-template--22732055445790__simple_text_a7dJwj>.simple-text-custom>.page-width>div>h3').each(function(i, v) {
-          var state = $(this).text().trim();
-          var id = state.replace(/\s+/g, '_');
-          $(this).attr('id', id);
-
-          // Create a menu item with a link to the ID
-          var menuItem = $('<span></span>');
-          var link = $('<a style="color: #002b57; display: list-item;"></a>').attr('href', '#' + id).text(state);
-          menuItem.append(link);
-          menu.append(menuItem);
-      });
-
-      $('#state_menu_container').append(menu);
-
-    var seen = false;
-    $('#state_menu_container > .state_grants_menu').each(function() {
-        if (seen) {
-            $(this).remove();
-        } else {
-            seen = true;
-        }
-    });
-
-  });
-{% endjavascript %}

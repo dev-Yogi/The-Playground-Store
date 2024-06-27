@@ -31,6 +31,7 @@
     button.secondary {
       color: {{ settings.secondary_button_label }};
     }
+
     .photo-grid{
       display: flex;
       flex-wrap: wrap;
@@ -39,6 +40,16 @@
     .photo-container{
       text-align: center;
     }
+
+    .btn-wrapper{
+      margin: 10px;
+      display: inline-block;
+    }
+    .to_top{
+      text-align: right;
+      padding-top: 80px;
+    }
+
 
     /* LARGE TABLETS styles */
     @media only screen and (min-width: 991px) and (max-width: 1366px) {
@@ -52,9 +63,10 @@
 {% endif %}
 
 <div
-  class="color-{{ section.settings.color_scheme }} gradient shopify-section section"
+  id="{{ section.settings.section_id }}"
+  class="color-{{ section.settings.color_scheme }} gradient shopify-section section photo-grid-section"
 >
-  <div id="{{ section.settings.section_id }}" class="page-width page-width--narrow section-{{ section.id }}-padding">
+  <div class="grid-container page-width page-width--narrow section-{{ section.id }}-padding">
     <h2 class="title inline-richtext h1" style="border-bottom: 1px solid;">
       {{ section.settings.header }}
     </h2>
@@ -76,8 +88,43 @@
         </div>
       {% endfor %}
     </div>
+    <section class="to_top">
+      <a class="button" href="/pages/color-options/#MainContent">Back To Top &uarr;</a>
+    </section>
   </div>
 </div>
+
+{% javascript %}
+  $(document).ready(function() {
+    $('#shopify-section-template--22765053772062__multicolumn_deRg68').addClass('photo-grid-section');
+    $('#color_option_quick_links').append('<div id="color_option_menu_container"></div>')
+      var menu = $('<div class="color_options_menu"></div>');
+
+      $('.photo-grid-section h2.title').each(function(i, v) {
+          var material = $(this).text().trim();
+          var id = material.replace(/\s+/g, '_');
+          $(this).attr('id', id);
+
+          // Create a menu item with a link to the ID
+          var menuItem = $('<span class="btn-wrapper"></span>');
+          var link = $('<a class="button" style="color: #002b57;"></a>').attr('href', '/pages/color-options/#' + id).text(material);
+          menuItem.append(link);
+          menu.append(menuItem);
+      });
+
+      $('#color_option_menu_container').append(menu);
+
+    var seen = false;
+    $('#color_option_menu_container > .color_options_menu').each(function() {
+        if (seen) {
+            $(this).remove();
+        } else {
+            seen = true;
+        }
+    });
+
+  });
+{% endjavascript %}
 {% schema %}
 {
   "name": "Photo Grid",
@@ -91,7 +138,7 @@
     {
       "type":"text",
       "id": "section_id",
-      "label": "Give Your Section An ID to Anchor (link"
+      "label": "Give Your Section An ID to Anchor (link)"
     },
     {
       "type": "range",

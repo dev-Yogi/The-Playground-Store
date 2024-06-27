@@ -49,21 +49,24 @@
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_shipping-delivery_color-variant-1.png",
-            "icon_link": "<a href=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__simple_text_Q7J4Nn\" title=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__simple_text_Q7J4Nn\">Shipping Basics<\/a>"
+            "icon_link": "<a href=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__simple_text_Q7J4Nn\" title=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__simple_text_Q7J4Nn\">Shipping Basics<\/a>",
+            "modal_content": ""
           }
         },
         "icon_jgaF4t": {
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_what-to-look-for_color-variant-2.png",
-            "icon_link": "<a href=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__collapsible_content_mxVVgt\" title=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__collapsible_content_mxVVgt\">What to Look For<\/a>"
+            "icon_link": "<a href=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__collapsible_content_mxVVgt\" title=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__collapsible_content_mxVVgt\">What to Look For<\/a>",
+            "modal_content": ""
           }
         },
         "icon_hir8Fg": {
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_shipping-policies_color-variant-2.png",
-            "icon_link": "<a href=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__multicolumn_wtwhyG\" title=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__multicolumn_wtwhyG\">Shipping Policies<\/a>"
+            "icon_link": "<a href=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__multicolumn_wtwhyG\" title=\"\/pages\/shipping-delivery\/#shopify-section-template--22557990224158__multicolumn_wtwhyG\">Shipping Policies<\/a>",
+            "modal_content": ""
           }
         }
       },
@@ -404,7 +407,7 @@
             "title": "Installation",
             "text": "<p>The types of installation that we off and their benefits.<\/p>",
             "link_label": "Playground Installation Guide",
-            "link": ""
+            "link": "shopify:\/\/pages\/installation"
           }
         },
         "column_4WbQj6": {
@@ -414,7 +417,7 @@
             "title": "Financing & Leasing",
             "text": "<p>What to expect with your shipment and what to do next.<\/p>",
             "link_label": "Financing & Leasing Guide",
-            "link": ""
+            "link": "shopify:\/\/pages\/financing-and-leasing"
           }
         },
         "column_ebTgVY": {
@@ -424,7 +427,7 @@
             "title": "Maintenance",
             "text": "<p>How to care of your playground so that it last for years.<\/p>",
             "link_label": "Playground Maintenance Guide",
-            "link": ""
+            "link": "shopify:\/\/pages\/maintenance"
           }
         }
       },

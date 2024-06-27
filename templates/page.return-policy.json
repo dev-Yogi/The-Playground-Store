@@ -1,0 +1,239 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "simple_text_aMDHA3": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5",
+        "header": "Return Policy",
+        "heading_font_size": 36,
+        "paragraph": "",
+        "text_font_size": 16,
+        "alignment": "left",
+        "padding_top": 12,
+        "padding_bottom": 8
+      }
+    },
+    "image_with_text_ytkVyY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_DbtVeK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Before You Begin, Contact Us",
+            "heading_size": "h1"
+          }
+        },
+        "text_3zBeAD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The very first thing you should do, before considering a return, is speak with one of our Customer Care Personnel. They will work as quickly and efficiently as possible to resovle any issues you may have with your order. Please call us within 48 hours of delivery if you find that items are damaged, incorrect, or missing. Our team will assist in replacing items, and\/or filing a freight damage claim on your behalf.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DbtVeK",
+        "text_3zBeAD"
+      ],
+      "custom_css": [
+        "img {object-fit: contain;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/return-policy-playground.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5",
+        "color_scheme": "scheme-303b4181-c6ee-4c9a-8813-41b2252d4652",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 4,
+        "padding_bottom": 36
+      }
+    },
+    "resource_articles_JRhfHp": {
+      "type": "resource-articles",
+      "blocks": {
+        "icon_wBRzbK": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/playground-icon_view-all-plans_color-variant-2.png",
+            "icon_link": "Reporting Damages",
+            "modal_content": "<p>You are responsible to count the freight and note any and all shortages on the delivery receipt at the time the equipment is delivered. All damages to packing must be noted on the delivery receipt with a brief description. these notes must be made by the customer receiving the shipment, before signing the receipt with the delivery driver. If you do not sign the receipt as responsibility. Please see our Shipping & Delivery guide for more information.<\/p>"
+          }
+        },
+        "icon_qiEj7J": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/playground-icon_design-services_color-variant-1.png",
+            "icon_link": "Design Changes & Timing",
+            "modal_content": "<p>Please consider that your playground is a unique, custom designed item that has taken months to get to you. Returning any item can change the look and feel of your play area, additionally replacing an item can take months to happen, prolonging the playtime for your children.<\/p>"
+          }
+        },
+        "icon_RNxibz": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/playground-icon_financing-and-leasing_color-variant-1.png",
+            "icon_link": "Additional Costs",
+            "modal_content": "<p>Also, returning your equipment will result in additional costs as you consider the cost of packaging, shipping and restocking. This can be an expensive process.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_wBRzbK",
+        "icon_qiEj7J",
+        "icon_RNxibz"
+      ],
+      "custom_css": [
+        ".icon-group-container {justify-content: space-between;}"
+      ],
+      "settings": {
+        "header": "Things to Consider Before Making Returns",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "color_scheme": "scheme-2",
+        "include_padding": true
+      }
+    },
+    "multicolumn_gw9dTh": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4XYY7c": {
+          "type": "column",
+          "settings": {
+            "title": "1.) Packaging of Your Equipment",
+            "text": "<p><strong>&starf; <\/strong>You have <strong>30 days<\/strong> to return most new, unopened items.<\/p><p><strong>&starf; <\/strong>We will not accept any items without an <strong>Return Material Authorization<\/strong> (RMA).<\/p><p><strong>&starf; <\/strong>Anything returned without an RMA is returned at the expense of the <strong>sender<\/strong><\/p><p><strong>&starf; <\/strong>Items must be returned in <strong>sellable<\/strong> condition.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JLCXKz": {
+          "type": "column",
+          "settings": {
+            "title": "2.) Shipping Your Equipment",
+            "text": "<p><strong>&starf; <\/strong>Most playground equipment is shipped this way, especially for bigger items like slides, swings or climbers. Return Freight shipping ranges from $300 to over $1,000.<\/p><p><strong>&starf; <\/strong>The returner of the merchandise must pay the freight to return it. Freight charges to and from customer's locations are not refundable.<\/p><p><strong>&starf; <\/strong>When we make mistakes, we pay the return shipping costs.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DjitCx": {
+          "type": "column",
+          "settings": {
+            "title": "3.) Restocking Your Equipment",
+            "text": "<p><strong>&starf; <\/strong>A minimum 30% restocking fee will be charged to any order that is cancelled after final approval.<\/p><h3>Special Notes<\/h3><p><strong>＄ <\/strong>You should expect to receive a refund within four weeks of product return or once merchandise is evaluated.<\/p><p><strong>&phone; <\/strong>Call us within 48 hours to report issues with a recent delivery including damage, missing pieces, or incorrect order.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4XYY7c",
+        "column_JLCXKz",
+        "column_DjitCx"
+      ],
+      "settings": {
+        "title": "If you do decides to return your equipment here are some things you should know:",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-303b4181-c6ee-4c9a-8813-41b2252d4652",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_dmRwMx": {
+      "type": "image-banner",
+      "custom_css": [
+        "div.banner__media.media.scroll-trigger.animate--fade-in {background: linear-gradient( 180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.49) 49%, rgba(0, 43, 87, 0) 100% ); background-attachment: fixed;}",
+        ".banner__content {padding-bottom: 18px;}",
+        "img {object-fit: contain; -webkit-transform: scaleX(-1); transform: scaleX(-1);}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/return-policy-shipping.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "multicolumn_e3CU7T": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Q6QWUk": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>&#10008; <\/strong>Installed playground equipment<\/p><p><strong>&#10008; <\/strong>Shade equipment<\/p><p><strong>&#10008; <\/strong>Product that did not exceed $50.00<\/p><p><strong>&#10008; <\/strong>Damaged or defective products that have been replaced at no cost<\/p><p><strong>&#10008; <\/strong>Equipment returned more than 30 days after delivery of the equipment<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LhXdGQ": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>&#10008; <\/strong>Items without Return Material Authorization<\/p><p><strong>&#10008; <\/strong>Any product returned freight collect<\/p><p><strong>&#10008; <\/strong>Promotional or free items including Facebook promotions<\/p><p><strong>&#10008; <\/strong>Any surface including and not limited to poured-in-place, rubber mulch, rubber tiles, and wood fiber<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Q6QWUk",
+        "column_LhXdGQ"
+      ],
+      "custom_css": [
+        "li {color: white; line-height: 1.8;}"
+      ],
+      "settings": {
+        "title": "<strong>&#9746; <\/strong>Non-Returnable Products",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "simple_text_aMDHA3",
+    "image_with_text_ytkVyY",
+    "resource_articles_JRhfHp",
+    "multicolumn_gw9dTh",
+    "image_banner_dmRwMx",
+    "multicolumn_e3CU7T"
+  ]
+}

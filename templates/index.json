@@ -208,8 +208,8 @@
             "image": "shopify:\/\/shop_images\/Happy_Hollow_ZONE_4fe21a68-d273-4dc9-9ee9-e82d7efc3eaf.jpg",
             "title": "",
             "text": "<h2><strong>PLAY IS ALWAYS IN BLOOM <br\/>AT THE HAPPY HOLLOW<\/strong><\/h2>",
-            "link_label": "Enter The World of Happy Hallow",
-            "link": ""
+            "link_label": "Enter The World of Happy Hollow",
+            "link": "shopify:\/\/pages\/happy-hollow"
           }
         },
         "column_zK6DhR": {
@@ -219,7 +219,7 @@
             "title": "",
             "text": "<h2><strong>NO-WAIT PLAYGROUNDS<br\/>Call for Current Inventory!<\/strong><\/h2>",
             "link_label": "Browse Quick Ship Play Systems",
-            "link": ""
+            "link": "\/collections\/commercial-playgrounds"
           }
         }
       },
@@ -281,7 +281,7 @@
         "heading_98RPp9": {
           "type": "heading",
           "settings": {
-            "heading": "Online Catalogs",
+            "heading": "Online Resources",
             "heading_size": "h1"
           }
         },
@@ -295,11 +295,11 @@
         "buttons_T7nVLp": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Quick Ship Digital Catalog",
-            "button_link_1": "shopify:\/\/collections\/commercial-playgrounds",
+            "button_label_1": "Grants & Stimulus Guide",
+            "button_link_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/3691\/3182\/files\/PE_Grant__Stimulus_Guide_2023.pdf?v=1718211418",
             "button_style_secondary_1": false,
             "button_label_2": "Castle Series Digital Catalog",
-            "button_link_2": "shopify:\/\/collections\/commercial-playgrounds",
+            "button_link_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/3691\/3182\/files\/Digital_Castle_Catalog_2022_issuu.pdf?v=1718211362",
             "button_style_secondary_2": false
           }
         }
@@ -332,8 +332,8 @@
             "image": "shopify:\/\/shop_images\/playground-icon_playground-equipment_color-variant-2.png",
             "title": "GETTING STARTED",
             "text": "<p>Create & Carry Out Your Playground Plans<\/p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Getting Started",
+            "link": "shopify:\/\/pages\/getting-started"
           }
         },
         "column_gHDn3P": {
@@ -342,8 +342,8 @@
             "image": "shopify:\/\/shop_images\/playground-icon_buying_guides_color-variant-1.png",
             "title": "PURCHASING",
             "text": "<p>We Make Buying Easy<\/p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Purchasing Process",
+            "link": "shopify:\/\/pages\/purchasing-process"
           }
         },
         "column_qzgbNX": {
@@ -352,8 +352,8 @@
             "image": "shopify:\/\/shop_images\/playground-icon_design_color-variant-2.png",
             "title": "DESIGN",
             "text": "<p>Important Things You Need to Know When Designing Your Playground<\/p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Design Basics",
+            "link": "shopify:\/\/pages\/design-basics"
           }
         }
       },

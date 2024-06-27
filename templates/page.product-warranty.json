@@ -1,0 +1,139 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "simple_text_trMhPq": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "header": "Product Warranty",
+        "heading_font_size": 36,
+        "paragraph": "<p>Theplaygroundstore.com warrants its original customer for as long as the original customer owns the product and uses the product with normal use, installation, and maintenance in accordance with published specifications to be free from defects in materials and workmanship. <\/p><p>This warranty does not cover damage from misuse, vandalism, modified parts, or damage such as dents, scratches, fading\/weathering, and normal wear and tear. The warranty does not cover the cost of freight or labor for the removal and installation of repaired or replacement parts. <\/p><p>Warranty claims must be filed within the applicable warranty period. Replacement parts carry the applicable warranty from the date of shipment of the replacement part. Repair\/Replacement orders for warranted products will be for the component part only. (Not the entire product.) Contact your Theplaygroundstore.com distributor for a return authorization. Warranties are limited to repair or replacement of defective parts. A repaired or replacement part is covered only for the original warranty period. All warranties begin on the delivery date of the goods. Warranties are non-transferable and only apply to end users who purchase new products directly from Theplaygroundstore.com or an authorized Theplaygroundstore.com distributor for personal or business use and not for the purpose of redistribution or re-sale. No other warranties apply.<\/p>",
+        "text_font_size": 16,
+        "alignment": "left",
+        "padding_top": 8,
+        "padding_bottom": 36
+      }
+    },
+    "simple_text_M4Cf3L": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "header": "Shade-Specific Warranty Conditions",
+        "heading_font_size": 36,
+        "paragraph": "<p>The Limited Warranty for Theplaygroundstore.com shades excludes the following: Damage from sources including vandalism, improper installation, misuse, wear and tear from normal use, accidental damage; exposure to extreme weather conditions, damage from salt or chlorine water, sand or other abrasive or corrosive elements; incorrect use, unauthorized repairs or alterations, improper or infrequent maintenance; cosmetic defects including but not limited to scratches, dents, peeling or fading finishes; abnormal conditions and contingent liability.<\/p><p>The warranty does not extend to any damages due to natural weather conditions, including but not limited to hail, flooding, lightning, tornadoes, sandstorms, shifts of terrain, earthquakes, mudslides, or windstorms. In areas with frequent hurricanes, removal of a shade fabric is required once hurricane warning has been issued.<\/p><p>In the unlikely event of failure, Theplaygroundstore.com reserves the right to change the design, color, or any other contributing factors to fix the condition and help prevent any recurrence(s) in the future. Theplaygroundstore.com retains the option to replace or repair any defects in materials. If any modifications, alterations, or attachments are made to the shade product without written consent from manufacturer, the warranty will be void.<\/p><p>Any addition of signs, ornaments, fans, lights, fixtures, miscellaneous objects, or decorations hung from the shade structure will result in a void of the warranty unless specifically designed and engineered by the manufacturer.<\/p><p>Theplaygroundstore.com does not include any implied warranty of merchantability, fitness, or purpose, and there are no warranties which extend beyond the description of the face hereof. Under no circumstances will Theplaygroundstore.com  be responsible for any indirect, special, consequential, incidental, or liquidated damages due to breach of warranty, and such damages are specifically excluded from the warranty.<\/p><p>The owner must notify Theplaygroundstore.com with the original issued purchase order number to schedule an inspection within 30 days after any defect is discovered under this warranty and prior to any attempt at repair or alteration. This Limited Warranty shall be null and void if the owner makes any alterations outside of instruction from Theplaygroundstore.com .<\/p>",
+        "text_font_size": 16,
+        "alignment": "left",
+        "padding_top": 8,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_4HnqyV": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_hqe7qk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "100 Year limited warranty",
+            "icon": "none",
+            "row_content": "<p><strong>☑ <\/strong>Aluminum and steel upright posts against structural failure due to deterioration, corrosion, or workmanship<\/p><p><strong>☑ <\/strong>Hardware against structural failure due to deterioration, corrosion, or workmanship<\/p><p><strong>☑ <\/strong>Post caps and clamps against structural failure due to deterioration, corrosion, or workmanship<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_BW9frH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "15 Year limited warranty",
+            "icon": "none",
+            "row_content": "<p><strong>☑ <\/strong>Rails, rungs, rigid climbers, loops and decks against structural failure or workmanship<\/p><p><strong>☑ <\/strong>HDPE and rotational molded plastic components against structural failure due to materials or workmanship<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YMyMpk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "5 Year limited warranty",
+            "icon": "none",
+            "row_content": "<p><strong>☑ <\/strong>Cables and nets against premature wear due to natural deterioration or manufacturing defects<\/p><p><strong>☑ <\/strong>Swing Set Frames and Frame Hardware<\/p><p><strong>☑ <\/strong>PVC coating against cracking and peeling<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9CMVgq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "3 Year limited warranty",
+            "icon": "none",
+            "row_content": "<p><strong>☑ <\/strong>Blow molded plastics against structural failure due to materials or workmanship<\/p><p><strong>☑ <\/strong>Shade Metal Framework<\/p><p><strong>☑ <\/strong>Shade Fabric<\/p><p><strong>☑ <\/strong>Imagination Stations Structures except for moving parts which carry a 1-year warranty<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6AVkLj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "1 Year limited warranty",
+            "icon": "none",
+            "row_content": "<p><strong>☑ <\/strong>Moving parts against structural failure due to materials or workmanship<\/p><p><strong>☑ <\/strong>All materials and products not covered above against failure due to materials or workmanship including swing parts (seats, hangers, chains, connectors) and post mount events (Bongos, Rain Wheel, Ship's Wheel, Single Drum)<\/p><p><strong>☑ <\/strong>All adult fitness equipment<\/p><p><strong>☑ <\/strong>Shade structure moving parts, cables, and materials not specifically listed elsewhere<\/p><p><strong>☑ <\/strong>Thermoplastic and powder-coating on site amenities<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_XGwwVC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Shades limited warranty",
+            "icon": "none",
+            "row_content": "<h4><strong>Shade-Specific Warranty Conditions<\/strong><\/h4><p>The Limited Warranty for Theplaygroundstore.com shades excludes the following: Damage from sources including vandalism, improper installation, misuse, wear and tear from normal use, accidental damage; exposure to extreme weather conditions, damage from salt or chlorine water, sand or other abrasive or corrosive elements; incorrect use, unauthorized repairs or alterations, improper or infrequent maintenance; cosmetic defects including but not limited to scratches, dents, peeling or fading finishes; abnormal conditions and contingent liability.<\/p><p>The warranty does not extend to any damages due to natural weather conditions, including but not limited to hail, flooding, lightning, tornadoes, sand storms, shifts of terrain, earthquakes, mudslides, or windstorms. In areas with frequent hurricanes, removal of a shade fabric is required once a hurricane warning has been issued.<\/p><p>In the unlikely event of failure, Theplaygroundstore.com reserves the right to change the design, color, or any other contributing factors to fix the condition and help prevent any recurrence(s) in the future. Theplaygroundstore.com retains the option to replace or repair any defects in materials. If any modifications, alterations, or attachments are made to the shade product without written consent from the manufacturer, the warranty will be void.<\/p><p>Any addition of signs, ornaments, fans, lights, fixtures, miscellaneous objects or decorations hung from the shade structure will result in a void of the warranty, unless specifically designed and engineered by the manufacturer.<\/p><p>Theplaygroundstore.com does not include any implied warranty of merchantability, fitness, or purpose, and there are no warranties which extend beyond the description of the face hereof. Under no circumstances will Theplaygroundstore.com be responsible for any indirect, special, consequential, incidental, or liquidated damages due to breach of warranty and such damages are specifically excluded from the warranty.<\/p><p>The owner must notify Theplaygroundstore.com with the original issued purchase order number to schedule an inspection within 30 days after any defect is discovered under this warranty and prior to any attempt at repair or alteration. This Limited Warranty shall be null and void if the owner makes any alterations outside of instruction from Theplaygroundstore.com.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8Beyjr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Site Amenities limited warranty",
+            "icon": "none",
+            "row_content": "<p>The 1 year Limited Warranty for thermoplastic and powder-coating on Theplaygroundstore.com site amenities excludes abnormal conditions, contingent liability, cosmetic defects (scratches, dents, marring, stripping, peeling, or fading); damage due to incorrect installation, vandalism, misuse, accident wear and tear from normal use; exposure to extreme weather, immersion in salt or chlorine water, damage due to sand, salt spray, or other abrasive and corrosive material; unauthorized repair or modification, abnormal use, or lack of maintenance. The warranty does not cover damages due to weather conditions or climate such as hail, flooding, lightning, tornadoes, sand storms, shifts of terrain, earthquakes, mudslides, or windstorms.<\/p><p>The product may require field touch-up immediately and will require field touch-up periodically over the life of the product to extend its useful life. Repair kits are made available upon initial request at time of installation at no cost and available for a charge during the life of the product. Any and all costs of labor or tools required for repair is at the customers expense for thermoplastic or powder coat finish.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_hqe7qk",
+        "collapsible_row_BW9frH",
+        "collapsible_row_YMyMpk",
+        "collapsible_row_9CMVgq",
+        "collapsible_row_6AVkLj",
+        "collapsible_row_XGwwVC",
+        "collapsible_row_8Beyjr"
+      ],
+      "custom_css": [
+        ".collapsible-content-wrapper-narrow {max-width: 90em;}",
+        "p{font-size: 16px;}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "View warranties by coverage period and product type",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-5",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "simple_text_trMhPq",
+    "simple_text_M4Cf3L",
+    "collapsible_content_4HnqyV"
+  ]
+}

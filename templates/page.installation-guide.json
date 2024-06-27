@@ -125,7 +125,7 @@
             "title": "Getting Started",
             "text": "<p>You've already begun your journey to the ideal playground or outdoor space.<\/p>",
             "link_label": "Getting Started Page",
-            "link": "\/pages\/getting-started"
+            "link": "shopify:\/\/pages\/getting-started"
           }
         },
         "column_tTbhyy": {
@@ -135,7 +135,7 @@
             "title": "Delivery",
             "text": "<p>What to expect with your shipment and what to do next.<\/p>",
             "link_label": "Playground Delivery Guide",
-            "link": "\/pages\/shipping-delivery"
+            "link": "shopify:\/\/pages\/shipping-delivery"
           }
         },
         "column_QFA6U9": {
@@ -145,7 +145,7 @@
             "title": "Maintenance",
             "text": "<p>How to take care of your playground so that it lasts for years.<\/p>",
             "link_label": "Playground Maintenance Guide",
-            "link": "\/pages\/getting-started"
+            "link": "shopify:\/\/pages\/maintenance"
           }
         }
       },
