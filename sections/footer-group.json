@@ -74,7 +74,7 @@
           "type": "text",
           "settings": {
             "heading": "Questions? Comments? Concerns?",
-            "subtext": "<h2><strong>☏  Call<\/strong><\/h2><h4><a href=\"tel:+1833-575-0255\" title=\"tel:+1833-575-0255\">1-833-575-0255<\/a><\/h4><h2><strong>✎ Message<\/strong><\/h2><h4><a href=\"mailto:customercare@theplaygroundstore.com\" title=\"mailto:customercare@theplaygroundstore.com\">customercare@theplaygroundstore.com<\/a><\/h4>"
+            "subtext": "<h2><strong>☏  Call<\/strong><\/h2><p><a href=\"tel:+1833-575-0255\" title=\"tel:+1833-575-0255\">1-833-575-0255<\/a><\/p><h2><strong>✎ Message<\/strong><\/h2><p><a href=\"mailto:customercare@theplaygroundstore.com\" title=\"mailto:customercare@theplaygroundstore.com\">customercare@theplaygroundstore.com<\/a><\/p>"
           }
         },
         "brand_information_dPjhxz": {

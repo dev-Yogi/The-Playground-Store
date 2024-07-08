@@ -13,7 +13,7 @@
         "text_m3wnrr": {
           "type": "text",
           "settings": {
-            "text": "<p>This page will accompany on your journey to purchasing your new playground. You will be taken through the process of planning, designing and purchasing a new playground for your park, school or daycare. This page also links to helpful and informative articles that will give you more tips and guidance in your search.<\/p>"
+            "text": "<p>This page will accompany you on your journey to purchasing your new playground. You will be taken through the process of planning, designing and purchasing a new playground for your park, school or daycare. This page also links to helpful and informative articles that will give you more tips and guidance in your search.<\/p>"
           }
         },
         "button_fE8wqd": {
@@ -178,7 +178,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/playground-icon_design_color-variant-1.png",
             "title": "Design",
-            "text": "<ol><li><a href=\"\/pages\/design-services\" title=\"Design Services\">Design FAQ<\/a><\/li><li><a href=\"\/pages\/design-basics\" title=\"Design Basics\">Design Basics<\/a><\/li><li><a href=\"\/pages\/color-options\" title=\"Color Options\">Color Options<\/a><\/li><li><a href=\"\/pages\/playground-color-tool\" title=\"Playground Color Tool\">Playground Colorizer<\/a><\/li><\/ol>",
+            "text": "<ol><li><a href=\"\/pages\/design-services\" title=\"Design Services\">Design FAQ<\/a><\/li><li><a href=\"\/pages\/design-basics\" title=\"Design Basics\">Design Basics<\/a><\/li><li><a href=\"\/pages\/color-options\" title=\"Color Options\">Color Options<\/a><\/li><\/ol>",
             "link_label": "",
             "link": ""
           }

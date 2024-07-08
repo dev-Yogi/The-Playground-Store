@@ -20,7 +20,60 @@
     { "id": "silver", "hexValue": "#9b9b9b", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
     { "id": "white", "hexValue": "#ffffff", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" }
   ];
+    var playgroundParts = [
+    { "id": "bones_bridge", "color_palette": "primary_palette" },
+    { "id": "posts", "color_palette": "secondary_palette" },
+    { "id": "rails", "color_palette": "secondary_palette" },
+    { "id": "spacers", "color_palette": "accessories_4" },
+    { "id": "climber", "color_palette": "primary_palette" },
+    { "id": "crawl_tube", "color_palette": "primary_palette"  },
+    { "id": "full_panel",  "color_palette": "double_color_palette"},
+    { "id": "hole_panel", "color_palette": "double_color_palette" },
+    { "id": "panels", "color_palette": "primary_palette" },
+    { "id": "roofs", "color_palette": "primary_palette" },
+    { "id": "slides", "color_palette": "primary_palette"},
+    { "id": "xo", "color_palette": "primary_palette" },
+    { "id": "bongos", "color_palette": "accessories_1" },
+    { "id": "ship_wheel", "color_palette": "accessories_2"},
+    { "id": "single_drum", "color_palette": "accessories_3" }
+  ];
 
+var colorPalettes = [
+  {"id": "primary_palette", "color_palette": ["black", "gray", "pacific_blue", "primary_green", "primary_red", "purple", "rainforest_green", "sky_blue", "sunburnt_orange", "sunglow_yellow", "tan", "teal", "terra_cotta"] },
+  {"id": "secondary_palette", "color_palette": ["brick_red", "brown", "lime_green", "matte_black", "pacific_blue","purple", "rainforest_green", "silver", "sunburnt_orange", "sunglow_yellow", "tan", "teal", "white"] },
+  {"id": "double_color_palette", "color_palette": ["pacific_blue", "brown", "primary_green", "sunburnt_orange", "primary_red", "tan", "sunglow_yellow"] },
+  {"id": "accessories_1", "color_palette": ["primary_red", "tan"] },
+  {"id": "accessories_2", "color_palette": ["pacific_blue", "sunglow_yellow", "tan"] },
+  {"id": "accessories_3", "color_palette": ["pacific_blue", "tan"] },
+  {"id": "accessories_4", "color_palette": ["sunglow_yellow", "tan"] }
+];
+
+
+// Create a map of color ID to hexValue
+var colorMap = colorOptions.reduce((map, color) => {
+  map[color.id] = color.hexValue;
+  return map;
+}, {});
+
+// Create a map of color palettes
+var colorPaletteMap = colorPalettes.reduce((map, palette) => {
+  map[palette.id] = palette.color_palette.map(colorId => colorMap[colorId]);
+  return map;
+}, {});
+
+// Update playgroundParts with color hex values
+playgroundParts = playgroundParts.map(part => {
+  return {
+    ...part,
+    color_palette: colorPaletteMap[part.color_palette]
+  };
+});
+
+console.log(playgroundParts);
+
+
+  
+  
   function createSvgDataUrl(color) {
     var svg = '<svg width="' + color.width + '" height="' + color.height + '" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="' + color.hexValue + '" d="' + color.path + '"/></svg>';
     return 'data:image/svg+xml;base64,' + window.btoa(svg);
@@ -164,7 +217,7 @@
 {% endif %}
 <div class="color-{{ section.settings.color_scheme }} gradient shopify-section section">
   <div class="page-width page-width--narrow section-{{ section.id }}-padding d-flex container-lg color-wizard-tool">
-    <div class="block_container col-lg-6"
+    <div class="block_container col-lg-6">
     {% for block in section.blocks %}
       {% assign section_id = block.settings.part_label | replace: ' ', '_' | downcase %}
       {% assign section_category = block.settings.part_category %}
@@ -182,7 +235,6 @@
         <img class="image color-wizard" src="https://cdn.shopify.com/s/files/1/0865/3691/3182/files/pg-tool.png?v=1719425993" height="600" width="800"/>
       </div>
     </div>
- 
   </div>
 </div>
 
