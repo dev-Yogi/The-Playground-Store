@@ -89,7 +89,7 @@
       ],
       "custom_css": [
         ".icon-group-container {width: 100%; justify-content: space-around;}",
-        "@media screen and (max-width: 480px) {.icon-group {width: 150px; margin: 10px 0; }}"
+        "@media screen and (max-width: 480px) {.icon-group .icon {height: 200px; width: 200px; } .icon-group-container {} .icon-group {width: 100%; margin: 10px 0; } .icon-group:not(:last-child):before{display: none; }}"
       ],
       "settings": {
         "header": "Purchase Process - Quick Links",

@@ -1,138 +1,122 @@
 {% javascript %}
-  var colorOptions = [
-    { "id": "black", "hexValue": "#000000", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
-    { "id": "gray", "hexValue": "#979694", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
-    { "id": "pacific_blue", "hexValue": "#283FB2", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
-    { "id": "primary_green", "hexValue": "#008000", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
-    { "id": "primary_red", "hexValue": "#D90000", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
-    { "id": "purple", "hexValue": "#702F88", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
-    { "id": "rainforest_green", "hexValue": "#2A412A", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
-    { "id": "sky_blue", "hexValue": "#0093A3", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
-    { "id": "sunburnt_orange", "hexValue": "#EA6B32", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
-    { "id": "sunglow_yellow", "hexValue": "#EDC900", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
-    { "id": "tan", "hexValue": "#CFB990", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
-    { "id": "teal", "hexValue": "#067D75", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
-    { "id": "terra_cotta", "hexValue": "#833b3b", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
-    { "id": "brick_red", "hexValue": "#B6321C", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
-    { "id": "brown", "hexValue": "#5A3A26", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
-    { "id": "lime_green", "hexValue": "#32cd32", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
-    { "id": "matte_black", "hexValue": "#000000", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
-    { "id": "silver", "hexValue": "#9b9b9b", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
-    { "id": "white", "hexValue": "#ffffff", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" }
-  ];
-    var playgroundParts = [
-    { "id": "bones_bridge", "color_palette": "primary_palette" },
-    { "id": "posts", "color_palette": "secondary_palette" },
-    { "id": "rails", "color_palette": "secondary_palette" },
-    { "id": "spacers", "color_palette": "accessories_4" },
-    { "id": "climber", "color_palette": "primary_palette" },
-    { "id": "crawl_tube", "color_palette": "primary_palette"  },
-    { "id": "full_panel",  "color_palette": "double_color_palette"},
-    { "id": "hole_panel", "color_palette": "double_color_palette" },
-    { "id": "panels", "color_palette": "primary_palette" },
-    { "id": "roofs", "color_palette": "primary_palette" },
-    { "id": "slides", "color_palette": "primary_palette"},
-    { "id": "xo", "color_palette": "primary_palette" },
-    { "id": "bongos", "color_palette": "accessories_1" },
-    { "id": "ship_wheel", "color_palette": "accessories_2"},
-    { "id": "single_drum", "color_palette": "accessories_3" }
-  ];
+          var colorOptions = [
+            { "id": "black", "hexValue": "#000000", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
+            { "id": "gray", "hexValue": "#979694", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
+            { "id": "pacific-blue", "hexValue": "#283FB2", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
+            { "id": "primary-green", "hexValue": "#008000", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
+            { "id": "primary-red", "hexValue": "#D90000", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
+            { "id": "purple", "hexValue": "#702F88", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
+            { "id": "rainforest-green", "hexValue": "#2A412A", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
+            { "id": "sky-blue", "hexValue": "#0093A3", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
+            { "id": "sunburnt-orange", "hexValue": "#EA6B32", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
+            { "id": "sunglow-yellow", "hexValue": "#EDC900", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
+            { "id": "tan", "hexValue": "#CFB990", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
+            { "id": "teal", "hexValue": "#067D75", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
+            { "id": "terra-cotta", "hexValue": "#833b3b", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
+            { "id": "brick-red", "hexValue": "#B6321C", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
+            { "id": "brown", "hexValue": "#5A3A26", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
+            { "id": "lime-green", "hexValue": "#32cd32", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
+            { "id": "matte-black", "hexValue": "#000000", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
+            { "id": "silver", "hexValue": "#9b9b9b", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
+            { "id": "white", "hexValue": "#ffffff", "width": "24", "height": "24", "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" },
+            { "id": "orange-black", "hexValue": "#FFA500"},
+            { "id": "blue-white", "hexValue": "#283FB2"},
+            { "id": "tan-green", "hexValue": "#CFB990"},
+            { "id": "yellow-white", "hexValue": "#EDC900"},
+            { "id": "green-white", "hexValue": "#008000"},
+            { "id": "red-white", "hexValue": "#D90000"},
+            { "id": "brown-white", "hexValue": "#5A3A26"},
+            { "id": "tan-black", "hexValue": "#CFB990"},
+            { "id": "orange-black", "hexValue": "#FFA500"},
+            { "id": "yellow-black", "hexValue": "#EDC900"}
+          ];
+            var playgroundParts = [
+            { "id": "bones-bridge", "color_palette": "primary_palette" },
+            { "id": "posts", "color_palette": "secondary_palette" },
+            { "id": "rails", "color_palette": "third_palette" },
+            { "id": "spacers", "color_palette": "accessories_4" },
+            { "id": "climber", "color_palette": "primary_palette" },
+            { "id": "crawl-tube", "color_palette": "primary_palette"  },
+            { "id": "full-panel",  "color_palette": "full-panel-colors"},
+            { "id": "hole-panel", "color_palette": "hole-panel-colors" },
+            { "id": "panels", "color_palette": "primary_palette" },
+            { "id": "roofs", "color_palette": "primary_palette" },
+            { "id": "slides", "color_palette": "primary_palette"},
+            { "id": "XO", "color_palette": "primary_palette" },
+            { "id": "bongos", "color_palette": "accessories_1" },
+            { "id": "ship-wheel", "color_palette": "accessories_2"},
+            { "id": "single-drum", "color_palette": "accessories_3" }
+          ];
 
-var colorPalettes = [
-  {"id": "primary_palette", "color_palette": ["black", "gray", "pacific_blue", "primary_green", "primary_red", "purple", "rainforest_green", "sky_blue", "sunburnt_orange", "sunglow_yellow", "tan", "teal", "terra_cotta"] },
-  {"id": "secondary_palette", "color_palette": ["brick_red", "brown", "lime_green", "matte_black", "pacific_blue","purple", "rainforest_green", "silver", "sunburnt_orange", "sunglow_yellow", "tan", "teal", "white"] },
-  {"id": "double_color_palette", "color_palette": ["pacific_blue", "brown", "primary_green", "sunburnt_orange", "primary_red", "tan", "sunglow_yellow"] },
-  {"id": "accessories_1", "color_palette": ["primary_red", "tan"] },
-  {"id": "accessories_2", "color_palette": ["pacific_blue", "sunglow_yellow", "tan"] },
-  {"id": "accessories_3", "color_palette": ["pacific_blue", "tan"] },
-  {"id": "accessories_4", "color_palette": ["sunglow_yellow", "tan"] }
-];
+        var colorPalettes = [
+          {"id": "primary_palette", "color_palette": ["black", "gray", "pacific-blue", "primary-green", "primary-red", "purple", "rainforest-green", "sky-blue", "sunburnt-orange", "sunglow-yellow", "tan", "teal", "terra-cotta"] },
+          {"id": "secondary_palette", "color_palette": ["brick-red", "brown", "lime-green", "matte-black", "pacific-blue","purple", "rainforest-green", "silver", "sunburnt-orange", "sunglow-yellow", "tan", "teal", "white"] },
+          {"id": "third_palette", "color_palette": ["brick-red", "brown", "lime-green", "matte-black", "pacific-blue","purple", "rainforest-green", "silver", "sunglow-yellow", "tan", "teal", "white"] },
+          {"id": "double_color_palette", "color_palette": ["pacific-blue", "brown", "primary-green", "sunburnt-orange", "primary-red", "tan", "sunglow-yellow"] },
+          {"id": "accessories_1", "color_palette": ["primary-red", "tan"] },
+          {"id": "accessories_2", "color_palette": ["pacific-blue", "sunglow-yellow", "tan"] },
+          {"id": "accessories_3", "color_palette": ["pacific-blue", "tan"] },
+          {"id": "accessories_4", "color_palette": ["sunglow-yellow", "tan"] },
+          {"id": "hole-panel-colors", "color_palette": ["orange-black", "blue-white", "tan-green", "yellow-white", "green-white", "red-white"] },
+          {"id": "full-panel-colors", "color_palette": ["brown-white", "blue-white", "tan-black", "yellow-black", "green-white", "red-white", "orange-black"] },
+        ];
 
+function getColorDetails(colorId) {
+    return colorOptions.find(color => color.id === colorId);
+}
 
-// Create a map of color ID to hexValue
-var colorMap = colorOptions.reduce((map, color) => {
-  map[color.id] = color.hexValue;
-  return map;
-}, {});
-
-// Create a map of color palettes
-var colorPaletteMap = colorPalettes.reduce((map, palette) => {
-  map[palette.id] = palette.color_palette.map(colorId => colorMap[colorId]);
-  return map;
-}, {});
-
-// Update playgroundParts with color hex values
-playgroundParts = playgroundParts.map(part => {
-  return {
-    ...part,
-    color_palette: colorPaletteMap[part.color_palette]
-  };
+playgroundParts.forEach(part => {
+    var palette = colorPalettes.find(p => p.id === part.color_palette);
+    part.color_palette = palette.color_palette.map(colorId => getColorDetails(colorId));
 });
 
-console.log(playgroundParts);
-
-
-  
-  
-  function createSvgDataUrl(color) {
-    var svg = '<svg width="' + color.width + '" height="' + color.height + '" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="' + color.hexValue + '" d="' + color.path + '"/></svg>';
-    return 'data:image/svg+xml;base64,' + window.btoa(svg);
-  }
-
-  $(document).ready(function() {
-    function populateColorOptions($selectElement) {
-      $.each(colorOptions, function(index, color) {
-        var optionText = color.id.replace(/_/g, ' ').toUpperCase();
-        var svgDataUrl = createSvgDataUrl(color);
-        var option = $('<option></option>')
-          .addClass(color.id)
-          .attr('value', color.id)
-          .html('<p class="color-label">' + optionText + '</p>')
-          .css({
-            'background-image': 'url("' + svgDataUrl + '")',
-            'background-repeat': 'no-repeat',
-            'background-size': '24px 24px',
-            'padding-left': '30px'
-          });
-
-        $selectElement.append(option);
-      });
+$(document).ready(function() {
+    function populateColorOptions($selectElement, partColors) {
+        partColors.forEach(color => {
+            var optionText = color.id.replace(/_/g, ' ').toUpperCase();
+            optionText = optionText.replace(/-/g, ' ')
+            var option = $('<option></option>')
+                .addClass(color.id)
+                .attr('value', color.id)
+                .html(optionText);
+            $selectElement.append(option);
+        });
     }
 
-    var $colorSelects = $('.selected_color');
-
-    $colorSelects.each(function() {
-      populateColorOptions($(this));
+    playgroundParts.forEach(part => {
+        var $selectElement = $('#colorSelect-' + part.id);
+        populateColorOptions($selectElement, part.color_palette);
     });
 
-    $colorSelects.on('change', function() {
-      var selectedColor = $(this).val();
-      var hexValue = '';
+    function updateImageSrc(selectElement, selectedColor) {
+        var partClass = $(selectElement).attr('class').split(' ').find(cls => cls !== 'selected_color' && cls !== 'select__select');
+        var newImageSrc = '';
 
-      if (selectedColor !== "black" && selectedColor !== "matte_black") {
-        $(this).css('color', '#002B57');
-      } else {
-        $(this).css('color', 'white');
-      }
-      for (var i = 0; i < colorOptions.length; i++) {
-        if (colorOptions[i].id === selectedColor) {
-          hexValue = colorOptions[i].hexValue;
-          break;
+        if (partClass && selectedColor) {
+            newImageSrc = `https://cdn.shopify.com/s/files/1/0865/3691/3182/files/${partClass}_${selectedColor}.png`;
         }
-      }
-      $(this).css('background-color', hexValue);
-    });
 
-    var initialColor = $colorSelects.val();
-    var initialHexValue = '';
-    for (var i = 0; i < colorOptions.length; i++) {
-      if (colorOptions[i].id === initialColor) {
-        initialHexValue = colorOptions[i].hexValue;
-        break;
-      }
+        $('.image.' + partClass).attr('src', newImageSrc);
     }
-    $colorSelects.css('background-color', initialHexValue);
-  });
+
+
+    $('.selected_color').on('change', function() {
+        var selectedColor = $(this).val();
+        var hexValue = '';
+
+        for (var i = 0; i < colorOptions.length; i++) {
+            if (colorOptions[i].id === selectedColor) {
+                hexValue = colorOptions[i].hexValue;
+                break;
+            }
+        }
+        $(this).css('background-color', hexValue);
+
+        // Update the image source based on the selected color
+        updateImageSrc(this, selectedColor);
+
+    });
+});
 {% endjavascript %}
 {% assign color_scheme_id = section.settings.color_scheme %}
 {% assign color_scheme = section.settings.color_scheme | prepend: 'color_schemes.' | json %}
@@ -143,6 +127,14 @@ console.log(playgroundParts);
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    .selected_color{
+      border: 2px solid #002B57;
+      border-radius: 50px;
+      color: white;
+    }
+    .select__select:focus{
+      border-radius: 50px;
     }
     .color-dropdown {
       margin: 20px 0;
@@ -161,7 +153,7 @@ console.log(playgroundParts);
       margin: 15px;
     }
     .playground-part h4{
-      width: 14ch;
+      width: 18ch;
     }
     #colorSelect{
       padding-left: 5px;
@@ -180,7 +172,32 @@ console.log(playgroundParts);
       border-radius: 23px;
       z-index: 0;
     }
+    area{
+      cursor: pointer;
+    }
 
+    .image{
+      position: absolute;
+    }
+    .bones-bridge,
+    .posts,
+    .rails,
+    .spacers,
+    .climber,
+    .crawl-tube,
+    .full-panel,
+    .hole-panel,
+    .panels,
+    .roofs,
+    .slides,
+    .XO,
+    .bongos,
+    .ship-wheel,
+    .single-drum,
+    .base{
+
+        max-width: 100%;
+    }
     @media screen and (min-width: 750px) {
       .section-{{ section.id }}-padding {
         padding-top: {{ section.settings.padding_top }}px;
@@ -212,33 +229,158 @@ console.log(playgroundParts);
             max-height: 250px;
     max-width: 300px;
       }
+      .block_container{
+        margin-top: 300px;
+      }
     }
   </style>
 {% endif %}
 <div class="color-{{ section.settings.color_scheme }} gradient shopify-section section">
   <div class="page-width page-width--narrow section-{{ section.id }}-padding d-flex container-lg color-wizard-tool">
-    <div class="block_container col-lg-6">
-    {% for block in section.blocks %}
-      {% assign section_id = block.settings.part_label | replace: ' ', '_' | downcase %}
-      {% assign section_category = block.settings.part_category %}
-      <h3>{{ section_category }}</h3>
-      <div class="playground-part">
-        <h4>{{ block.settings.part_label }}</h4>
-        <select id="colorSelect-{{ section_id }}" class="{{ section_id }} selected_color select__select">
-          <option value="">Choose a color...</option>
-        </select>
-      </div>
-    {% endfor %}
- </div>
-    <div class="col-lg-6">
+    <div class="block_container col-md-5 col-lg-6">
+      {% for block in section.blocks %}
+        {% if block.settings.part_label == 'XO' %}
+          {% assign section_id = block.settings.part_label | replace: ' ', '-' %}
+        {% else %}
+          {% assign section_id = block.settings.part_label | replace: ' ', '-' | downcase %}
+        {% endif %}
+
+        {% assign section_category = block.settings.part_category %}
+        <h3>{{ section_category }}</h3>
+        <div class="playground-part">
+          <h4>{{ block.settings.part_label }}</h4>
+          <select id="colorSelect-{{ section_id }}" class="{{ section_id }} selected_color select__select">
+            <option value="">Choose a color...</option>
+          </select>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="col-md-6 col-lg-6">
       <div>
-        <img class="image color-wizard" src="https://cdn.shopify.com/s/files/1/0865/3691/3182/files/pg-tool.png?v=1719425993" height="600" width="800"/>
+        <img
+          class="image main"
+          src="https://cdn.shopify.com/s/files/1/0865/3691/3182/files/pg-tool-smaller.png?v=1720557061"
+          usemap="#image-map"
+          height="567"
+          width="800"
+          style="display:none;"
+        >
+        <img
+          class="image bones-bridge"
+          src="https://cdn.shopify.com/s/files/1/0865/3691/3182/files/bones-bridge_sky-blue.png?v=1720632407"
+          usemap="#image-map"
+          height="auto"
+          width="auto"
+        >
+        <img
+          class="image posts"
+          src="https://cdn.shopify.com/s/files/1/0865/3691/3182/files/posts_lime-green.png?v=1720632723"
+          usemap="#image-map"
+          height="auto"
+          width="auto"
+        >
+        <img
+          class="image rails"
+          src="https://cdn.shopify.com/s/files/1/0865/3691/3182/files/rails_silver.png?v=1720632815"
+          usemap="#image-map"
+          height="auto"
+          width="auto"
+        >
+        <img
+          class="image spacers"
+          src="https://cdn.shopify.com/s/files/1/0865/3691/3182/files/spacers_tan.png?v=1720634584"
+          usemap="#image-map"
+          height="auto"
+          width="auto"
+        >
+        <img
+          class="image climber"
+          src="https://cdn.shopify.com/s/files/1/0865/3691/3182/files/climber_sky-blue.png?v=1720634925"
+          usemap="#image-map"
+          height="auto"
+          width="auto"
+        >
+        <img
+          class="image crawl-tube"
+          src="https://cdn.shopify.com/s/files/1/0865/3691/3182/files/crawl-tube_sky-blue.png?v=1720634983"
+          usemap="#image-map"
+          height="auto"
+          width="auto"
+        >
+        <img
+          class="image full-panel"
+          src="https://cdn.shopify.com/s/files/1/0865/3691/3182/files/full-panel_yellow-black.png?v=1720635014"
+          usemap="#image-map"
+          height="auto"
+          width="auto"
+        >
+        <img
+          class="image hole-panel"
+          src="https://cdn.shopify.com/s/files/1/0865/3691/3182/files/hole-panel_yellow-white.png?v=1720635091"
+          usemap="#image-map"
+          height="auto"
+          width="auto"
+        >
+        <img
+          class="image panels"
+          src="https://cdn.shopify.com/s/files/1/0865/3691/3182/files/panels_sky-blue.png?v=1720635130"
+          usemap="#image-map"
+          height="auto"
+          width="auto"
+        >
+        <img
+          class="image roofs"
+          src="https://cdn.shopify.com/s/files/1/0865/3691/3182/files/roofs_sunglow-yellow.png?v=1720635186"
+          usemap="#image-map"
+          height="auto"
+          width="auto"
+        >
+        <img
+          class="image slides"
+          src="https://cdn.shopify.com/s/files/1/0865/3691/3182/files/slides_sky-blue.png?v=1720635226"
+          usemap="#image-map"
+          height="auto"
+          width="auto"
+        >
+        <img
+          class="image XO"
+          src="https://cdn.shopify.com/s/files/1/0865/3691/3182/files/XO_sunglow-yellow.png?v=1720635265"
+          usemap="#image-map"
+          height="auto"
+          width="auto"
+        >
+        <img
+          class="image bongos"
+          src="https://cdn.shopify.com/s/files/1/0865/3691/3182/files/bongos_tan.png?v=1720635333"
+          usemap="#image-map"
+          height="auto"
+          width="auto"
+        >
+        <img
+          class="image ship-wheel"
+          src="https://cdn.shopify.com/s/files/1/0865/3691/3182/files/ship-wheel_tan.png?v=1720635349"
+          usemap="#image-map"
+          height="auto"
+          width="auto"
+        >
+        <img
+          class="image single-drum"
+          src="https://cdn.shopify.com/s/files/1/0865/3691/3182/files/single-drum_tan.png?v=1720635365"
+          usemap="#image-map"
+          height="auto"
+          width="auto"
+        >
+        <img
+          class="image base"
+          src="https://cdn.shopify.com/s/files/1/0865/3691/3182/files/base.png?v=1720635454"
+          usemap="#image-map"
+          height="auto"
+          width="auto"
+        >
       </div>
     </div>
   </div>
 </div>
-
-
 
 {% schema %}
 {
@@ -286,12 +428,11 @@ console.log(playgroundParts);
           "label": "Part Label",
           "id": "part_label"
         },
-    {
-      "type": "text",
-      "id": "part_category",
-      "label": "Playground Parts Category"
-    },
-
+        {
+          "type": "text",
+          "id": "part_category",
+          "label": "Playground Parts Category"
+        }
       ]
     }
   ]

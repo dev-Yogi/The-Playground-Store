@@ -11,7 +11,7 @@
     "simple_text_dcbzKc": {
       "type": "simple-text",
       "settings": {
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5",
         "header": "Live Color Tool",
         "heading_font_size": 36,
         "paragraph": "",
@@ -27,7 +27,7 @@
         "pg_parts_label_HFdqnd": {
           "type": "pg_parts_label",
           "settings": {
-            "part_label": "Bone Bridge",
+            "part_label": "Bones Bridge",
             "part_category": "Painted Parts"
           }
         },
@@ -118,7 +118,7 @@
         "pg_parts_label_dGpVNw": {
           "type": "pg_parts_label",
           "settings": {
-            "part_label": "Spin Wheel",
+            "part_label": "Ship Wheel",
             "part_category": ""
           }
         },
@@ -147,8 +147,11 @@
         "pg_parts_label_dGpVNw",
         "pg_parts_label_C6jEyD"
       ],
+      "custom_css": [
+        "h4,h3 {color: #002b57;}"
+      ],
       "settings": {
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5",
         "padding_top": 4,
         "padding_bottom": 4
       }

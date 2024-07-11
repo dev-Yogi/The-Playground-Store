@@ -279,7 +279,7 @@
             "title": "Design Basics",
             "text": "<p>Begin your search with an understanding commercial playground requirements.<br\/><\/p>",
             "link_label": "Design Basics",
-            "link": "shopify:\/\/pages\/design-services"
+            "link": "shopify:\/\/pages\/design-basics"
           }
         },
         "column_At7GFF": {
@@ -289,7 +289,7 @@
             "title": "Color Options",
             "text": "<p>See the variety of color options we offer for our different components.<br\/><\/p>",
             "link_label": "Color Options",
-            "link": "shopify:\/\/pages\/design-services"
+            "link": "shopify:\/\/pages\/color-options"
           }
         },
         "column_aJGkXh": {
@@ -299,7 +299,7 @@
             "title": "Playground Colorizer",
             "text": "<p>See the variety of color options we offer for our different components.<br\/><\/p>",
             "link_label": "Playground Colorizer",
-            "link": "shopify:\/\/pages\/design-services"
+            "link": "shopify:\/\/pages\/playground-color-tool"
           }
         }
       },
