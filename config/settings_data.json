@@ -1,6 +1,6 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/playground-store-logo-final.png",
+    "logo": "shopify:\/\/shop_images\/playground-store-logo-final_c162033f-9a7d-4e53-98a6-c0ab7b44a93b.png",
     "logo_width": 300,
     "favicon": "shopify:\/\/shop_images\/Untitled_design_23.png",
     "type_header_font": "itc_tapioca_n5",
@@ -37,7 +37,7 @@
     "card_style": "card",
     "card_image_padding": 0,
     "card_text_alignment": "left",
-    "card_color_scheme": "scheme-4",
+    "card_color_scheme": "scheme-eb37189a-dead-45cc-aac0-53dcdadf5cd5",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
     "card_corner_radius": 0,
@@ -249,6 +249,17 @@
           "button_label": "#ffffff",
           "secondary_button_label": "#002b57",
           "shadow": "#ffffff"
+        }
+      },
+      "scheme-88fe15cb-01fc-4d02-a080-78e3d756935c": {
+        "settings": {
+          "background": "#f79e02",
+          "background_gradient": "linear-gradient(320deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+          "text": "#0074e1",
+          "button": "#10e7dc",
+          "button_label": "#f79e02",
+          "secondary_button_label": "#f79e02",
+          "shadow": "#0074e1"
         }
       }
     }

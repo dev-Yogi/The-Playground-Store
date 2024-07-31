@@ -25,6 +25,8 @@
 <noscript>{{ 'component-menu-drawer.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-cart-notification.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6Ley1RsqAAAAAGqVbeRSVjUdSO5CWr1rlDzIDxjm"></script>
+
 
 <style>
   header-drawer {
@@ -454,6 +456,15 @@
   }
 
   customElements.define('sticky-header', StickyHeader);
+
+  <script>
+  function onClick(e) {
+    e.preventDefault();
+    grecaptcha.enterprise.ready(async () => {
+      const token = await grecaptcha.enterprise.execute('6Ley1RsqAAAAAGqVbeRSVjUdSO5CWr1rlDzIDxjm', {action: 'CART_ADD'});
+    });
+  }
+</script>
 {% endjavascript %}
 
 <script type="application/ld+json">

@@ -57,7 +57,7 @@
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_playground-equipment_color-variant-2.png",
-            "icon_link": "<a href=\"https:\/\/www.playgroundequipment.com\/playground-equipment\/\" target=\"_blank\" title=\"https:\/\/www.playgroundequipment.com\/playground-equipment\/\">Playground Equipment<\/a>",
+            "icon_link": "Playground Equipment",
             "modal_content": "<p>Learn the difference between the different types of swings, commercial and residential equipment, or just look up the history of playground equipment.<\/p>"
           }
         },
@@ -65,7 +65,7 @@
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_design_color-variant-2.png",
-            "icon_link": "<a href=\"\/pages\/design-services\" target=\"_blank\" title=\"\/pages\/design-services\">Design<\/a>",
+            "icon_link": "Design",
             "modal_content": "<p><strong>Playground Design Services<\/strong><\/p><ul><li>Color Renderings<\/li><li>Structure Revision<\/li><li>Custom Structures<\/li><li>Site Plans<\/li><\/ul>"
           }
         },
@@ -73,7 +73,7 @@
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_materials_color-variant-1.png",
-            "icon_link": "<a href=\"\/pages\/about-us\/shopify-section-template--22215892336926__multicolumn_jfQYYm\" target=\"_blank\" title=\"\/pages\/about-us\/shopify-section-template--22215892336926__multicolumn_jfQYYm\">Materials<\/a>",
+            "icon_link": "Materials",
             "modal_content": "<p>The materials that are used can greatly change the care required.<\/p><ul><li>Galvanized steel<\/li><li>Polyethylene<\/li><li>Recycled plastic<\/li><li>Wood<\/li><\/ul>"
           }
         },
@@ -81,7 +81,7 @@
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_organization_color-variant-2.png",
-            "icon_link": "<a href=\"\/pages\/commercial-vs-residential\" target=\"_blank\" title=\"Commercial vs. Residential\">Organization<\/a>",
+            "icon_link": "Organization",
             "modal_content": "<p>Whether it is a school, church, or another group, the type of equipment that is needed or wanted can vary greatly.<\/p>"
           }
         },
@@ -89,7 +89,7 @@
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_maintenance_color-variant-2.png",
-            "icon_link": "<a href=\"\/pages\/maintenance\" target=\"_blank\" title=\"Maintenance\">Maintenance<\/a>",
+            "icon_link": "Maintenance",
             "modal_content": "<p>Playground equipment requires ongoing maintenance and there can be a lot to keep in mind.<\/p>"
           }
         },
@@ -97,7 +97,7 @@
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_buying_guides_color-variant-1.png",
-            "icon_link": "<a href=\"\/pages\/getting-started\" target=\"_blank\" title=\"Getting Started\">Buying Guides<\/a>",
+            "icon_link": "Buying Guides",
             "modal_content": "<p>Playground equipment can be expensive, but with a few tricks, the cost can be brought down to an affordable level.<\/p>"
           }
         },
@@ -105,7 +105,7 @@
           "type": "icon",
           "settings": {
             "icon": "shopify:\/\/shop_images\/playground-icon_teaching_color-variant-1.png",
-            "icon_link": "<a href=\"\/pages\/maintenance\/#shopify-section-template--22774246474014__multicolumn_3DChFj\" target=\"_blank\" title=\"\/pages\/maintenance\/#shopify-section-template--22774246474014__multicolumn_3DChFj\">Teaching<\/a>",
+            "icon_link": "Teaching",
             "modal_content": "<p>Resources about play and playgrounds specifically for administrators, teachers, and students.<\/p>"
           }
         },
@@ -178,7 +178,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/playground-icon_design_color-variant-1.png",
             "title": "Design",
-            "text": "<ol><li><a href=\"\/pages\/design-services\" title=\"Design Services\">Design FAQ<\/a><\/li><li><a href=\"\/pages\/design-basics\" title=\"Design Basics\">Design Basics<\/a><\/li><li><a href=\"\/pages\/color-options\" title=\"Color Options\">Color Options<\/a><\/li><\/ol>",
+            "text": "<ol><li><a href=\"\/pages\/design-services\" title=\"Design Services\">Design FAQ<\/a><\/li><li><a href=\"\/pages\/design-basics\" title=\"Design Basics\">Design Basics<\/a><\/li><li><a href=\"\/pages\/color-options\" title=\"Color Options\">Color Options<\/a><\/li><li><a href=\"\/pages\/playground-color-tool\" title=\"Playground Color Tool\">Playground Colorizer<\/a><\/li><\/ol>",
             "link_label": "",
             "link": ""
           }

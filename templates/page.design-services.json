@@ -113,7 +113,7 @@
         "@media screen and (max-width: 480px) {.image-with-text__text {margin-top: 50px; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ds-color-rendering.webp",
+        "image": "shopify:\/\/shop_images\/color-rendering.gif",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -160,7 +160,7 @@
         "@media screen and (max-width: 480px) {.image-with-text__text {margin-top: 50px; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ds-custom-structure.gif",
+        "image": "shopify:\/\/shop_images\/custom-stuctures.gif",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -207,7 +207,7 @@
         "@media screen and (max-width: 480px) {.image-with-text__text {margin-top: 50px; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ds-site-rendering.gif",
+        "image": "shopify:\/\/shop_images\/site-rendering.gif",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -250,11 +250,11 @@
         "text_nrY46V"
       ],
       "custom_css": [
-        ".image-with-text__media-item {height: 220px; width: 250px;}",
+        ".image-with-text__media-item {height: 260px; width: 250px;}",
         "@media screen and (max-width: 480px) {.image-with-text__text {margin-top: 50px; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ds-structure-revisions.webp",
+        "image": "shopify:\/\/shop_images\/structure-revision.gif",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",

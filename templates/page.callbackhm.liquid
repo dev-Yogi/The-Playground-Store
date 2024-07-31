@@ -1,0 +1,332 @@
+<style>
+    .flex-adjust {
+      justify-content: center;
+    }
+
+    .flex-adjust > div {
+      width: 70%;
+      max-width: 70%;
+    }
+
+    .cart-items-wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+  .cart-items-wrapper > div {
+    margin: 5px;
+  }
+
+    .item-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 30%;
+      margin: 5px;
+      padding: 5px;
+      border: 0.5px solid lightgray;
+      min-height: 185px;
+    }
+
+    .image-div {
+      height: 100px;
+    }
+
+    .image-sizing {
+      height: 90px;
+    }
+
+    .prod-title{
+      font-size: small;
+      text-align: center;
+    }
+
+      .field {
+      margin-bottom: 6px;
+    }
+
+    .field-grouping {
+      margin-left: 10px;
+      margin-top: 18px;
+      font-weight: bold;
+      font-size: 1.75rem;
+    }
+</style>
+
+<div class="page-width" data-section-id="cart-template" data-section-type="cart-template">
+  <h1>Custom Quote Required</h1>
+
+  <div class="section-header text-center">
+    <h2>
+      Items in your cart require a custom quote for shipping (view cart below). We work with a number of LTL frieght
+      carriers to ensure you get the best rate and accurate shipping costs. We will have your custom quote ready within
+      1 business day.
+    </h2>
+    <p><i>Quotes are valid for 10 days</i></p>
+  </div>
+
+  <h2>Quote Request Form</h2>
+  <h4>Please enter your information below. This helps us get an accurate shipping rate for your order.</h4>
+  <div class="contact-form form-vertical">
+    <form id="hmform">
+      <div class="field-grouping">Contact Info</div>
+      <div class="field">
+        <input required class="field__input" type="text" id="ContactFormName" name="name" value="" placeholder="Name">
+        <label class="field__label" for="ContactFormName">Name</label>
+      </div>
+      <div class="field">
+        <input class="field__input" type="text" id="ContactFormCompany" name="company" value="" placeholder="Company">
+        <label class="field__label" for="ContactFormCompany">Company (Optional)</label>
+      </div>
+      <div class="field-grouping">Contact Method</div>
+      <div class="field">
+        <input
+          required
+          class="field__input"
+          type="email"
+          id="ContactFormEmail"
+          name="email"
+          value=""
+          placeholder="Email"
+        >
+        <label class="field__label" for="ContactFormEmail">Email</label>
+      </div>
+      <div class="field">
+        <input
+          required
+          class="field__input"
+          type="tel"
+          id="ContactFormPhone"
+          name="phone"
+          value=""
+          placeholder="Phone"
+          pattern="[0-9\-]*"
+        >
+        <label class="field__label" for="ContactFormPhone">Phone</label>
+      </div>
+      <div class="field-grouping">Shipping Address</div>
+      <div class="field">
+        <input
+          required
+          class="field__input"
+          type="text"
+          id="ContactFormAddress"
+          name="address"
+          value=""
+          placeholder="Address"
+        >
+        <label class="field__label" for="ContactFormAddress">Address</label>
+      </div>
+      <div class="field">
+        <input required class="field__input" type="text" id="ContactFormCity" name="city" placeholder="City">
+        <label class="field__label" for="ContactFormCity">City</label>
+      </div>
+      <div class="field">
+        <input
+          required
+          class="field__input"
+          type="text"
+          id="ContactFormState"
+          name="state"
+          value=""
+          placeholder="State"
+        >
+        <label class="field__label" for="ContactFormState">State</label>
+      </div>
+      <div class="field">
+        <input required class="field__input" type="text" id="ContactFormZip" name="zip" value="" placeholder="Zip">
+        <label class="field__label" for="ContactFormZip">Zip</label>
+      </div>
+      <div>
+        <input type="submit" class="btn button" value="Get Quote" id="submitBtn">
+      </div>
+
+      <button class="btn" type="button" disabled style="display:none" id="loading">
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 38 38" stroke="#fff">
+          <g fill="none" fill-rule="evenodd">
+              <g transform="translate(1 1)" stroke-width="2">
+                  <circle stroke-opacity=".5" cx="18" cy="18" r="18"/>
+                  <path d="M36 18c0-9.94-8.06-18-18-18">
+                      <animateTransform attributeName="transform" type="rotate" from="0 18 18" to="360 18 18" dur="1s" repeatCount="indefinite"/>
+                  </path>
+              </g>
+          </g>
+        </svg>
+        Sending form...
+      </button>
+    </form>
+
+    <div id="success" style="text-align:center;display:none">
+      <p style="border-style: solid;padding-top: 10px;padding-bottom: 10px;border-width: thin;border-color: green;">
+        Thank your for the order. We'll get back to you as soon as possible.
+      </p>
+      <br>
+    </div>
+
+    <div id="error" style="text-align:center;display:none">
+      <p style="border-style: solid;padding-top: 10px;padding-bottom: 10px;border-width: thin;border-color: red;"></p>
+      <br>
+    </div>
+  </div>
+
+  <div class="section-header text-center">
+    <h2>Your cart summary.</h2>
+  </div>
+
+  <table>
+    <thead class="cart__row cart__header">
+      <th colspan="2">{{ 'cart.label.product' | t }}</th>
+      <th>{{ 'cart.label.price' | t }}</th>
+      <th class="text-center">{{ 'cart.label.quantity' | t }}</th>
+      <th class="text-right">{{ 'cart.label.total' | t }}</th>
+    </thead>
+    <tbody>
+      {% for item in cart.items %}
+        <tr class="cart__row border-bottom line{{ forloop.index }} cart-flex{% if forloop.first %} border-top{% endif %}">
+          <td class="cart__image-wrapper cart-flex-item">
+            <a href="{{ item.url | within: collections.all }}">
+              <img class="cart__image" src="{{ item | img_url: '50x50', scale: 2 }}" alt="{{ item.title | escape }}">
+            </a>
+          </td>
+          <td class="cart__meta small--text-left cart-flex-item">
+            <div class="list-view-item__title">
+              <a href="{{ item.url }}">
+                {{ item.product.title }}
+                {% if item.quantity > 1 %}
+                  <span class="medium-up--hide"
+                    ><span class="visually-hidden">{{ 'cart.label.quantity' | t }}</span>(x{{ item.quantity }})</span
+                  >
+                {% endif %}
+              </a>
+            </div>
+            {% unless item.variant.title contains 'Default' %}
+              <div class="cart__meta-text">
+                {% for option in item.product.options %}
+                  {{ option }}: {{ item.variant.options[forloop.index0] -}}
+                  <br>
+                {% endfor %}
+              </div>
+            {% endunless %}
+
+            {%- assign property_size = item.properties | size -%}
+            {% if property_size > 0 %}
+              <div class="cart__meta-text">
+                {% for p in item.properties %}
+                  {% unless p.last == blank %}
+                    {{ p.first }}:
+
+                    <!-- Check if there was an uploaded file associated -->
+
+                    {% if p.last contains '/uploads/' %}
+                      <a href="{{ p.last }}">{{ p.last | split: '/' | last }}</a>
+                    {% else %}
+                      {{ p.last }}
+                    {% endif %}
+                  {% endunless %}
+                {% endfor %}
+              </div>
+            {% endif %}
+          </td>
+          <td class="cart__price-wrapper cart-flex-item">
+            <span class="sp-cart-item-price" data-key="{{item.variant.id}}" data-variant-key="{{item.key}}">
+              {{- item.price | money -}}
+            </span>
+
+            {% for discount in item.discounts %}
+              <div class="cart-item__discount medium-up--hide">{{ discount.title }}</div>
+            {% endfor %}
+          </td>
+          <td class="cart__update-wrapper cart-flex-item text-right">
+            <div class="cart__qty">
+              <label for="updates_{{ item.key }}" class="cart__qty-label">{{ 'cart.label.quantity' | t }}</label>
+              <p>
+                {{ item.quantity }}
+                {% if item.product.metafields.global['unit-of-measure'] %}
+                  {{ item.product.metafields.global['unit-of-measure'] }}
+                {% else %}
+                  Each
+                {% endif %}
+              </p>
+            </div>
+          </td>
+          <td class="text-right small--hide">
+            {% if item.original_line_price != item.line_price %}
+              <div class="cart-item__original-price">
+                <s>{{ item.original_line_price | money }}</s>
+              </div>
+            {% endif %}
+
+            <div>
+              <span class="sp-cart-item-line-price" data-key="{{item.variant.id}}" data-variant-key="{{item.key}}">
+                {{- item.line_price | money -}}
+              </span>
+            </div>
+
+            {% for discount in item.discounts %}
+              <div class="cart-item__discount">{{ discount.title }}</div>
+            {% endfor %}
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+<br>
+<script>
+  jQuery(document).ready(function() {
+
+    function objectifyForm(formArray) {
+      var returnArray = {};
+      for (var i = 0; i < formArray.length; i++){
+          returnArray[formArray[i]['name']] = formArray[i]['value'];
+      }
+      console.log(formArray);
+      console.log(returnArray);
+      return returnArray;
+    };
+
+    var data = {
+      products: {{cart.items | json}},
+      customer: {}
+    };
+
+    $("#hmform").submit(function(e){
+    	e.preventDefault();
+    	data.customer = objectifyForm($(this).serializeArray());
+      $("#submitBtn").hide();
+      $("#loading").show();
+    	$("#error > p").html("");
+      $("#error").hide();
+    	$("#hmform :input").prop("disabled", true);
+
+      $.ajax({
+  		type: 'POST',
+        	url: 'https://amform-10.wl.r.appspot.com/?shop=shop-chain-link.myshopify.com',
+        	//url: 'http://127.0.0.1:8080/',
+        	data: JSON.stringify(data),
+      	success: function(data) {
+            	$("#hmform :input").prop("disabled", false);
+          	$("#loading").hide();
+            	if(data.success) {
+                  fetch("/cart/clear");
+                	$("#success").show();
+                	$("#hmform").hide();
+                	return;
+            	}
+
+            $("#error > p").html(data.error);
+            $("#error").show();
+            $("#submitBtn").show();
+          },
+      	contentType: "application/json",
+      	dataType: 'json'
+  	});
+
+
+    });
+
+
+  });
+</script>
