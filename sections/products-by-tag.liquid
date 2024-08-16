@@ -252,6 +252,11 @@
 
           // Replace the current content with the new content
           $('#shopify-section-template--22215892271390__products_by_tag_Rjd8dN').html(newContent);
+                  // Scroll to the section
+        $('html, body').animate({
+          scrollTop: $('#shopify-section-template--22215892271390__products_by_tag_Rjd8dN').offset().top
+        }, 500);
+
 
           // Update the pagination links
           var newPagination = $(data).find('.pagination').html();

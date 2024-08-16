@@ -107,7 +107,7 @@
         "color_scheme": "scheme-2",
         "header": "Meet the Forest Friends",
         "heading_font_size": 38,
-        "paragraph": "<p>Each feature of this toddler tree playhouse is designed to foster children's development while they play. Click on the Forest Friends below to learn about their benefits!<\/p>",
+        "paragraph": "<p>Each feature of this toddler tree playhouse is designed to foster children's development while they play. <\/p>",
         "text_font_size": 18,
         "alignment": "center",
         "padding_top": 4,
@@ -379,7 +379,7 @@
         "row_MRRna8"
       ],
       "custom_css": [
-        "td{font-size: 18px;}"
+        "td {font-size: 18px;}"
       ],
       "settings": {
         "table_heading": "Product Specifications",

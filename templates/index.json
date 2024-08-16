@@ -3,11 +3,11 @@
     "hero_banner_AiWx97": {
       "type": "hero-banner",
       "settings": {
-        "hero_heading": "The Playground Store",
-        "hero_subheading": "Playground Equipment Galore & More!\n\nDiscover our latest products",
-        "hero_button_link": "shopify:\/\/pages\/getting-started",
-        "hero_button_text": "Getting Started",
-        "hero_video": "shopify:\/\/files\/videos\/new playground video (2).mp4"
+        "hero_heading": "",
+        "hero_subheading": "",
+        "hero_button_link": "",
+        "hero_button_text": "",
+        "hero_video": "shopify:\/\/files\/videos\/theplaygroundstore-hero-banner.mp4"
       }
     },
     "multicolumn_ib3kqi": {

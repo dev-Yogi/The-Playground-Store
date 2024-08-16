@@ -458,9 +458,11 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "#HeaderMenu-MenuList-2 {display: flex; width: 85rem;}",
-      "#HeaderMenu-MenuList-1 {display: flex; flex-wrap: wrap; width: 75rem;}",
-      "#HeaderMenu-MenuList-1 li {padding: 10px 0;}"
+      "#HeaderMenu-MenuList-2 {display: flex; width: 80rem;}",
+      "#HeaderMenu-MenuList-1 {display: flex; flex-wrap: wrap; width: 1040px;}",
+      "#HeaderMenu-MenuList-1 li {padding: 10px 0;}",
+      "@media only screen and (max-width: 1366px) {#HeaderMenu-MenuList-1 {display: block; width: 50rem; }}",
+      "@media only screen and (max-width: 1280px) {#HeaderMenu-MenuList-2 {display: block; width: 50rem;}}"
     ]
   }
 }

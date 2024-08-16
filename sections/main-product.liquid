@@ -23,6 +23,59 @@
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
+    .additional-information {
+    font-family: Arial, sans-serif;
+    margin: 50px 0;
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #0074e1;
+    padding: 0;
+    margin: 0;
+}
+
+.tabs .tab-link {
+    list-style: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #0074e1;
+    color: white;
+    margin-right: 1px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.tabs .tab-link:hover,
+.tabs .tab-link.current {
+    background-color: #ffa101;
+
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tab-content.current {
+    display: flex;
+  justify-content: space-around;
+}
+
+.tab-content h4 {
+    color: #002b57;
+}
+
+.tab-content p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+  font-weight: bold;
+}
 
     @media screen and (min-width: 750px) {
       .section-{{ section.id }}-padding {
@@ -523,7 +576,7 @@
                             {% render 'icon-accordion', icon: block.settings.icon %}
                             <h2 class="h4 accordion__title">{{ block.settings.block_heading }}</h2>
                           {%- else -%}
-                            <h2 class="h3 accordion__title">{{ block.settings.block_heading }}</h2>
+                            <h2 class="h4 accordion__title">{{ block.settings.block_heading }}</h2>
                           {%- endif -%}
                         </div>
                         {%- if block.settings.make_collapsible_row -%}
@@ -681,6 +734,86 @@
       </modal-dialog>
     {%- endfor -%}
 
+<div class="additional-information">
+    <ul class="tabs">
+        {% assign show_tab_1 = false %}
+        {% assign show_tab_2 = false %}
+        
+        <!-- Check if any field in Tab 1 has a value -->
+        {% if product.metafields.custom.model_number or product.metafields.custom.age_range or product.metafields.custom.child_capacity or product.metafields.custom.fall_height or product.metafields.custom.post_diameter or product.metafields.custom.safety_zone %}
+            {% assign show_tab_1 = true %}
+        {% endif %}
+        
+        <!-- Check if any field in Tab 2 has a value -->
+        {% if product.metafields.custom.elevated or product.metafields.custom.ground_level %}
+            {% assign show_tab_2 = true %}
+        {% endif %}
+        
+        <!-- Only show the tabs if they have content -->
+        <li class="tab-link {% if show_tab_1 %}current{% endif %}" data-tab="tab-1" {% unless show_tab_1 %}style="display:none"{% endunless %}>Product Specifications</li>
+        <li class="tab-link" data-tab="tab-2" {% unless show_tab_2 %}style="display:none"{% endunless %}>ADA Accessibility</li>
+    </ul>
+
+    {% if show_tab_1 %}
+    <div id="tab-1" class="tab-content current">
+        {% if product.metafields.custom.model_number %}
+        <div>
+            <h4>Model Number:</h4>
+            <p>{{ product.metafields.custom.model_number }}</p>
+        </div>
+        {% endif %}
+        {% if product.metafields.custom.age_range %}
+        <div>
+            <h4>Age Range:</h4>
+            <p>{{ product.metafields.custom.age_range }}</p>
+        </div>
+        {% endif %}
+        {% if product.metafields.custom.child_capacity %}
+        <div>
+            <h4>Child Capacity:</h4>
+            <p>{{ product.metafields.custom.child_capacity }}</p>
+        </div>
+        {% endif %}
+        {% if product.metafields.custom.fall_height %}
+        <div>
+            <h4>Fall Height:</h4>
+            <p>{{ product.metafields.custom.fall_height }}</p>
+        </div>
+        {% endif %}
+        {% if product.metafields.custom.post_diameter %}
+        <div>
+            <h4>Post Diameter:</h4>
+            <p>{{ product.metafields.custom.post_diameter }}</p>
+        </div>
+        {% endif %}
+        {% if product.metafields.custom.safety_zone %}
+        <div>
+            <h4>Safety Zone:</h4>
+            <p>{{ product.metafields.custom.safety_zone }}</p>
+        </div>
+        {% endif %}
+    </div>
+    {% endif %}
+
+    {% if show_tab_2 %}
+    <div id="tab-2" class="tab-content">
+        {% if product.metafields.custom.elevated %}
+        <div>
+            <h4>Elevated:</h4>
+            <p>{{ product.metafields.custom.elevated }}</p>
+        </div>
+        {% endif %}
+        {% if product.metafields.custom.ground_level %}
+        <div>
+            <h4>Ground Level:</h4>
+            <p>{{ product.metafields.custom.ground_level }}</p>
+        </div>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
+
+                            
     {%- if product.media.size > 0 -%}
       <script src="{{ 'product-modal.js' | asset_url }}" defer="defer"></script>
       <script src="{{ 'media-gallery.js' | asset_url }}" defer="defer"></script>
@@ -772,6 +905,21 @@
     </script>
   </div>
 </section>
+
+<script>
+  $(document).ready(function() {
+    $('.tab-link').click(function() {
+        var tab_id = $(this).attr('data-tab');
+
+        $('.tab-link').removeClass('current');
+        $('.tab-content').removeClass('current');
+
+        $(this).addClass('current');
+        $("#" + tab_id).addClass('current');
+    });
+});
+
+</script>
 
 {% schema %}
 {

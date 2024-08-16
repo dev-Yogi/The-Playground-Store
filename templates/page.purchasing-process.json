@@ -89,7 +89,7 @@
       ],
       "custom_css": [
         ".icon-group-container {width: 100%; justify-content: space-around;}",
-        "@media screen and (max-width: 480px) {.icon-group .icon {height: 200px; width: 200px; } .icon-group-container {} .icon-group {width: 100%; margin: 10px 0; } .icon-group:not(:last-child):before{display: none; }}"
+        "@media screen and (max-width: 480px) {.icon-group .icon {height: 200px; width: 200px; } .icon-group-container {} .icon-group {width: 100%; margin: 10px 0; } .icon-group:not(:last-child):before {display: none; }}"
       ],
       "settings": {
         "header": "Purchase Process - Quick Links",
@@ -154,7 +154,7 @@
             "image": "shopify:\/\/shop_images\/man-holding-clipboard.jpg",
             "caption": "",
             "heading": "4.) Verify Order",
-            "text": "<p>At this point you will want to double check the details of your order. You will verify color choices for the structure or item, confirm your shipping address and date of installation among other details.<\/p>",
+            "text": "<p>At this point you will want to double check the details of your order. You will want verify color choices for the structure or item, confirm your shipping address and date of installation among other details.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -163,7 +163,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/online-shopping.jpg",
-            "caption": "Caption",
+            "caption": "",
             "heading": "5.) Submit Payment",
             "text": "<p>We accept Mastercard and Visa as well as most major credit cards and wire transfer. <\/p><p>A salesperson will confirm colors, addresses and other important information with you after receiving payment.<\/p>",
             "button_label": "",

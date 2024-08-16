@@ -1,8 +1,9 @@
-<script src="https://cdn.jsdelivr.net/npm/hls.js@latest" async></script>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest" defer></script>
 <!-- hero-banner.liquid -->
 <section class="hero-banner">
   <div class="hero-video-wrapper">
-    <script>
+    {% javascript %}
+
       document.addEventListener("DOMContentLoaded", function() {
         var video = document.getElementById('hero_video');
         var videoSrc = "{{ section.settings.hero_video.sources[0].url }}";
@@ -22,7 +23,8 @@
           });
         }
       });
-    </script>
+  
+    {% endjavascript %}
 
     {{
       section.settings.hero_video
@@ -82,15 +84,26 @@
             margin-top: 20px;
             border-radius: 5px;
           }
+        @media only screen and (min-width: 1280px) and (max-width: 1920px){
+       section.hero-banner{
+         height: 95vh;
+       }
+     }
 
-      /* for laptops */
-    @media only screen
-      and (min-width: 991px)
-      and (max-width: 1366px) {
-              section.hero-banner{
-               height: 30vh;
-            }
-    }
+         @media only screen and (max-width: 1440px){
+       section.hero-banner{
+         height: 88vh;
+       }
+     }
+          @media only screen and (max-width: 1366px){
+       section.hero-banner{
+         height: 95vh;
+       }
+     }
+
+
+
+
 
         /* for large tablets */
         @media only screen and (min-width: 769px) and (max-width: 990px) {
