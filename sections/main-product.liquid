@@ -792,6 +792,18 @@
             <p>{{ product.metafields.custom.safety_zone }}</p>
         </div>
         {% endif %}
+        {% if product.metafields.custom.unit_size %}
+        <div>
+            <h4>Unit Size:</h4>
+            <p>{{ product.metafields.custom.unit_size }}</p>
+        </div>
+        {% endif %}
+        {% if product.metafields.custom.dimensions %}
+        <div>
+            <h4>Dimensions:</h4>
+            <p>{{ product.metafields.custom.dimensions }}</p>
+        </div>
+        {% endif %}
     </div>
     {% endif %}
 

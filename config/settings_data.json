@@ -113,7 +113,7 @@
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
-    "predictive_search_show_price": false,
+    "predictive_search_show_price": true,
     "currency_code_enabled": true,
     "cart_type": "notification",
     "show_vendor": false,
@@ -148,6 +148,26 @@
         "type": "shopify:\/\/apps\/forms\/blocks\/forms\/8744a304-fcb1-4347-b211-bb6b4759a76a",
         "disabled": false,
         "settings": {
+        }
+      },
+      "2987754545405591101": {
+        "type": "shopify:\/\/apps\/shipperhq-all-in-one-solution\/blocks\/ec_scripttag\/e61885c2-949d-46ac-bc1a-38130f5c1c75",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "15683396631634586217": {
+        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "button_color": "#0074e1",
+          "secondary_color": "#ffffff",
+          "ternary_color": "#f79e02",
+          "button_icon": "chat_bubble",
+          "button_text": "chat_with_us",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "greeting_message": ""
         }
       }
     },
@@ -462,7 +482,7 @@
       "#HeaderMenu-MenuList-1 {display: flex; flex-wrap: wrap; width: 1040px;}",
       "#HeaderMenu-MenuList-1 li {padding: 10px 0;}",
       "@media only screen and (max-width: 1366px) {#HeaderMenu-MenuList-1 {display: block; width: 50rem; }}",
-      "@media only screen and (max-width: 1280px) {#HeaderMenu-MenuList-2 {display: block; width: 50rem;}}"
+      "@media only screen and (max-width: 1280px) {#HeaderMenu-MenuList-2 {display: block; width: 50rem; }}"
     ]
   }
 }

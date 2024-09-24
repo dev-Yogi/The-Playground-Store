@@ -2,13 +2,287 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
-        "padding_bottom": 28
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_GChJWe": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_H8JDnD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dealer Network",
+            "heading_size": "h1"
+          }
+        },
+        "text_qkiBaT": {
+          "type": "text",
+          "settings": {
+            "text": "Join Our Exclusive Network Now!",
+            "text_style": "body"
+          }
+        },
+        "buttons_7zizL4": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Apply Now",
+            "button_link_1": "\/pages\/dealer-network\/#shopify-section-template--22215892402462__1726668701d8ff8fcd",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_H8JDnD",
+        "text_qkiBaT",
+        "buttons_7zizL4"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kids-playing-at-park.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "simple_text_WHADNE": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "",
+        "header": "Join Our Dealer Network Today!",
+        "heading_font_size": 24,
+        "paragraph": "<p>Today's playground designers are shifting away from utilitarian, industrial-looking structures and embracing more visually appealing, architecturally refined play equipment. Traditional, basic designs are being replaced with playground pieces that complement the aesthetics of modern parks, schools, and public spaces. This new trend in playground design focuses on creating visually striking play areas that enhance the environment. Gone are the days when playgrounds were simply functional; now, they are becoming focal points for creativity, blending innovative design with vibrant, engaging play experiences for children of all ages.<\/p>",
+        "text_font_size": 16,
+        "alignment": "left",
+        "padding_top": 4,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_qrKBcB": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YRN8eJ": {
+          "type": "column",
+          "settings": {
+            "title": "Lead Generation",
+            "text": "<p>Get exclusive access to our nationwide lead generation team who will provide leads for theplaygroundstore.com and like-kind projects in your territory.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AfJdmj": {
+          "type": "column",
+          "settings": {
+            "title": "Exclusive Discounts",
+            "text": "<p>Being a preferred dealer with Theplaygroundstore.com ensures you will get the best pricing on all products we offer.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RtdwDV": {
+          "type": "column",
+          "settings": {
+            "title": "Product Releases",
+            "text": "<p>Be the first to know when we release new products, these innovations will help you stay in front of your competition.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_YRN8eJ",
+        "column_AfJdmj",
+        "column_RtdwDV"
+      ],
+      "settings": {
+        "title": "Partner with The Playground Store Today!",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "simple_text_3J64QB": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "header": "",
+        "heading_font_size": 20,
+        "paragraph": "<p>This is an exclusive network of contractors and installers that will recieve unique benefits from ThePlaygroundStore.com while continuing to grow ThePlaygroundStore.com brand. Not everyone will be selected. You must have a proven track record of installing commercial fencing and like-kind projects.<\/p>",
+        "text_font_size": 18,
+        "alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 4
+      }
+    },
+    "rich_text_iyn44m": {
+      "type": "rich-text",
+      "blocks": {
+        "text_7dtyaB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As we have identified a very limited number of opportunities to add to our dealer network, please <em><strong>apply<\/strong><\/em> today to ensure you are considered for our ThePlaygroundStore.com dealer network!<\/p>"
+          }
+        },
+        "button_KaUamr": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply Now",
+            "button_link": "\/pages\/dealer-network\/#shopify-section-template--22215892402462__1726668701d8ff8fcd",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_7dtyaB",
+        "button_KaUamr"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "simple_text_qfQVXC": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-88fe15cb-01fc-4d02-a080-78e3d756935c",
+        "header": "Do you want to be part of one of the fastest growing industries on the periphery of the playground industry?",
+        "heading_font_size": 20,
+        "paragraph": "<p> Join those who see the future of playground equipment and design by applying to be part of our dealer network.<\/p>",
+        "text_font_size": 16,
+        "alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_NmzDE8": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {text-align: center;}",
+        "h2 {padding-bottom: 25px;}"
+      ],
+      "settings": {
+        "custom_liquid": "<h2> Our Dealer Network is Expanding Quickly<\/h2>\n\n<iframe src=\"https:\/\/www.google.com\/maps\/d\/embed?mid=1Sh5V9lEHnfJp4GQcCjQWxmwPpJMpxG4&hl=en&ehbc=2E312F\" width=\"1280\" height=\"675\" ><\/iframe>",
+        "color_scheme": "scheme-88fe15cb-01fc-4d02-a080-78e3d756935c",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_UY7LFQ": {
+      "type": "multirow",
+      "blocks": {
+        "row_XYEBhq": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lead-generation.png",
+            "caption": "Dealer Network Perks",
+            "heading": "What You'll Get",
+            "text": "<ul><li>Your Contact information listed on our website as \"an approved ThePlaygroundStore.com installer\".<\/li><\/ul><p><\/p><ul><li>You may qualify for unique volume discounts.<\/li><\/ul><p><\/p><ul><li>Access to our nationwide lead generation team who provide leads for ThePlaygroundStore.com and like-kind projects in your territory.<\/li><\/ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_nXaRpk": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customer-satisfaction.png",
+            "caption": "Dealer Network Duties",
+            "heading": "What You'll Do",
+            "text": "<ul><li>Strict adherence to installation instructions.<\/li><\/ul><p><\/p><ul><li>Quote ThePlaygroundStore.com's products whenever specified.<\/li><\/ul><p><\/p><ul><li>Partner with ThePlaygroundStore.com to get our products specified.<\/li><\/ul><p><\/p><ul><li>Provide the highest quality installations, providing customer satisfation.<\/li><\/ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_XYEBhq",
+        "row_nXaRpk"
+      ],
+      "custom_css": [
+        "img {object-fit: contain; padding: 15px;}"
+      ],
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "small",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "scheme-5",
+        "row_color_scheme": "scheme-88fe15cb-01fc-4d02-a080-78e3d756935c",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1726668701d8ff8fcd": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_wBaDCT": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "181663",
+            "text_color": "#ffffff",
+            "button_background_color": "#002b57",
+            "button_label_color": "#ffffff",
+            "links_color": "#f79e02",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 20,
+            "padding_bottom": 20,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_wBaDCT"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_GChJWe",
+    "simple_text_WHADNE",
+    "multicolumn_qrKBcB",
+    "simple_text_3J64QB",
+    "rich_text_iyn44m",
+    "simple_text_qfQVXC",
+    "custom_liquid_NmzDE8",
+    "multirow_UY7LFQ",
+    "1726668701d8ff8fcd"
   ]
 }

@@ -24,11 +24,23 @@
             "text": "Purchasing new playground equipment has never been easier!",
             "text_style": "body"
           }
+        },
+        "buttons_7tRE4R": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Apply For Financing!",
+            "button_link_1": "https:\/\/hamptonridgefinancial.com\/clients\/theplaygroundstore\/",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "heading_iVA6AF",
-        "text_qFd6wP"
+        "text_qFd6wP",
+        "buttons_7tRE4R"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_3675.jpg",
@@ -174,9 +186,9 @@
     "contact_form_zkgGPm": {
       "type": "contact-form",
       "settings": {
+        "color_scheme": "scheme-5",
         "heading": "Leasing Inquiry Form",
         "heading_size": "h1",
-        "color_scheme": "scheme-5",
         "padding_top": 36,
         "padding_bottom": 36
       }
