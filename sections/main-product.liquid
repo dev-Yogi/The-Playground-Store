@@ -23,6 +23,19 @@
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
+    .custom-badge {
+    background-color: #ffcc00; /* Badge background color */
+    color: #000; /* Text color */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative; /* To place it over the image */
+    top: 10px;
+    left: 10px;
+    z-index: 10; /* Ensures it stays above other elements */
+}
+
     .additional-information {
     font-family: Arial, sans-serif;
     margin: 50px 0;
@@ -120,10 +133,16 @@
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <div class="page-width">
+      {% if product.tags contains 'Quick Ship (3.5-inch Uprights)' %}
+        <div class="custom-badge">
+            This is a <b>QUICK SHIP</b> Product!
+        </div>
+      {% endif %}
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
         {% render 'product-media-gallery', variant_images: variant_images %}
       </div>
+
       <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <product-info
           id="ProductInfo-{{ section.id }}"
@@ -144,6 +163,7 @@
                 >
                   {{- block.settings.text -}}
                 </p>
+
               {%- when 'title' -%}
                 <div class="product__title" {{ block.shopify_attributes }}>
                   <h1>{{ product.title | escape }}</h1>
@@ -698,6 +718,7 @@
           </a>
         </product-info>
       </div>
+
       {%- if section.settings.media_position == 'right' -%}
         {% comment %} Duplicate gallery to display after product content on tablet/desktop breakpoint {% endcomment %}
         <div class="grid__item product__media-wrapper small-hide">

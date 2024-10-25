@@ -33,10 +33,59 @@
 
       ],
       "settings": {
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-88fe15cb-01fc-4d02-a080-78e3d756935c",
         "full_width": true,
         "padding_top": 52,
         "padding_bottom": 52
+      }
+    },
+    "image_carousel_dcrCA7": {
+      "type": "image-carousel",
+      "blocks": {
+        "logo_image_n7nBHb": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cpsi.png",
+            "link": ""
+          }
+        },
+        "logo_image_4mfcPF": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ASTM_logo_svg.png",
+            "link": ""
+          }
+        },
+        "logo_image_KW6YXm": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NRPA-New-Logo-2021-410.webp",
+            "link": ""
+          }
+        },
+        "logo_image_34ihRN": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ipema__logo.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_n7nBHb",
+        "logo_image_4mfcPF",
+        "logo_image_KW6YXm",
+        "logo_image_34ihRN"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "scheme-88fe15cb-01fc-4d02-a080-78e3d756935c",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "title": "",
+        "logo_width": "160px"
       }
     },
     "footer": {
@@ -113,6 +162,7 @@
   },
   "order": [
     "newsletter_gxeTRR",
+    "image_carousel_dcrCA7",
     "footer"
   ]
 }

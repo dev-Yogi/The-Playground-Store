@@ -17,6 +17,27 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+.custom-badge {
+    background-color: #f79e02d9; /* Badge background color */
+    font-weight: bold;
+    display: inline-block;
+    position: absolute; /* To place it over the image */
+    z-index: 10; /* Ensures it stays above other elements */
+    top: 0;
+    left: 0;
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    color: white;
+    padding: 10px 10px;
+    line-height: normal;
+    width: 100%;
+    text-transform: uppercase;
+}
+.card-wrapper.product-card-wrapper:hover .custom-badge{
+  transition: transform var(--duration-extended) ease, box-shadow var(--duration-long) ease;
+        transform: rotate(1deg);
+}
     .media>*:not(.zoom):not(.deferred-media__poster-button),
 .media model-viewer {
   display: block;
@@ -159,6 +180,7 @@
                 {%- if forloop.index > 2 -%}
                   {%- assign lazy_load = true -%}
                 {%- endif -%}
+    
                 <li
                   class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                   {% if settings.animations_reveal_on_scroll %}
@@ -166,6 +188,11 @@
                     style="--animation-order: {{ forloop.index }};"
                   {% endif %}
                 >
+                {% if product.tags contains 'Quick Ship (3.5-inch Uprights)' %}
+                  <div class="custom-badge">
+                      Quick Ship this product!
+                  </div>
+                {% endif %}
                   {% render 'card-product',
                     card_product: product,
                     media_aspect_ratio: section.settings.image_ratio,

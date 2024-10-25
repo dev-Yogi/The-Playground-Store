@@ -61,8 +61,8 @@
       "settings": {
         "color_scheme": "",
         "header": "Join Our Dealer Network Today!",
-        "heading_font_size": 24,
-        "paragraph": "<p>Today's playground designers are shifting away from utilitarian, industrial-looking structures and embracing more visually appealing, architecturally refined play equipment. Traditional, basic designs are being replaced with playground pieces that complement the aesthetics of modern parks, schools, and public spaces. This new trend in playground design focuses on creating visually striking play areas that enhance the environment. Gone are the days when playgrounds were simply functional; now, they are becoming focal points for creativity, blending innovative design with vibrant, engaging play experiences for children of all ages.<\/p>",
+        "heading_font_size": 26,
+        "paragraph": "<p>The last few decades have witnessed an upsurge in playgrounds featuring uniquely designed play structures. Playgrounds with one-of-a-kind equipment visually stand out from the competition, capturing the interest of both children and their families, and promoting extended fun time at schools and communities alike. Also in demand today are independent play structures such as swings and inclusive play elements, which allow children of all abilities to share in the playground experience. Traditional, basic designs have become outmoded; parks, schools, and community play areas nowadays favor structures like those sold here at The Playground Store!<\/p>",
         "text_font_size": 16,
         "alignment": "left",
         "padding_top": 4,
@@ -76,7 +76,7 @@
           "type": "column",
           "settings": {
             "title": "Lead Generation",
-            "text": "<p>Get exclusive access to our nationwide lead generation team who will provide leads for theplaygroundstore.com and like-kind projects in your territory.<\/p>",
+            "text": "<p>As a member of our Dealer Network, you gain exclusive access to our nationwide lead generation team. Learn about playground jobs both near and far before your competitors!<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -85,7 +85,7 @@
           "type": "column",
           "settings": {
             "title": "Exclusive Discounts",
-            "text": "<p>Being a preferred dealer with Theplaygroundstore.com ensures you will get the best pricing on all products we offer.<\/p>",
+            "text": "<p>Enjoy unbeatable product pricing not available to clients outside our Dealer Network.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -94,7 +94,7 @@
           "type": "column",
           "settings": {
             "title": "Product Releases",
-            "text": "<p>Be the first to know when we release new products, these innovations will help you stay in front of your competition.<\/p>",
+            "text": "<p>You'll be first to know when new playground products hit the market. Stay ahead by joining our Dealer Network today!<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -106,8 +106,8 @@
         "column_RtdwDV"
       ],
       "settings": {
-        "title": "Partner with The Playground Store Today!",
-        "heading_size": "h1",
+        "title": "The Playground Store's Dealer Network. Join Today for Unbeatable Prices and Job Leads",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -128,7 +128,7 @@
         "color_scheme": "scheme-2",
         "header": "",
         "heading_font_size": 20,
-        "paragraph": "<p>This is an exclusive network of contractors and installers that will recieve unique benefits from ThePlaygroundStore.com while continuing to grow ThePlaygroundStore.com brand. Not everyone will be selected. You must have a proven track record of installing commercial fencing and like-kind projects.<\/p>",
+        "paragraph": "<p>The Playground Store’s exclusive network consists of reputable playground installers and contractors. We are very selective of who gains the above mentioned perks, and grant membership only to the best applicants -- those with a proven track record installing commercial fencing and similar products. Membership vacancies are limited, so apply today!<\/p>",
         "text_font_size": 18,
         "alignment": "left",
         "padding_top": 36,
@@ -138,12 +138,6 @@
     "rich_text_iyn44m": {
       "type": "rich-text",
       "blocks": {
-        "text_7dtyaB": {
-          "type": "text",
-          "settings": {
-            "text": "<p>As we have identified a very limited number of opportunities to add to our dealer network, please <em><strong>apply<\/strong><\/em> today to ensure you are considered for our ThePlaygroundStore.com dealer network!<\/p>"
-          }
-        },
         "button_KaUamr": {
           "type": "button",
           "settings": {
@@ -157,7 +151,6 @@
         }
       },
       "block_order": [
-        "text_7dtyaB",
         "button_KaUamr"
       ],
       "settings": {
@@ -203,8 +196,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/lead-generation.png",
             "caption": "Dealer Network Perks",
-            "heading": "What You'll Get",
-            "text": "<ul><li>Your Contact information listed on our website as \"an approved ThePlaygroundStore.com installer\".<\/li><\/ul><p><\/p><ul><li>You may qualify for unique volume discounts.<\/li><\/ul><p><\/p><ul><li>Access to our nationwide lead generation team who provide leads for ThePlaygroundStore.com and like-kind projects in your territory.<\/li><\/ul>",
+            "heading": "As a Member, You Get:",
+            "text": "<ul><li>Status as \"an approved ThePlaygroundStore.com installer\".<br\/><\/li><li>Your contact information listed on our website.<br\/><\/li><li>Access to our nationwide lead generation team.<br\/><\/li><li>Advanced Notice on new playground products.<br\/><\/li><li>Unbeatable prices.<\/li><\/ul>",
             "button_label": "",
             "button_link": ""
           }
@@ -214,8 +207,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/customer-satisfaction.png",
             "caption": "Dealer Network Duties",
-            "heading": "What You'll Do",
-            "text": "<ul><li>Strict adherence to installation instructions.<\/li><\/ul><p><\/p><ul><li>Quote ThePlaygroundStore.com's products whenever specified.<\/li><\/ul><p><\/p><ul><li>Partner with ThePlaygroundStore.com to get our products specified.<\/li><\/ul><p><\/p><ul><li>Provide the highest quality installations, providing customer satisfation.<\/li><\/ul>",
+            "heading": "As a Member, You:",
+            "text": "<ul><li>Strict adherence to installation instructions.<\/li><\/ul><p><\/p><ul><li>Quote ThePlaygroundStore.com's products whenever specified.<\/li><\/ul><p><\/p><ul><li>Partner with ThePlaygroundStore.com to get our products specified.<\/li><\/ul><p><\/p><ul><li>Provide the highest quality installations, providing customer satisfaction.<\/li><\/ul>",
             "button_label": "",
             "button_link": ""
           }
