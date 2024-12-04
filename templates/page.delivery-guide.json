@@ -26,9 +26,7 @@
     },
     "video_cPjnjQ": {
       "type": "video",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "heading": "",
         "heading_size": "h2",
@@ -95,7 +93,7 @@
         "color_scheme": "scheme-2",
         "header": "Shipping Basics",
         "heading_font_size": 32,
-        "paragraph": "<p>We coordinate the shipping of playground equipment with destinations all around the world. Our global presence provides PlaygroundEquipment.com customer service representatives the task of handling a variety of situations on a regular basis. Freight services are an integral part of our operations.<\/p>",
+        "paragraph": "<p>We manage the shipping of playground equipment to destinations worldwide. With our global reach, ThePlaygroundStore.com customer service representatives handle a wide range of situations on a regular basis. Freight services play a crucial role in our operations.<\/p>",
         "text_font_size": 18,
         "alignment": "left",
         "padding_top": 36,
@@ -110,7 +108,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/playground-clip-art.png",
             "title": "",
-            "text": "<p>Commercial playground equipment will generally ship freight with the exception of small items.<\/p>",
+            "text": "<p>Commercial playground equipment typically ships via freight, except for smaller items.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -130,7 +128,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/unloading.png",
             "title": "",
-            "text": "<p>Most swing parts such as seats and hardware, and general replacement parts depending on quantity ship ground via UPS or USPS.<br\/><br\/>These products usually arrive 3-7 days from day of shipment.<\/p>",
+            "text": "<p>Most swing parts, including seats, hardware, and general replacement items (depending on quantity), are shipped ground via UPS or USPS. <br\/><br\/>These products typically arrive 3-7 days after shipment.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -231,9 +229,7 @@
         "collapsible_row_cDC7GB",
         "collapsible_row_ibAXCJ"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "caption": "Before your order arrives we suggest taking a minute to read over this important information regarding what to look for when you receive your freight shipment.",
         "heading": "What to Look For",
@@ -251,9 +247,7 @@
     },
     "video_yMCkK9": {
       "type": "video",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -274,7 +268,7 @@
           "type": "column",
           "settings": {
             "title": "General Shipping Policy Information",
-            "text": "<p>• The carrier will contact you within 24 hours of freight delivery.<\/p><p>• Failure to report any and all damage, and missing parts to PlaygroundEquipment.com will result in your freight claim being denied, and loss of your ability to receive replacement parts at no additional cost.<\/p><p>• If you find a concealed damage problem all original packaging must be kept for inspection by the Freight Carrier.<\/p><p>• PlaygroundEquipment.com reserves the right to select the most cost effective method of transportation and carrier for shipping the products and charge the customer for freight in addition to the cost of products.<\/p>",
+            "text": "<p>• The carrier will reach out to you within 24 hours of the freight delivery.<\/p><p>• Failure to report any damage or missing parts to PlaygroundEquipment.com will result in denial of your freight claim and forfeiture of your eligibility for replacement parts at no additional cost.<\/p><p>• If concealed damage is discovered, all original packaging must be retained for inspection by the freight carrier.<\/p><p>• PlaygroundEquipment.com reserves the right to choose the most cost-effective shipping method and carrier, with the customer being responsible for the freight charges in addition to the product cost.<\/p><p><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -283,7 +277,7 @@
           "type": "column",
           "settings": {
             "title": "It Is The Customer's Responsibility To:",
-            "text": "<p>• Unload the order and store it properly unless prior agreement exists.<\/p><p>• Count the contents of the order, compare it to freight line & bill of lading before signing receipt.<\/p><p>• Inspect the delivery for any obvious signs of damage and for signs of potential concealed damage.<\/p><p>• Mark any damage found, including damage to packaging that may result in concealed damage, on the delivery receipt before the driver departs.<\/p><p>• Report any damage or missing parts to us within 48 hours of receipt of delivery.<\/p><p>• Cover any additional fees stemming from delivery delay at customer fault.<\/p>",
+            "text": "<p>• Unload the order and store it properly, unless a prior agreement has been made.<\/p><p>• Count the contents of the order and compare them to the freight line and bill of lading before signing the receipt.<\/p><p>• Inspect the delivery for any visible damage, as well as any signs of potential concealed damage.<\/p><p>• Mark any damage, including damage to packaging that could lead to concealed damage, on the delivery receipt before the driver leaves.<\/p><p>• Report any damage or missing parts to us within 48 hours of receiving the delivery.<\/p><p>• Cover any additional fees resulting from delivery delays caused by customer fault.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -323,7 +317,7 @@
         "color_scheme": "scheme-3",
         "header": "Storage Fee Policy",
         "heading_font_size": 31,
-        "paragraph": "<p>Effective March 1, 2023, we implemented storage fees for equipment\/orders that are here in our warehouse and available for shipping out. Storage fees will be assessed at $100.00(US Dollars) per crate\/pallet related to each order every business day after your order(s) has\/have reached a status that qualifies. Below is a list of qualifying storage fee guidelines. Any fees accrued must be paid in full prior to NVB releasing shipment of order(s). Orders become subject to Storage Fees of $100.00(US Dollars) each business day if any of the following apply. NVB does reserve the right to assess Storage Fees to any order if\/when necessary or the order is hindering our productivity.<\/p>",
+        "paragraph": "<p>Effective March 1, 2023, storage fees will apply to equipment\/orders stored in our warehouse and ready for shipment. A fee of $100.00 (USD) per crate\/pallet will be charged for each business day after your order qualifies for storage. Below are the guidelines for qualifying storage fees. All fees must be paid in full before NVB releases your order for shipment. Orders will be subject to a $100.00 (USD) daily storage fee if any of the following conditions apply. NVB reserves the right to assess storage fees if necessary or if the order is affecting our operations.<\/p>",
         "text_font_size": 16,
         "alignment": "left",
         "padding_top": 12,
@@ -337,7 +331,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<h6><em><strong>Your order(s) have been held in our warehouse for 30 days and still have not been scheduled to ship out because the customer is not ready to accept shipment, has nowhere to store their own equipment, etc…<\/strong><\/em><\/h6><p><\/p><p>Once your order arrives at NVB’s warehouse, it is required to ship out within 30 days of arrival as to not take up space for incoming shipments. NVB can no longer act as a storage facility and customers need to prepare to accept their orders in a more timely manner. NVB will notify you once your order arrives and reach out about scheduling the shipment. If the order(s) is\/are not scheduled to ship\/leave our dock within the first 30 days after the initial contact regarding your order(s) on day 31 storage fees begin to accrue and are assessed for each business day until the date your order(s) is\/are shipped out.<\/p>",
+            "text": "<h6><em><strong>Your order(s) have been held in our warehouse for 30 days without being scheduled for shipment due to the customer not being ready to accept delivery, lacking storage space, etc. <\/strong><\/em><\/h6><p><\/p><p>Once your order arrives at NVB’s warehouse, it must be shipped within 30 days to avoid taking up space needed for incoming shipments. NVB can no longer act as a storage facility, and customers must be prepared to accept their orders in a timely manner. NVB will notify you once your order arrives and contact you to schedule the shipment. If the order(s) are not scheduled for shipment within 30 days of our initial contact, storage fees will begin to accrue on day 31 and will be charged for each business day until the order(s) are shipped.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -346,7 +340,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<h6><em><strong>Your order is given an appointment on our shipping schedule and you\/the customer requests to delay the shipment for any reason...<\/strong><\/em><\/h6><p>Once you have scheduled an appointment for the shipment of your order(s), delaying the scheduled shipment will result in storage fees regardless of the 30 days to schedule rule. Our shipping schedule and dock have limited space\/availability. Once the schedule is full and set, we have to turn away other customer requests to be added to the schedule or have their shipments bumped up. If you’ve been given an appointment on our shipping schedule, it is required that you keep your shipping appointment and prepare to accept your order(s). If the order(s) are delayed\/rescheduled, storage fees begin to accrue the next business day and are assessed for each business day until the date your order(s) are shipped out.<\/p>",
+            "text": "<h6><em>Once an appointment is scheduled for the shipment of your order(s), any request to delay the shipment will result in storage fees, regardless of the 30-day scheduling rule.<\/em><\/h6><p>Our shipping schedule and dock space are limited, and once the schedule is full, we are unable to accommodate other customer requests or adjust shipments. If your order(s) are scheduled for shipment, it is essential to keep the appointment and be prepared to accept delivery. If the shipment is delayed or rescheduled, storage fees will begin accruing the next business day and will be charged for each business day until the order(s) are shipped.<\/p>",
             "link_label": "",
             "link": ""
           }

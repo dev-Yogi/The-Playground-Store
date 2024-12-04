@@ -10,14 +10,12 @@
     },
     "simple_text_JC4kQG": {
       "type": "simple-text",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "color_scheme": "scheme-2",
         "header": "Commercial Vs. ResidentaI",
         "heading_font_size": 36,
-        "paragraph": "<p>Compare commercial and residential grade playground equipment. Please remember that residential playground equipment is strictly for residential use. The chart compares the differences in appropriate placement, materials, and safety.<\/p>",
+        "paragraph": "<p>Compare commercial-grade and residential-grade playground equipment with ease. Keep in mind that residential equipment is intended exclusively for home use. Our comparison chart highlights key differences in placement, materials, and safety standards, helping you make the right choice for your needs.<\/p>",
         "text_font_size": 18,
         "alignment": "left",
         "padding_top": 12,
@@ -31,7 +29,7 @@
           "type": "table_data",
           "settings": {
             "for_use_title": "In home Child care",
-            "for_use_text": "<p>For in-home child care, either residential or commercial grade equipment is acceptable. Those with a limited budget may prefer the usually smaller and cheaper residential equipment. However, smaller commercial structures are still a viable option.<\/p>",
+            "for_use_text": "<p>For in-home childcare settings, both residential and commercial-grade playground equipment can be suitable. Residential equipment is often more affordable and compact, making it a budget-friendly choice. However, smaller commercial structures also offer a durable and reliable option worth considering.<\/p>",
             "commercial_icon": "shopify:\/\/shop_images\/check.png",
             "residential_icon": "shopify:\/\/shop_images\/close.png"
           }
@@ -40,7 +38,7 @@
           "type": "table_data",
           "settings": {
             "for_use_title": "Daycare Centers",
-            "for_use_text": "<p>Daycare centers generally opt for commercial grade play equipment. Even small children need space to play, and residential playgrounds are usually not equipped to handle the high volume of children found in daycare centers.<\/p>",
+            "for_use_text": "<p>Daycare centers typically choose commercial-grade play equipment, designed to accommodate larger groups of children. Residential playgrounds often lack the durability and capacity needed for the high activity levels common in daycare settings, ensuring commercial structures are the preferred choice.<\/p>",
             "commercial_icon": "shopify:\/\/shop_images\/check.png",
             "residential_icon": "shopify:\/\/shop_images\/close.png"
           }
@@ -49,7 +47,7 @@
           "type": "table_data",
           "settings": {
             "for_use_title": "Faith Centers",
-            "for_use_text": "<p>Faith centers typically look for similar playgrounds to those used by schools. Their budget and needed capacity typically surpass the range of residential playgrounds. Additionally, they often appreciate the themes available for commercial structures.<\/p>",
+            "for_use_text": "<p>Faith centers often seek playgrounds similar to those used by schools, as their budget and capacity requirements typically exceed what residential playgrounds can offer. They also value the wide variety of themes available with commercial-grade structures, adding a unique touch to their play areas.<\/p>",
             "commercial_icon": "shopify:\/\/shop_images\/check.png",
             "residential_icon": "shopify:\/\/shop_images\/close.png"
           }
@@ -58,7 +56,7 @@
           "type": "table_data",
           "settings": {
             "for_use_title": "Government",
-            "for_use_text": "<p>Government facilities typically require the dependability of commercial playground equipment. Residential products simply aren’t large enough to handle the large capacity needs of their government locations, which are usually open to the public.<\/p>",
+            "for_use_text": "<p>Government facilities rely on the durability and reliability of commercial playground equipment. Residential-grade products are not designed to accommodate the high capacity and public use typically associated with these locations.<\/p>",
             "commercial_icon": "shopify:\/\/shop_images\/check.png",
             "residential_icon": "shopify:\/\/shop_images\/close.png"
           }
@@ -67,7 +65,7 @@
           "type": "table_data",
           "settings": {
             "for_use_title": "Home Owner Association",
-            "for_use_text": "<p>Most home owners associations will want commercial playground equipment. Despite being centered around a few home dwellings, most neighborhoods want the longevity of commercial equipment.<\/p>",
+            "for_use_text": "<p>Homeowners associations often prefer commercial playground equipment for its durability and longevity. While serving a smaller community, neighborhoods value the lasting quality that commercial-grade structures provide.<\/p>",
             "commercial_icon": "shopify:\/\/shop_images\/check.png",
             "residential_icon": "shopify:\/\/shop_images\/close.png"
           }
@@ -76,7 +74,7 @@
           "type": "table_data",
           "settings": {
             "for_use_title": "Parks",
-            "for_use_text": "<p>Parks are usually public, which means that they are open to all children in the area. Often these children have minimal supervision, and can fall under a range of different ages. For these reasons, the durability of commercial playgrounds is important.<\/p>",
+            "for_use_text": "<p>Parks are typically open to the public, welcoming children of all ages, often with minimal supervision. This broad use and diverse age range make the durability and safety of commercial-grade playground equipment essential.<\/p>",
             "commercial_icon": "shopify:\/\/shop_images\/check.png",
             "residential_icon": "shopify:\/\/shop_images\/close.png"
           }
@@ -85,7 +83,7 @@
           "type": "table_data",
           "settings": {
             "for_use_title": "Private Homes",
-            "for_use_text": "<p>Most residential playground equipment is sold to private homes. Since they cost less and take up less space, they are usually a better fit for homes. They also don’t last as long, which makes them appropriate for a single generation of children in a family.<\/p>",
+            "for_use_text": "<p>Residential playground equipment is primarily designed for private homes. Its lower cost and compact size make it an ideal choice for families. While it may not last as long as commercial-grade options, it serves perfectly for a single generation of children in a household.<\/p>",
             "commercial_icon": "shopify:\/\/shop_images\/check.png",
             "residential_icon": "shopify:\/\/shop_images\/check.png"
           }
@@ -94,7 +92,7 @@
           "type": "table_data",
           "settings": {
             "for_use_title": "Schools",
-            "for_use_text": "<p>Schools can’t afford to continually replace their playgrounds, which means that residential playground equipment isn’t ideal. While commercial equipment is more expensive, it pays for itself in the long run.<\/p>",
+            "for_use_text": "<p>Schools need durable playground equipment that won’t require frequent replacement, making residential options less suitable. Although commercial-grade equipment comes at a higher upfront cost, it proves to be a more cost-effective investment over time due to its long-lasting durability.<\/p>",
             "commercial_icon": "shopify:\/\/shop_images\/check.png",
             "residential_icon": "shopify:\/\/shop_images\/close.png"
           }
@@ -103,7 +101,7 @@
           "type": "table_data",
           "settings": {
             "for_use_title": "Public Facilities",
-            "for_use_text": "<p>Public facilities generally want the size and reliability of commercial playgrounds. Residential options simply don’t offer enough customization options to suit the needs of most public areas.<\/p>",
+            "for_use_text": "<p>Public facilities typically require the size and reliability of commercial playground equipment. Residential options often lack the customization and features needed to meet the demands of these larger, more diverse spaces.<\/p>",
             "commercial_icon": "shopify:\/\/shop_images\/check.png",
             "residential_icon": "shopify:\/\/shop_images\/close.png"
           }
@@ -150,7 +148,7 @@
             "button_link_1": "shopify:\/\/collections\/commercial-playgrounds",
             "button_style_secondary_1": false,
             "button_label_2": "Residential Playgrounds",
-            "button_link_2": "shopify:\/\/collections\/free-standing-play",
+            "button_link_2": "shopify:\/\/collections\/residential-playgrounds",
             "button_style_secondary_2": false
           }
         }

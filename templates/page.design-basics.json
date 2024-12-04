@@ -6,7 +6,7 @@
         "color_scheme": "scheme-3",
         "header": "Design Basics",
         "heading_font_size": 34,
-        "paragraph": "<p>Are you ready to start designing your new playground? Before you begin you have to know this important information that will greatly affect how you can design your playground from Play-groundEquipment.com. Things such as colors, safety zones, measurements and ages are important to consider so click on each category to view its valuable information. Our view our FAQ to see if we have answered any of your questions.<\/p>",
+        "paragraph": "<p>Ready to start designing your new playground? Before you begin, it's important to review key details that will impact your design process at ThePlaygroundStore.com. Consider factors such as colors, safety zones, measurements, and age groups. Click on each category to explore this valuable information. Be sure to check our FAQ section to see if we've already addressed any of your questions.<\/p>",
         "text_font_size": 16,
         "alignment": "left",
         "padding_top": 12,
@@ -30,7 +30,7 @@
             "icon": "shopify:\/\/shop_images\/playground-icon_color-tool_color-variant-1.png",
             "gif": "shopify:\/\/shop_images\/Color-Tool.gif",
             "icon_link": "Colors",
-            "modal_content": "<p>We have a wide variety of colors for the many structures and components we offer. You can customize most structures to fit your preference. Our color tool helps you to decide what colors look good together. Take the time to figure out what you really like before placing an order.<\/p>"
+            "modal_content": "<p>We offer a wide range of colors for the structures and components we provide, allowing you to customize most designs to your preference. Our color tool helps you choose complementary colors that work well together. Take your time to explore and decide on the perfect color combination before placing your order.<\/p>"
           }
         },
         "icon_gJ3JEM": {
@@ -39,7 +39,7 @@
             "icon": "shopify:\/\/shop_images\/sandbox.png",
             "gif": "shopify:\/\/shop_images\/sandbox.gif",
             "icon_link": "Measuring",
-            "modal_content": "<p>Having the length and width for your area is the most important starting point. If you don’t know the size of your space, you won’t know what equipment to pick.<\/p>"
+            "modal_content": "<p>Knowing the length and width of your space is the most important first step. Without this information, it’s impossible to choose the right equipment for your area.<\/p>"
           }
         },
         "icon_JRmp36": {
@@ -48,7 +48,7 @@
             "icon": "shopify:\/\/shop_images\/playground-icon_ages-5-12-yrs_color-variant-1.png",
             "gif": "shopify:\/\/shop_images\/Ages.gif",
             "icon_link": "Age Groups",
-            "modal_content": "<p>Different age groups have different skills and abilities, so, one playground may not be best for everyone. If you will have more than one age group playing on your playground you will need to have separate play areas to cater to them.<\/p><p>The different age groups are as followed:<br\/><br\/><strong>Toddler<\/strong><br\/>Age 6-23 months<br\/><br\/><strong>Preschool<\/strong><br\/>Age 2-5 years<br\/><br\/><strong>Grade School<\/strong><br\/>Age 5-12 years<\/p>"
+            "modal_content": "<p>Different age groups have varying skills and abilities, so one playground may not suit everyone. If your playground will serve multiple age groups, it's important to create separate play areas to accommodate their needs.<\/p><p>The different age groups are as followed:<br\/><br\/><strong>Toddler<\/strong><br\/>Age 6-23 months<br\/><br\/><strong>Preschool<\/strong><br\/>Age 2-5 years<br\/><br\/><strong>Grade School<\/strong><br\/>Age 5-12 years<\/p>"
           }
         },
         "icon_EAPAXY": {
@@ -57,7 +57,7 @@
             "icon": "shopify:\/\/shop_images\/safety-zone.png",
             "gif": "shopify:\/\/shop_images\/safety-zone.gif",
             "icon_link": "Safety Zones",
-            "modal_content": "<p>Safety zones tell you the size of the area that a piece of equipment needs to be safe to use. This is the most important number for you because it tells you how much space it requires. Our design guys can create a 2d site plan for you to show you whether or not your equipment will fit.<\/p>"
+            "modal_content": "<p>Safety zones indicate the required space around each piece of equipment to ensure safe use. This is the most crucial measurement, as it tells you how much space is needed. Our design team can create a 2D site plan to help you determine if your equipment will fit within your available area.<\/p>"
           }
         }
       },

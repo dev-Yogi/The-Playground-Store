@@ -52,7 +52,7 @@
         "text_wpYGHc": {
           "type": "text",
           "settings": {
-            "text": "<p>This is our handy Playground Planning Calculator. It’s a great free budget tool for anyone starting down a playground building path that needs help determining spending. Simply enter a total budget amount in the initial field and use the arrow keys to slightly modify the number as needed. A helpful pie chart will then be created to display what percentage of your budget will need to be set aside for each of the big five expenses. Aside from the required equipment section, you can even uncheck any of the four remaining fields from inclusion if you know they won’t be necessary for your project (e.g. for do-it-yourself categories). The pie chart instantly transforms to reflect your new choices. And when you’re finished fine tuning your budget, you can email yourself a copy of the graphic to use in reports to share with others on a project team or as presentation material sent to outside investors or grant funders.<\/p><p>Any of the four categories of expenses except Equipment can be Do-It-Yourself. Use the checkboxes to recalculate the various fields according to the total budget. This process will help you determine purchasing power for playground equipment based on other factors.<\/p>"
+            "text": "<p>This is our handy Playground Planning Calculator. It’s a great free budget tool for anyone starting down a playground building path that needs help determining spending. Simply enter a total budget amount in the initial field. A helpful pie chart will then be created to display what percentage of your budget will need to be set aside for each of the big five expenses.<\/p>"
           }
         }
       },

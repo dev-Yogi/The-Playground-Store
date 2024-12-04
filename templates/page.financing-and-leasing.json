@@ -28,11 +28,11 @@
         "buttons_7tRE4R": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Apply For Financing!",
+            "button_label_1": "Apply For Financing",
             "button_link_1": "https:\/\/hamptonridgefinancial.com\/clients\/theplaygroundstore\/",
             "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_2": "Financing Payment Calculator",
+            "button_link_2": "https:\/\/hamptonridgefinancial.com\/calculate-your-payment\/",
             "button_style_secondary_2": false
           }
         }
@@ -69,7 +69,7 @@
         "text_rJ3XBE": {
           "type": "text",
           "settings": {
-            "text": "<p>At PlaygroundEquipment.com, we understand that funding is often the most daunting aspect of any project. The truth is, playgrounds involve much more than just equipment costs. Necessities such as shipping, installation, and surfacing are often overlooked, yet are costs that cannot be avoided.<\/p>"
+            "text": "<p>At ThePlaygroundStore.com, we know that securing funding can be one of the biggest challenges of any project. The reality is, playgrounds involve more than just the cost of the equipment. Expenses like shipping, installation, and surfacing are often overlooked but are essential costs that cannot be avoided.<\/p>"
           }
         }
       },
@@ -115,7 +115,7 @@
           "type": "text",
           "settings": {
             "text_content_header": "Financing",
-            "text_content": "<p>If you are working with a limited budget and want to spread project costs out over time, financing is the perfect solution! With financing, your playground continues to grow as you install segments of equipment incrementally, paying for each addition as it’s built. You can have the playground of your dreams completed in as little as 3-5 phases.<\/p><p><br\/>Benefits Of Financing include:<\/p><ul><li>Flexibility that allows you to pay as you go<\/li><li>Affordable options that don't stretch your budget too thin<\/li><li>New features are added to your playground each year<\/li><\/ul>",
+            "text_content": "<p>If you're working with a limited budget and need to spread out the costs of your project, financing is an ideal solution! With financing, you can build your playground in stages, adding equipment incrementally and paying for each phase as it’s completed. In as few as 3-5 phases, you can have the playground of your dreams.<\/p><p><br\/>Benefits Of Financing include:<\/p><ul><li>Flexibility that allows you to pay as you go<\/li><li>Affordable options that don't stretch your budget too thin<\/li><li>New features are added to your playground each year<\/li><\/ul>",
             "text-alignment": "center",
             "background": "#ffffff"
           }
@@ -146,7 +146,7 @@
             "image": "shopify:\/\/shop_images\/a-child-on-a-swing-under-a-blue-sky.jpg",
             "caption": "Financing & Leasing",
             "heading": "Leasing",
-            "text": "<p>Do you want to design, build and install your complete plaground as quickly as possible? Our leasing partner, Marlin, offers an easy and affordable way to fund your new play area NOW and pay for it over time. With Marlin, you can get the playground you need, with a plan that fits your budget!<\/p><p>Our leasing plan provides you with the flexibility, and funds needed to get your project started now, with attractive rates, potential tax advantages, and a simple step-by-step application process.<\/p>",
+            "text": "<p>Want to design, build, and install your complete playground as quickly as possible? Our leasing partner, Marlin, offers a simple and affordable way to fund your new play area now and pay over time. With Marlin, you can get the playground you need with a payment plan that fits your budget!<\/p><p>Our leasing plan gives you the flexibility and funding needed to start your project immediately, with competitive rates, potential tax benefits, and an easy, step-by-step application process.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -183,14 +183,33 @@
         "padding_bottom": 36
       }
     },
-    "contact_form_zkgGPm": {
-      "type": "contact-form",
+    "1733337234cf0dc46b": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_jHP7hX": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "273728",
+            "text_color": "#002b57",
+            "button_background_color": "#ffa101",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#10e7dc",
+            "errors_color": "#E02229",
+            "text_alignment": "left",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_jHP7hX"
+      ],
+      "custom_css": [],
       "settings": {
-        "color_scheme": "scheme-5",
-        "heading": "Leasing Inquiry Form",
-        "heading_size": "h1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "include_margins": true
       }
     }
   },
@@ -201,6 +220,6 @@
     "rich_text_cf6zpH",
     "video_plus_text_rna3Xc",
     "multirow_cK7e3V",
-    "contact_form_zkgGPm"
+    "1733337234cf0dc46b"
   ]
 }

@@ -8,16 +8,10 @@
         padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
         padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
       }
-
-      @media screen and (min-width: 750px) {
-        .section-{{ section.id }}-padding {
-          padding-top: {{ section.settings.padding_top }}px;
-          padding-bottom: {{ section.settings.padding_bottom }}px;
-        }
-      }
+ 
        .page-width {
         max-width: var(--page-width);
-        padding: unset;
+        /* padding: unset; */
       }
       button {
         background-color: {{ settings.button }};
@@ -34,6 +28,7 @@
     }
       #budget-results{
         display: flex;
+        justify-content: space-between;
       }
 
       #budget-results ul li
@@ -64,6 +59,12 @@
         background-color: transparent;
         color: white;
       } */
+         @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+          padding-top: {{ section.settings.padding_top }}px;
+          padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+      }
        @media only screen
       and (max-width: 480px) {
          .page-width{
@@ -86,7 +87,7 @@
 {% endif %}
 <div class="color-{{ section.settings.color_scheme }} gradient shopify-section section">
   <div class="page-width page-width--narrow section-{{ section.id }}-padding">
-    <h1 class="page-title">Playground Budget Calculator</h1>
+    <h3 class="page-title">Playground Budget Calculator</h3>
     <div
       id="pg-budget-calc"
       class=""

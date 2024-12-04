@@ -227,9 +227,7 @@
         "column_7X7Tig",
         "column_zK6DhR"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -247,6 +245,54 @@
         "padding_bottom": 36
       }
     },
+    "image_banner_GKLF6d": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_dppNGy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bring Your Dream Playground to Life with Flexible Financing!",
+            "heading_size": "h2"
+          }
+        },
+        "text_HKyiqj": {
+          "type": "text",
+          "settings": {
+            "text": "With our partnership with Hampton Financial, building the playground of your dreams has never been easier! We’re proud to offer flexible financing options that let you invest in quality play equipment without the stress of a large upfront cost. Let us help you bring a safe, exciting play space to life with affordable monthly payments.",
+            "text_style": "body"
+          }
+        },
+        "buttons_U6qFhE": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Apply for Financing",
+            "button_link_1": "https:\/\/hamptonridgefinancial.com\/clients\/theplaygroundstore\/",
+            "button_style_secondary_1": false,
+            "button_label_2": "Financing Payment Calculator",
+            "button_link_2": "https:\/\/hamptonridgefinancial.com\/calculate-your-payment\/",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dppNGy",
+        "text_HKyiqj",
+        "buttons_U6qFhE"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/I83A7204_feature.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-399d772c-5473-4d93-a407-2288d88a4cf1",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "featured_collection_tjXgwJ": {
       "type": "featured-collection",
       "settings": {
@@ -262,7 +308,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-88fe15cb-01fc-4d02-a080-78e3d756935c",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -272,6 +318,27 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "simple_text_YYpkxt": {
+      "type": "simple-text",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "header": "Try Our Playground Budgeting Tool",
+        "heading_font_size": 30,
+        "paragraph": "<p>Explore our intuitive Playground Planning Calculator—your free tool for effortlessly estimating playground project costs. Simply input your total budget and make adjustments as needed. Watch as a dynamic pie chart instantly breaks down your budget across the five key expense categories, helping you plan with confidence.<\/p>",
+        "text_font_size": 16,
+        "alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "budget_calculator_4GDGkL": {
+      "type": "budget-calculator",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 4,
         "padding_bottom": 36
       }
     },
@@ -296,10 +363,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Grants & Stimulus Guide",
-            "button_link_1": "https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/3691\/3182\/files\/PE_Grant__Stimulus_Guide_2023.pdf?v=1718211418",
+            "button_link_1": "\/pages\/playground-equipment-grants-stimulus-guide",
             "button_style_secondary_1": false,
-            "button_label_2": "Castle Series Digital Catalog",
-            "button_link_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0865\/3691\/3182\/files\/Digital_Castle_Catalog_2022_issuu.pdf?v=1718211362",
+            "button_label_2": "Financing & Leasing",
+            "button_link_2": "https:\/\/theplaygroundstore.com\/pages\/financing-and-leasing",
             "button_style_secondary_2": false
           }
         }
@@ -390,7 +457,10 @@
     "image_banner_FfRePa",
     "products_by_tag_Rjd8dN",
     "multicolumn_fjBXKc",
+    "image_banner_GKLF6d",
     "featured_collection_tjXgwJ",
+    "simple_text_YYpkxt",
+    "budget_calculator_4GDGkL",
     "image_banner_exDj4i",
     "multicolumn_AaKDfy"
   ]

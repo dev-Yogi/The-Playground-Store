@@ -115,7 +115,7 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": true,
     "currency_code_enabled": true,
-    "cart_type": "notification",
+    "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "commercial-playgrounds",
@@ -134,27 +134,22 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "14082181514032464150": {
         "type": "shopify:\/\/apps\/o-request-a-quote\/blocks\/omgrfq_script\/5f4ac0e6-8a57-4f3d-853e-0194eab86273",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "13768625480086291342": {
         "type": "shopify:\/\/apps\/forms\/blocks\/forms\/8744a304-fcb1-4347-b211-bb6b4759a76a",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "2987754545405591101": {
         "type": "shopify:\/\/apps\/shipperhq-all-in-one-solution\/blocks\/ec_scripttag\/e61885c2-949d-46ac-bc1a-38130f5c1c75",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15683396631634586217": {
         "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
@@ -174,13 +169,13 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#ffa101",
           "background_gradient": "linear-gradient(320deg, rgba(0, 116, 225, 1), rgba(27, 156, 229, 1) 100%)",
           "text": "#ffffff",
-          "button": "#f79e02",
+          "button": "#002b57",
           "button_label": "#ffffff",
           "secondary_button_label": "#f79e02",
-          "shadow": "#ffffff"
+          "shadow": "#0074e1"
         }
       },
       "scheme-2": {
@@ -256,7 +251,7 @@
           "text": "#f79e02",
           "button": "#10e7dc",
           "button_label": "#002b57",
-          "secondary_button_label": "#0074e1",
+          "secondary_button_label": "#002b57",
           "shadow": "#002b57"
         }
       },
